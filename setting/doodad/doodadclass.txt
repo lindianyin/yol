@@ -1,0 +1,5 @@
+Class	Description	Drop1	Count1	Drop2	Count2	Drop3	Count3
+normal	普通		0		0		0
+box	箱子						
+mine	矿石						
+quest	任务						

@@ -1,0 +1,4 @@
+PointClass	X	Y	Z	FaceDirection
+qiang	1862	5067	1048576	55
+qiang1	2550	6504	1048576	130
+qiang2	4775	1240	1048576	35

@@ -1,0 +1,22 @@
+Level	Desc	IsSave	IsSync	OverlayDay	AutoGive	FightingSpirit	Exp	Energy	Silver	Prestige	Item1	Item1AmountMin	Item1AmountMax	Item1Rate	Item1TimeOut	Item2	Item2AmountMin	Item2AmountMax	Item2Rate	Item2TimeOut	Item3	Item3AmountMin	Item3AmountMax	Item3Rate	Item3TimeOut	Item4	Item4AmountMin	Item4AmountMax	Item4Rate	Item4TimeOut	Item5	Item5AmountMin	Item5AmountMax	Item5Rate	Item5TimeOut	Item6	Item6AmountMin	Item6AmountMax	Item6Rate	Item6TimeOut	Item7	Item7AmountMin	Item7AmountMax	Item7Rate	Item7TimeOut	Item8	Item8AmountMin	Item8AmountMax	Item8Rate	Item8TimeOut	Item9	Item9AmountMin	Item9AmountMax	Item9Rate	Item9TimeOut	Item10	Item10AmountMin	Item10AmountMax	Item10Rate	Item10TimeOut
+难度*10+星级	奖励备注，供理解	是否存盘	是否发送客户端	累计天数	是否直接领取	战魂	经验	真气	银两	声望	经验书
+11	20级普通难度1星奖励	1	1	1	1
+12	20级普通难度2星奖励	1	1	1	1					500	24,5,1,0	1	1	100
+13	20级普通难度3星奖励	1	1	1	1					530	24,5,1,0	1	1	100
+14	20级普通难度4星奖励	1	1	1	1					560	24,5,1,0	1	1	100
+15	20级普通难度5星奖励	1	1	1	1					600	24,5,1,0	1	1	100
+21	20级困难难度1星奖励	1	1	1	1
+22	20级困难难度2星奖励	1	1	1	1					2500	24,5,1,0	3	3	100
+23	20级困难难度3星奖励	1	1	1	1					2650	24,5,1,0	3	3	100
+24	20级困难难度4星奖励	1	1	1	1					2750	24,5,1,0	3	3	100
+25	20级困难难度5星奖励	1	1	1	1					3000	24,5,1,0	3	3	100
+31	20级噩梦难度1星奖励	1	1	1	1
+32	20级噩梦难度2星奖励	1	1	1	1					520	24,5,1,0	9	9	100		18,5,2,0	1	1	100
+33	20级噩梦难度3星奖励	1	1	1	1					540	24,5,1,0	9	9	100		18,5,2,0	1	1	100
+34	20级噩梦难度4星奖励	1	1	1	1					560	24,5,1,0	9	9	100		18,5,2,0	1	1	100
+35	20级噩梦难度5星奖励	1	1	1	1					580	24,5,1,0	9	9	100		18,5,2,0	1	1	100
+41	20级地狱难度1星奖励	1	1	1	1
+42	20级地狱难度2星奖励	1	1	1	1					660	24,5,1,0	12	12	100		18,5,3,0	1	1	100
+43	20级地狱难度3星奖励	1	1	1	1					670	24,5,1,0	12	12	100		18,5,3,0	1	1	100
+44	20级地狱难度4星奖励	1	1	1	1					680	24,5,1,0	12	12	100		18,5,3,0	1	1	100
+45	20级地狱难度5星奖励	1	1	1	1					690	24,5,1,0	12	12	100		18,5,3,0	1	1	100

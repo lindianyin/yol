@@ -1,0 +1,410 @@
+AIType	ScriptFile	IsPositive	AlertRange	SearchPlayerDistance	AlertOverTime	AttackRange	EscapeTime	EscapeRange	EscapeInterval	WanderRange	WanderDistance	WanderInterval	PatrolPathID	EscapeLife	PatrolOrderIndex	ReviveTeammate	CustomArguments	IsAutoTurn	NpcSceneType	IsSnarlInFight		Shout1	Shout2	Shout3
+1	script/ai/standardai.lua	0	768	768	8	256	64	0	32	0	0	0	0	0	0	0		1	0	0				
+2	script/ai/standardai.lua	1	768	768	8	256	64	0	32	512	384	320	0	0	0	0		1	0	0				
+3	script/ai/commonfoolish.lua	0																						
+4	script/ai/standardai.lua	1	480	480	8	256	80	640	10000	192	128	64	0	25	0	0		1	0	0				
+5	script/ai/standardai.lua	0	380	380	8	300	80	0	32	0	0	0	0	0	0	0		1	0	0				
+6	script/ai/standardai.lua	1	700	700	8	400	0	0	0	0	0	0	0	0	0	0		1	0	0				
+7	script/ai/standardai.lua	1	700	700	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+8	script/ai/standardai.lua	1	400	400	8	256	0	0	0	0	0	0	0	0	0	0		1	0	0				
+9	script/ai/standardai.lua	1	280	280	8	256	0	0	0	0	0	0	0	0	0	0		1	0	0				
+10	script/ai/standardai.lua	1	1000	1000	8	300	0	0	0	0	0	0	0	0	0	0		1	0	0				
+20	script/ai/zhzb/zhzb_muren.lua	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		0	0	0				
+31	script/ai/standardai.lua	1	324	324	8	156	80	0	32	0	0	0	0	0	0	0		1	0	0				
+32	script/ai/standardai.lua	1	1280	1280	8	256	80	0	0	0	0	0	0	0	0	0		1	0	0				
+33	script/ai/standardai.lua	1	480	480	8	448	80	0	32	0	0	0	0	0	0	0		1	0	0				
+34	script/ai/standardai.lua	1	480	480	8	320	80	0	32	0	0	0	0	0	0	0		1	0	0				
+35	script/ai/xmhj/zc_qizi.lua	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		0	0	0				
+36	script/ai/standardai.lua	0	480	480	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+37	script/ai/xmhj/xmhj_wuou_penfa.lua	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		0	0	0				
+38	script/ai/xmhj/xmhj_wuou_huoyanfengsuo.lua	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		0	0	0				
+39	script/ai/xmhj/daiji_ai.lua	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		0	0	0				
+40	script/ai/standardai.lua	1	380	380	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+41	script/ai/xmhj/4070skill.lua	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0		1	0	0				
+42	script/ai/standardai.lua	1	1280	1280	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+43	script/ai/task/runnpc2.lua	0	480	480	8	128	80	0	0	192	96	64	2	0	0	0		1	0	0				
+49	script/ai/task/runnpc2.lua	0	480	480	8	128	80	0	0	192	96	64	3	0	0	0		1	0	0				
+50	script/ai/standardai.lua	0	480	480	8	128	80	0	0	192	96	64	1	0	0	0		1	0	0				
+51	script/ai/task/runnpc2.lua	0	480	480	8	128	80	0	0	192	96	64	1	0	0	0		1	0	0				
+52	script/ai/standardai.lua	1	200	200	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+101	script/ai/standardai.lua	1	448	448	8	488	64	0	32	0	0	0	0	0	0	0		1	0	0				
+102	script/ai/xmhj/xmhj_diaolongzonghuo.lua	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		0	0	0				
+103	script/ai/xmhj/xmhj_diaolongyunwu.lua	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		0	0	0				
+104	script/ai/xmhj/xmhj_jiangwangguangzhao.lua	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		0	0	0				
+105	script/ai/shenxian/sangongzhu.lua	1	480	480	8	256	80	0	0	0	0	0	0	0	0	0		1	0	0				
+200	script/ai/task/danger.lua	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		0	0	0				
+297	script/ai/task/pt-near1.lua	1	1000	1000	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0		看我大翔压顶！		
+298	script/ai/task/pt-near9.lua	1	400	400	8	128	0	2000	0	0	0	0	6	0	0	0		0	0	0		后方有敌人！		
+299	script/ai/task/pt-near9.lua	1	400	400	8	128	0	2000	0	0	0	0	7	0	0	0		0	0	0		后方有敌人！		
+300	script/ai/task/pt-near1.lua	1	450	450	8	256	0	1000	0	0	0	0	0	0	0	0		0	0	0		阎王爷都不敢收我，你又能耐我何？		
+301	script/ai/task/pt-near8.lua	1	400	400	8	256	0	2000	0	0	0	0	1	0	0	0		0	0	0				
+302	script/ai/task/fb_boss.lua	1	700	700	8	400	0	2000	0	0	0	0	1	0	0	0		1	0	0		今天不把你烧了我就不是红孩儿！	变成红烧猪蹄吧！	
+303	script/ai/task/jy-near1.lua	1	600	600	8	200	0	1000	0	0	0	0	0	0	0	0		1	0	0		动手归动手，但不许打脸。		
+304	script/ai/task/pt-near3.lua	1	500	500	8	128	0	1000	0	0	0	0	0	0	0	0		1	0	0		兄弟们今天有肉吃了！	你们谁先去烧个火啊？	
+305	script/ai/task/pt-far2.lua	1	700	700	8	256	0	0	0	0	0	0	0	0	0	0		1	0	0		哼！你不觉得你拽过头了吗?	寒冰乱舞！	
+306	script/ai/task/pt-near3.lua	1	800	800	8	200	0	1500	0	0	0	0	0	0	0	0		1	0	0		别动！站住！	有胆就用群招打我！	
+307	script/ai/task/pt-near6.lua	1	500	400	8	256	0	2000	0	0	0	0	3	0	0	0		0	0	0				
+308	script/ai/task/pt-near6.lua	1	500	400	8	256	0	2000	0	0	0	0	4	0	0	0		0	0	0				
+309	script/ai/task/pt-far3.lua	1	500	500	8	400	0	0	0	0	0	0	0	0	0	0		1	0	0		你竟敢打我老公！		
+310	script/ai/task/pt-near6.lua	1	500	400	8	256	0	2000	0	0	0	0	5	0	0	0		0	0	0				
+311	script/ai/task/runnpc2.lua	0	500	500	8	256	0	0	0	0	0	0	3	0	0	0		0	0	0				
+312	script/ai/task/pt-near1.lua	1	500	500	8	128	0	1000	0	0	0	0	0	0	0	0		1	0	0		大腿肉是我的，谁抢跟谁急！		
+313	script/ai/task/pt-near2.lua	1	1000	1000	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0				
+314	script/ai/task/teamfb_shibing.lua	1	500	500	8	256	0	2000	0	0	0	0	1	0	0	0		0	0	0				
+315	script/ai/task/texu1.lua	1	500	500	8	256	0	0	0	0	0	0	3	0	0	0		0	0	0				
+316	script/ai/task/pt-near1.lua	1	700	700	8	256	0	2000	0	0	0	0	0	0	0	0		1	0	0		这货！皮光肉滑！肯定好吃！		
+317	script/ai/task/texu2.lua	0	500	500	8	256	0	0	0	0	0	0	2	0	0	0		0	0	0				
+318	script/ai/task/pt-near2.lua	1	1000	1000	8	128	0	2000	0	0	0	0	0	0	0	0		1	0	0				
+319	script/ai/task/texu3.lua	1	500	500	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0		二货！快回来~！		
+320	script/ai/task/texu3.lua	1	1000	1000	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0		救命~!救命~!快点我！快点我！		
+321	script/ai/task/pt-near7.lua	1	500	500	8	128	0	1000	0	0	0	0	0	0	0	0		1	0	0		快来人啊！好无聊啊！		
+322	script/ai/task/pt-near2.lua	1	700	700	8	200	0	1500	0	0	0	0	0	0	0	0		1	0	0				
+323	script/ai/task/pt-near1.lua	1	700	700	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0		我闻到了一股红烧熊掌的味道！		
+324	script/ai/task/pt-near8.lua	1	500	400	8	256	0	2000	0	0	0	0	1	0	0	0		0	0	0				
+325	script/ai/task/pt-near8.lua	1	500	400	8	256	0	2000	0	0	0	0	4	0	0	0		0	0	0		你是谁！敢坏我好事！	别管女！只要男！	
+326	script/ai/task/pt-near8.lua	1	500	400	8	256	0	2000	0	0	0	0	5	0	0	0		0	0	0				
+327	script/ai/task/pt-near9.lua	1	600	600	8	256	0	2000	0	0	0	0	6	0	0	0		0	0	0		居然有人敢惹我们恶人寨！		
+328	script/ai/task/texu4.lua	1	200	200	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0		救命~!救命~!快点我！快点我！		
+329	script/ai/task/boss2.lua	1	700	700	8	256	0	0	0	0	0	0	0	0	0	0		1	0	0		看我的绝招，龙游四海！	哼！真不知死活！	
+330	script/ai/task/pt-near1.lua	1	700	700	8	128	0	2000	0	0	0	0	0	0	0	0		1	0	0		哪来的小豆丁啊！		
+331	script/ai/task/pt-near1.lua	1	700	700	8	128	0	2000	0	0	0	0	0	0	0	0		1	0	0		天堂有路你不走，地狱无门偏闯！		
+332	script/ai/task/texu6.lua	1	500	500	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0		救我！我是真的！		
+333	script/ai/task/pt-near5.lua	1	500	500	8	128	0	1000	0	0	0	0	0	0	0	0		1	0	0		我闻到了新鲜人肉的味道。		
+334	script/ai/task/pt-near8.lua	1	500	400	8	256	0	2000	0	0	0	0	2	0	0	0		0	0	0				
+335	script/ai/task/pt-near9.lua	1	600	600	8	256	0	2000	0	0	0	0	2	0	0	0		0	0	0		白~脸~神~功！		
+336	script/ai/task/texu2-1.lua	0	500	500	8	256	0	0	0	0	0	0	2	0	0	0		0	0	0				
+337	script/ai/task/texu7.lua	1	600	600	8	256	0	2000	0	0	0	0	2	0	0	0		0	0	0		白~脸~神~功！		
+338	script/ai/task/pt-far3.lua	1	1200	1200	8	800	0	0	0	0	0	0	0	0	0	0		1	0	0		有胆就用“3号技能”捉我啊~！		
+339	script/ai/task/texu4.lua	1	400	400	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+340	script/ai/task/pt-near1.lua	1	700	700	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0		打扰本龙清修，我要把你变烧烤！		
+341	script/ai/task/texu4.lua	1	600	600	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+342	script/ai/task/texu8.lua	1	1300	1300	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+343	script/ai/task/runnpc2.lua	0	500	500	8	256	0	0	0	0	0	0	2	0	0	0		0	0	0				
+344	script/ai/task/texu9.lua	1	150	150	8	128	0	0	0	0	0	0	1	0	0	0		1	0	0				
+345	script/ai/task/texu9.lua	1	150	150	8	128	0	0	0	0	0	0	2	0	0	0		1	0	0				
+346	script/ai/task/runnpc2.lua	0	500	500	8	256	0	0	0	0	0	0	1	0	0	0		0	0	0				
+347	script/ai/task/runnpc2.lua	0	500	500	8	256	0	0	0	0	0	0	3	0	0	0		0	0	0				
+348	script/ai/task/runnpc2.lua	0	500	500	8	256	0	0	0	0	0	0	4	0	0	0		0	0	0				
+349	script/ai/task/runnpc2.lua	0	500	500	8	256	0	0	0	0	0	0	5	0	0	0		0	0	0				
+350	script/ai/task/runnpc2.lua	0	500	500	8	256	0	0	0	0	0	0	6	0	0	0		0	0	0				
+351	script/ai/task/pt-near3.lua	1	700	700	8	128	0	1000	0	0	0	0	0	0	0	0		1	0	0		光头强就是你？	你知道强化能变强吗？	
+352	script/ai/task/pt-near3.lua	1	700	700	8	128	0	1000	0	0	0	0	0	0	0	0		1	0	0		不升级技能你会后悔的！	天天强化身体棒！	
+353	script/ai/task/pt-near3.lua	1	700	700	8	128	0	1000	0	0	0	0	0	0	0	0		1	0	0		强化后的感觉真不错！	不升级技能你会后悔的！	
+354	script/ai/task/texu4.lua	1	200	200	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0		救命~!救命~!快点我！快点我！		
+355	script/ai/task/pt-near1.lua	1	500	500	8	128	0	1000	0	0	0	0	0	0	0	0		1	0	0		这斧子打造得不够牛性化啊！		
+356	script/ai/task/runnpc2.lua	0	500	500	8	256	0	0	0	0	0	0	7	0	0	0		0	0	0				
+357	script/ai/task/jy-near1.lua	1	700	700	8	128	0	1000	0	0	0	0	0	0	0	0		1	0	0		别让他进去！拦住他！		
+358	script/ai/task/texu2.lua	1	600	600	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+359	script/ai/task/texu22.lua	1	600	600	8	128	0	0	0	0	0	0	1	0	0	0		1	0	0				
+360	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是护丹童女的啦！		
+361	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是日月星君的啦！		
+362	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是龟丞相的啦！		
+363	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是巨灵神的啦！		
+364	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是三公主的啦！		
+365	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是紫霞仙子的啦！		
+366	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是雷震子的啦！		
+367	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是南海龙太子的啦！		
+368	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是嫦娥的啦！		
+369	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是九天玄女的啦！		
+370	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是猪八戒的啦！		
+371	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是哪吒的啦！		
+372	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是二郎神的啦！		
+373	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是托塔天王的啦！		
+374	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是阎罗王的啦！		
+375	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是王母娘娘的啦！		
+376	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是太上老君的啦！		
+377	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是孙悟空的啦！		
+378	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是精卫的啦！		
+379	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是南海观音的啦！		
+380	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是盘古的啦！		
+381	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是伏羲的啦！		
+382	script/ai/task/jy-near1.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是如来佛祖的啦！		
+383	script/ai/task/pt-far3.lua	1	500	500	8	400	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是女娲的啦！		
+384	script/ai/task/pt-near3.lua	1	500	500	8	128	0	1000	0	0	0	0	0	0	0	0		1	0	0		你也是来看肾虚公子肾虚的吗？	强化，升级技能！缺一不可！	
+385	script/ai/task/boss4.lua	1	700	700	8	200	0	1000	0	0	0	0	0	0	0	0		1	0	0		让你尝尝我的大招！	小子！你别嚣张！	
+386	script/ai/task/texu2-1.lua	1	300	300	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+387	script/ai/task/pt-near8.lua	1	200	200	8	256	0	2000	0	0	0	0	1	0	0	0		0	0	0				
+388	script/ai/task/pt-near8.lua	1	200	200	8	256	0	2000	0	0	0	0	2	0	0	0		0	0	0				
+389	script/ai/task/pt-near8.lua	1	200	200	8	256	0	2000	0	0	0	0	3	0	0	0		0	0	0				
+390	script/ai/task/teamfb_paota.lua	1	2000	2000	8	256	0	0	0	0	0	0	0	0	0	0		1	0	0				
+391	script/ai/task/texu11.lua	1	600	600	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0		让我加入战斗吧！		
+392	script/ai/task/pt-far6.lua	1	600	600	8	256	0	2000	0	0	0	0	0	0	0	0		0	0	0				
+393	script/ai/task/texu9.lua	1	150	150	8	128	0	0	0	0	0	0	3	0	0	0		1	0	0				
+394	script/ai/task/texu9.lua	1	150	150	8	128	0	0	0	0	0	0	4	0	0	0		1	0	0				
+395	script/ai/task/texu9.lua	1	150	150	8	128	0	0	0	0	0	0	5	0	0	0		1	0	0				
+396	script/ai/task/texu9.lua	1	150	150	8	128	0	0	0	0	0	0	6	0	0	0		1	0	0				
+397	script/ai/task/pt-near10.lua	1	700	700	8	128	0	2500	0	0	0	0	0	0	0	0		1	0	0		我要烧死你！		
+398	script/ai/task/pt-near8.lua	1	400	400	8	128	0	2000	0	0	0	0	2	0	0	0		1	0	0		只要眼睛大！走遍天下都不怕！	强化，升级技能！缺一不可！	
+399	script/ai/task/texu4.lua	1	1000	1000	8	128	0	1000	0	0	0	0	0	0	0	0		1	0	0				
+400	script/ai/task/texu11.lua	1	500	500	8	128	0	1000	0	0	0	0	3	0	0	0		1	0	0				
+401	script/ai/task/texu11.lua	1	500	500	8	128	0	1000	0	0	0	0	4	0	0	0		1	0	0				
+402	script/ai/task/texu11.lua	1	500	500	8	128	0	1000	0	0	0	0	5	0	0	0		1	0	0				
+403	script/ai/task/pt-near8.lua	1	800	800	8	256	0	2000	0	0	0	0	6	0	0	0		0	0	0				
+404	script/ai/task/texu2.lua	1	600	600	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+405	script/ai/task/pt-near1.lua	1	300	300	8	256	0	1000	0	0	0	0	0	0	0	0		0	0	0		快点烂啊！烂了好交差啊！		
+406	script/ai/task/pt-near8.lua	1	600	600	8	256	0	2000	0	0	0	0	3	0	0	0		0	0	0				
+407	script/ai/task/texu12.lua	1	1000	1000	8	128	0	1000	0	0	0	0	0	0	0	0		1	0	0				
+408	script/ai/task/pt-near3.lua	1	700	700	8	128	0	1000	0	0	0	0	0	0	0	0		1	0	0		听说蟠桃吃起来会有初恋的味道！	强化，升级技能！缺一不可！	
+409	script/ai/task/pt-near1.lua	1	300	300	8	256	0	1000	0	0	0	0	0	0	0	0		0	0	0		哥~收手吧！		
+410	script/ai/task/pt-near11.lua	1	1500	1500	8	256	0	1000	0	0	0	0	0	0	0	0		0	0	0				
+411	script/ai/task/pt-near2.lua	1	1500	1500	8	200	0	3500	0	0	0	0	0	0	0	0		1	0	0				
+412	script/ai/task/pt-near8.lua	1	400	400	8	256	0	2000	0	0	0	0	1	0	0	0		0	0	0				
+413	script/ai/task/pt-near8.lua	1	400	400	8	256	0	2000	0	0	0	0	2	0	0	0		0	0	0				
+414	script/ai/task/pt-near8.lua	1	400	400	8	256	0	2000	0	0	0	0	3	0	0	0		0	0	0				
+415	script/ai/task/pt-near8.lua	1	400	400	8	256	0	2000	0	0	0	0	4	0	0	0		0	0	0				
+416	script/ai/task/pt-near8.lua	1	400	400	8	256	0	2000	0	0	0	0	5	0	0	0		0	0	0				
+417	script/ai/task/pt-near8.lua	1	400	400	8	256	0	2000	0	0	0	0	6	0	0	0		0	0	0				
+418	script/ai/task/texu4.lua	1	700	700	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+419	script/ai/task/danger2.lua	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		0	0	0				
+420	script/ai/task/pt-near1.lua	1	600	600	8	128	0	2000	0	0	0	0	0	0	0	0		1	0	0		这桃可比我们花果山上的好多了！		
+421	script/ai/task/texu14.lua	1	200	200	8	128	0	0	0	0	0	0	1	0	0	0		1	0	0				
+422	script/ai/task/pt-near1.lua	1	600	600	8	256	0	2000	0	0	0	0	0	0	0	0		0	0	0		吃我一蕉！		
+423	script/ai/task/texu15.lua	1	4000	4000	8	128	0	1000	0	0	0	0	0	0	0	0		1	0	0		来来来！加血鲁~！	小的们快来，我给你们加血！	
+424	script/ai/task/pt-near3.lua	1	400	400	8	128	0	1000	0	0	0	0	0	0	0	0		1	0	0		蟠桃很贵你知道吗？	真的吗？蟠桃也可以换切糕!？	
+425	script/ai/task/pt-near1.lua	1	1000	1000	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0		中蕉了吧！		
+426	script/ai/task/pt-near2.lua	1	1000	1000	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0		中蕉了吧！		
+427	script/ai/task/boss6.lua	1	1000	1000	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0		该死的虫子，看我不喷死你！	来人啊~~~	快来人啊！这人好烦！
+428	script/ai/task/texu13.lua	1	2000	2000	8	128	0	2000	0	0	0	0	0	0	0	0		1	0	0				
+429	script/ai/task/pt-near1.lua	1	300	300	8	256	0	1000	0	0	0	0	0	0	0	0		0	0	0		魔人来了！你们的死期到了！		
+430	script/ai/task/pt-near1.lua	1	300	300	8	256	0	1000	0	0	0	0	0	0	0	0		0	0	0		兄弟快上，我们给你呐喊助威！		
+431	script/ai/task/pt-near3.lua	1	700	700	8	128	0	1000	0	0	0	0	0	0	0	0		1	0	0		誓死守好这最后一道防线！	射他膝盖！	
+432	script/ai/task/texu4.lua	1	300	300	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0		救命~!救命~!快点我！快点我！		
+433	script/ai/task/fb_dadangjia.lua	1	1000	1000	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0		我要动真格了！	你是块好料！加入我们吧！	给机会你不珍惜！现在没机会了！
+434	script/ai/task/texu4.lua	1	400	400	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0		救命~!救命~!快点我！快点我！		
+435	script/ai/task/pt-near12.lua	1	2000	2000	8	256	0	2000	0	0	0	0	0	0	0	0		0	0	0				
+436	script/ai/task/pt-near1.lua	1	1000	1000	8	200	0	1500	0	0	0	0	0	0	0	0		1	0	0		好想吃天鹅肉啊！	没看过这么大的青蛙吧？	
+437	script/ai/task/fb_boss.lua	1	700	700	8	200	0	1500	0	0	0	0	0	0	0	0		1	0	0		哈哈哈！让我一脚把你踹到大西洋！	看你也没见过这么大的脚吧！	
+438	script/ai/task/fb_boss.lua	1	700	700	8	200	0	1500	0	0	0	0	0	0	0	0		1	0	0		咳咳咳！让你尝尝肾虚的滋味！	小兄弟！有兴趣学一下肾虚剑法吗？	
+439	script/ai/task/fb_julingshen1.lua	1	1000	1000	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0		敢看小我巨灵神！！	就你这小不点还想学人当英雄？	后面还有我的兄弟等着你呢！
+440	script/ai/task/fb_nazha.lua	1	1000	1000	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0		看我无敌风火轮！	看我三头六臂！	看我霹雳金钢圈！
+441	script/ai/task/fb_erlangshen1.lua	1	1000	1000	8	128	0	3500	0	0	0	0	0	0	0	0		1	0	0		哮天犬！！！	别让我用第三只眼鄙视你！	我来劲了！
+442	script/ai/task/pt-near2.lua	1	2500	2500	8	200	0	2500	0	0	0	0	0	0	0	0		1	0	0				
+443	script/ai/task/texu22.lua	1	600	600	8	128	0	0	0	0	0	0	1	0	0	0		1	0	0		不要让我再说第二遍！		
+444	script/ai/task/pt-near1.lua	1	800	800	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		打人要找理由的么？！		
+445	script/ai/task/pt-near1.lua	1	2000	2000	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		别以为你长得白就不打你！		
+446	script/ai/task/texu9.lua	1	150	150	8	128	0	0	0	0	0	0	11	0	0	0		1	0	0				
+447	script/ai/task/texu9.lua	1	150	150	8	128	0	0	0	0	0	0	12	0	0	0		1	0	0				
+448	script/ai/task/pt-near1.lua	1	2500	2500	8	200	0	2500	0	0	0	0	0	0	0	0		1	0	0		先到先得啊！你放弃吧！		
+449	script/ai/task/pt-near1.lua	1	2500	2500	8	200	0	2500	0	0	0	0	0	0	0	0		1	0	0		你赢归你！我赢归我！		
+450	script/ai/task/pt-near7.lua	1	700	700	8	200	0	1500	0	0	0	0	0	0	0	0		1	0	0		我很香！但我很凶猛！		
+451	script/ai/task/pt-near8.lua	1	400	400	8	256	0	2000	0	0	0	0	1	0	0	0		0	0	0				
+452	script/ai/task/pt-near8.lua	1	400	400	8	256	0	2000	0	0	0	0	2	0	0	0		0	0	0				
+453	script/ai/task/pt-near8.lua	1	400	400	8	256	0	2000	0	0	0	0	3	0	0	0		0	0	0				
+454	script/ai/task/pt-near1.lua	1	700	700	8	200	0	2500	0	0	0	0	0	0	0	0		1	0	0		来！撞他个人仰马翻！		
+455	script/ai/task/pt-near1.lua	1	1000	1000	8	200	0	2500	0	0	0	0	0	0	0	0		1	0	0		难道18个人还打不过你1个？		
+456	script/ai/task/pt-near1.lua	1	1000	1000	8	200	0	2500	0	0	0	0	0	0	0	0		1	0	0		求我放你一马还来得及！		
+457	script/ai/task/pt-near7.lua	1	700	700	8	200	0	1500	0	0	0	0	0	0	0	0		1	0	0		一有人来就格杀勿论！		
+458	script/ai/task/texu4.lua	1	2500	2500	8	128	0	2500	0	0	0	0	0	0	0	0		1	0	0		救命~!救命~!快点我！快点我！		
+459	script/ai/task/texu2.lua	1	1500	1500	8	128	0	2500	0	0	0	0	0	0	0	0		1	0	0				
+460	script/ai/task/pt-near7.lua	1	1	1	8	200	0	1000	0	0	0	0	0	0	0	0		1	0	0		啊~~		
+461	script/ai/task/pt-near7.lua	1	1	1	8	200	0	1000	0	0	0	0	0	0	0	0		1	0	0		我是一只羊！一只可爱的羊！		
+462	script/ai/task/pt-near7.lua	1	500	500	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		哎~年纪大了！脸皮也越来越厚了！		
+463	script/ai/task/pt-near1.lua	1	700	700	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		宝贝！宝贝！我是你的大树！		
+464	script/ai/task/pt-near7.lua	1	500	500	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		螃蟹的英文叫pang xie！		
+465	script/ai/task/pt-near1.lua	1	700	700	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		宝贝！宝贝！我是你的螃蟹！		
+466	script/ai/task/pt-near7.lua	1	500	500	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		你知道狐狸是怎么叫的吗？		
+467	script/ai/task/pt-near1.lua	1	700	700	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		你知道狐狸精是怎么叫的吗？		
+468	script/ai/task/pt-near11.lua	1	1000	1000	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0				
+469	script/ai/task/pt-near1.lua	1	1000	1000	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		别让他弄脏我们的鼓！		
+470	script/ai/task/pt-near7.lua	1	500	500	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		你敢跟我玩剪刀石头布吗！？		
+471	script/ai/task/pt-near1.lua	1	700	700	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		小心我用贝壳压死你！		
+472	script/ai/task/pt-near7.lua	1	500	500	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		又来抢我们的仙草回去弄烧仙草？		
+473	script/ai/task/pt-near1.lua	1	700	700	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		放心！我会小点力的！		
+474	script/ai/task/pt-near7.lua	1	500	500	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		我很丑！但我很温柔！		
+475	script/ai/task/pt-near1.lua	1	700	700	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		没事没事！再砍一刀就好了！		
+476	script/ai/task/texu2.lua	1	700	700	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0				
+477	script/ai/task/texu2-1.lua	1	700	700	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0				
+478	script/ai/task/texu4.lua	1	500	500	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0				
+479	script/ai/task/pt-near1.lua	1	700	700	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		分身就能搞定你！何必出动本体！		
+480	script/ai/task/pt-near1.lua	1	700	700	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		这个身体不错！眼多看得清！		
+481	script/ai/task/pt-near1.lua	1	700	700	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		咬死你！		
+482	script/ai/task/pt-near1.lua	1	700	700	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		大圣你也敢打？嫌命长啊？		
+483	script/ai/task/pt-near1.lua	1	700	700	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		猴子偷桃！！		
+484	script/ai/task/pt-near1.lua	1	700	700	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		我就不信你见过鬼不怕黑！		
+485	script/ai/task/pt-near1.lua	1	700	700	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		千变万化的我！变晒都那么猛！		
+486	script/ai/task/pt-near1.lua	1	700	700	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		把他扔进岩浆里！		
+487	script/ai/task/pt-near1.lua	1	700	700	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		你跟我打！有想过后果吗？		
+488	script/ai/task/pt-near1.lua	1	700	700	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		有朝一日!我一定可以飞起来！		
+489	script/ai/task/runnpc2.lua	0	500	500	8	256	0	0	0	0	0	0	8	0	0	0		0	0	0				
+490	script/ai/task/teamfb_shibing.lua	1	2000	2000	8	200	0	2500	0	0	0	0	0	0	0	0		1	0	0				
+491	script/ai/task/pt-near1.lua	1	1000	1000	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0		这~你身上有股力量在上涌！		
+492	script/ai/task/pt-near1.lua	1	1000	1000	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0		力量！力量！你的身体在变化！		
+493	script/ai/task/pt-near1.lua	1	1000	1000	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0		力量！这是何等巨大的力量！		
+494	script/ai/task/pt-near1.lua	1	700	700	8	128	0	2000	0	0	0	0	0	0	0	0		1	0	0		哪来的小豆丁啊！		
+495	script/ai/task/pt-near1.lua	1	2000	2000	8	200	0	4000	0	0	0	0	0	0	0	0		1	0	0		今天你进来就别想再逃出去！		
+496	script/ai/task/pt-near1.lua	1	700	700	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		你想有命出去？别开玩笑了！		
+497	script/ai/task/pt-near1.lua	1	2000	2000	8	200	0	4000	0	0	0	0	0	0	0	0		1	0	0		今天你进来就别想再逃出去！		
+498	script/ai/task/pt-near1.lua	1	2000	2000	8	200	0	4000	0	0	0	0	0	0	0	0		1	0	0		不想抢劫了！好想杀人啊！		
+500	script/ai/task/pt-near2.lua	1	2000	2000	8	200	0	2500	0	0	0	0	0	0	0	0		1	0	0				
+501	script/ai/task/pt-near3.lua	1	2000	2000	8	200	0	2500	0	0	0	0	0	0	0	0		1	0	0		记得去升级技能和强化装备哦！		
+502	script/ai/task/pt-near3.lua	1	2000	2000	8	200	0	2500	0	0	0	0	0	0	0	0		1	0	0		有空温习下大神宝典看看怎么变强吧！	技能专门升一条路线好些哦！	
+503	script/ai/task/pt-near3.lua	1	2000	2000	8	200	0	2500	0	0	0	0	0	0	0	0		1	0	0		记得参加晚上的pvp活动哦！	想干掉我？打开大神宝典看看怎么变强吧！	
+504	script/ai/task/pt-near3.lua	1	2000	2000	8	200	0	2500	0	0	0	0	0	0	0	0		1	0	0		记得参加晚上的pvp活动哦！	想干掉我？打开大神宝典看看怎么变强吧！	
+505	script/ai/task/texu9.lua	1	150	150	8	200	0	2500	0	0	0	0	1	0	0	0		1	0	0				
+506	script/ai/task/texu9.lua	1	150	150	8	200	0	2500	0	0	0	0	2	0	0	0		1	0	0				
+508	script/ai/task/texu9.lua	1	150	150	8	200	0	2500	0	0	0	0	3	0	0	0		1	0	0				
+509	script/ai/task/texu9.lua	1	150	150	8	200	0	2500	0	0	0	0	4	0	0	0		1	0	0				
+510	script/ai/task/texu9.lua	1	150	150	8	200	0	2500	0	0	0	0	5	0	0	0		1	0	0				
+511	script/ai/task/texu9.lua	1	150	150	8	200	0	2500	0	0	0	0	6	0	0	0		1	0	0				
+507	script/ai/task/pt-near2.lua	1	700	700	8	200	0	2500	0	0	0	0	0	0	0	0		1	0	0				
+515	script/ai/task/pt-near1.lua	1	900	900	8	200	0	4000	0	0	0	0	0	0	0	0		1	0	0		今天不是你死就是你亡！		
+516	script/ai/task/pt-near1.lua	1	900	900	8	200	0	4000	0	0	0	0	0	0	0	0		1	0	0		让我把你压成肉饼！		
+517	script/ai/task/pt-near1.lua	1	900	900	8	200	0	4000	0	0	0	0	0	0	0	0		1	0	0		让我把你劈成两块！		
+518	script/ai/task/pt-near1.lua	1	2000	2000	8	200	0	4000	0	0	0	0	0	0	0	0		1	0	0		没错！你见鬼了！		
+519	script/ai/task/pt-near7.lua	1	900	900	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		找死的人年年有！今年特别多啊！		
+520	script/ai/task/pt-near7.lua	1	900	900	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		我真的还想再活五百年！		
+521	script/ai/task/pt-near7.lua	1	700	700	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0		咯吱咯吱....		
+522	script/ai/task/pt-near1.lua	1	2000	2000	8	200	0	4000	0	0	0	0	0	0	0	0		1	0	0		是时候了！是时候魔界要统治世界了		
+523	script/ai/task/pt-near1.lua	1	1000	1000	8	200	0	4000	0	0	0	0	0	0	0	0		1	0	0		大将军会耗不留情地把你们全杀光！		
+998	script/ai/task/gk_near1.lua	1	250	250	8	200	0	10000	0	0	0	0	0	0	0	0		1	0	0		土豪！我们做朋友吧！		
+999	script/ai/task/texu21.lua	1	1000	1000	8	200	0	10000	0	0	0	0	0	0	0	0		1	0	0		土豪！我们做朋友吧！		
+1000	script/ai/task/boos1.lua	1	1000	1000	8	200	0	0	0	0	0	0	0	0	0	0		1	0	0		土豪！我们做朋友吧！		
+1001	script/ai/activity/bossTest1.lua	1	800	800	8	200	0	2000	0	0	0	0	0	0	0	0		1	0	0				
+1002	script/ai/task/gk-ai1.lua	1	1000	1000	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0				
+1003	script/ai/task/pt-near10.lua	1	1000	1000	8	128	0	2500	0	0	0	0	0	0	0	0		1	0	0		我要烧死你！		
+1004	script/ai/task/texu13.lua	1	2000	2000	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0				
+1005	script/ai/task/pt-near2.lua	1	400	400	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0		敢揍我老弟！		
+1006	script/ai/task/texu17.lua	1	200	200	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0		敢揍我老弟！		
+1007	script/ai/task/pt-near8.lua	1	800	800	8	256	0	2000	0	0	0	0	7	0	0	0		0	0	0				
+1008	script/ai/task/gk_jushiguai.lua	1	2000	2000	16	256	0	2000	0	0	0	0	8	0	0	0		0	0	0		受死吧！	防御模式启动！	哼！你们死期到了！
+1009	script/ai/task/teamfb_shibing.lua	1	2000	2000	8	256	0	3000	0	0	0	0	0	0	0	0		0	0	0				
+1010	script/ai/task/texu19.lua	1	2000	2000	8	256	0	2000	0	0	0	0	0	0	0	0		0	0	0				
+1011	script/ai/task/texu2.lua	1	600	600	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1012	script/ai/task/pt-far1.lua	1	700	700	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1013	script/ai/task/texu20.lua	0	500	500	8	256	0	0	0	0	0	0	1	0	0	0		0	0	0				
+1014	script/ai/task/texu20.lua	0	500	500	8	256	0	0	0	0	0	0	2	0	0	0		0	0	0				
+1015	script/ai/task/pt-near4.lua	0	500	500	8	256	0	0	0	0	0	0	3	0	0	0		0	0	0				
+1016	script/ai/task/pt-near4.lua	0	500	500	8	256	0	0	0	0	0	0	4	0	0	0		0	0	0				
+1017	script/ai/task/texu20.lua	0	500	500	8	256	0	0	0	0	0	0	5	0	0	0		0	0	0				
+1018	script/ai/task/texu20.lua	0	500	500	8	256	0	0	0	0	0	0	6	0	0	0		0	0	0				
+1019	script/ai/task/texu4.lua	1	700	700	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0		救命~!救命~!快点我！快点我！		
+1020	script/ai/task/texu20.lua	0	500	500	8	256	0	0	0	0	0	0	7	0	0	0		0	0	0				
+1021	script/ai/task/texu20.lua	0	500	500	8	256	0	0	0	0	0	0	8	0	0	0		0	0	0				
+1022	script/ai/task/gk_yaowang.lua	1	2000	2000	8	200	0	4000	0	0	0	0	9	0	0	0		1	0	0		来来来！出来吓吓他们吧！	小鬼们！速速现身！	让你尝尝死亡的味道！
+1023	script/ai/task/texu14.lua	1	300	300	8	256	0	3000	0	0	0	0	13	0	0	0		0	0	0				
+1024	script/ai/task/texu14.lua	1	300	300	8	256	0	3000	0	0	0	0	7	0	0	0		0	0	0				
+1030	script/ai/task/gk_dajiangjun.lua	1	2000	2000	8	200	0	4000	0	0	0	0	1	0	0	0		1	0	0		喝！	小鬼们！速速现身！	让你尝尝死亡的味道！
+1031	script/ai/task/gk_longjuanfeng.lua	1	2000	2000	8	200	0	4000	0	0	0	0	1	0	0	0		1	0	0		喝！	小鬼们！速速现身！	让你尝尝死亡的味道！
+1032	script/ai/task/gk_quantihuixue2.lua	1	300	300	8	200	0	4000	0	0	0	0	1	0	0	0		1	0	0		喝！	小鬼们！速速现身！	让你尝尝死亡的味道！
+1033	script/ai/task/gk_near2.lua	1	300	300	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1034	script/ai/task/texu25.lua	1	300	300	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1035	script/ai/task/teamfb_shibing.lua	1	2000	2000	8	200	0	4000	0	0	0	0	1	0	0	0		1	0	0				
+1100	script/ai/task/texu4.lua	1	1000	1000	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0		靠近我，给你加血！		
+1101	script/ai/task/texu4.lua	1	1000	1000	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0		靠近我，给你加攻击力！		
+1102	script/ai/task/texu4.lua	1	1000	1000	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0		靠近我，给你加防御！		
+1103	script/ai/task/texu4.lua	1	1000	1000	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0		靠近我，给你加血！		
+1104	script/ai/task/texu4.lua	1	1000	1000	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0		把boss引过来，我冰冻它那个鸟蛋！		
+1105	script/ai/task/pt-near2.lua	1	2000	2000	8	256	0	1500	0	0	0	0	0	0	0	0		1	0	0				
+1106	script/ai/task/texu4.lua	1	700	700	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1107	script/ai/task/pt-near2.lua	1	1000	1000	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0				
+1108	script/ai/task/pt-near2.lua	1	1000	1000	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0				
+1109	script/ai/task/pt-near2.lua	1	1000	1000	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0				
+1110	script/ai/task/pt-near2.lua	1	1000	1000	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0				
+1120	script/ai/standardai.lua	0	300	300	8	128	64	0	32	0	0	0	0	0	0	0		1	0	0				
+1121	script/ai/task/texu4.lua	1	700	700	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1122	script/ai/task/pt-near2.lua	1	1000	1000	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0		擦！		
+1123	script/ai/task/pt-near2.lua	1	700	700	8	400	0	1500	0	0	0	0	0	0	0	0		1	0	0				
+1124	script/ai/task/pt-near2.lua	1	1000	1000	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0		我擦！		
+1125	script/ai/task/pt-near9.lua	1	200	200	8	128	0	2000	0	0	0	0	1	0	0	0		0	0	0	靠近我，我会把你定身的！			
+1126	script/ai/task/pt-near9.lua	1	200	200	8	128	0	2000	0	0	0	0	2	0	0	0		0	0	0	靠近我，我会自杀炸掉你！			
+1127	script/ai/task/pt-near2.lua	1	1000	1000	8	128	0	1500	0	0	0	0	0	0	0	0		1	0	0		我顶你个肺啊！		
+1128	script/ai/task/texu4.lua	1	700	700	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1129	script/ai/task/texu4.lua	1	2000	2000	8	600	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1130	script/ai/task/texu4.lua	1	1000	1000	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0		靠近我，给你加血！		
+1131	script/ai/task/texu16.lua	1	400	400	8	256	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1132	script/ai/task/pt-near9.lua	1	200	200	8	128	0	2000	0	0	0	0	3	0	0	0		0	0	0	靠近我，我会把你定身的！			
+1133	script/ai/task/pt-near9.lua	1	200	200	8	128	0	2000	0	0	0	0	4	0	0	0		0	0	0	靠近我，我会自杀炸掉你！			
+1150	script/ai/task/texu4.lua	1	700	700	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1151	script/ai/task/texu4.lua	1	700	700	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1152	script/ai/task/texu4.lua	1	700	700	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1153	script/ai/task/texu4.lua	1	700	700	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1154	script/ai/task/texu4.lua	1	700	700	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1155	script/ai/task/texu4.lua	1	700	700	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1156	script/ai/task/texu4.lua	1	700	700	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1157	script/ai/task/texu4.lua	1	700	700	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1158	script/ai/task/texu4.lua	1	700	700	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1159	script/ai/task/texu4.lua	1	700	700	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1160	script/ai/task/texu4.lua	1	700	700	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1161	script/ai/task/texu4.lua	1	700	700	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1162	script/ai/task/texu4.lua	1	700	700	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1163	script/ai/task/texu4.lua	1	700	700	8	128	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1300	script/ai/task/teamfb_BOSS.lua	1	700	700	8	256	0	2000	0	0	0	0	1	0	0	0		0	0	0				
+1301	script/ai/task/pt-near9.lua	1	200	200	8	128	0	2000	0	0	0	0	1	0	0	0		0	0	0				
+1302	script/ai/task/teamfb_BOSS.lua	1	200	200	8	128	0	2000	0	0	0	0	2	0	0	0		0	0	0				
+1303	script/ai/task/pt-near9.lua	1	200	200	8	128	0	2000	0	0	0	0	1	0	0	0		0	0	0				
+1304	script/ai/task/pt-near9.lua	1	200	200	8	128	0	2000	0	0	0	0	2	0	0	0		0	0	0				
+1305	script/ai/task/pt-near9.lua	1	200	200	8	128	0	2000	0	0	0	0	1	0	0	0		0	0	0				
+1306	script/ai/task/pt-near9.lua	1	200	200	8	128	0	2000	0	0	0	0	2	0	0	0		0	0	0				
+1307	script/ai/task/pt-near9.lua	1	200	200	8	128	0	2000	0	0	0	0	2	0	0	0		0	0	0				
+1308	script/ai/task/texu4.lua	1	2000	2000	8	256	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1309	script/ai/task/teamfb_paota.lua	1	1000	1000	8	256	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1310	script/ai/task/teamfb_paota.lua	1	1000	1000	8	256	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1311	script/ai/task/teamfb_paota.lua	1	1000	1000	8	256	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1312	script/ai/task/teamfb_chunge.lua	1	10000	10000	8	600	0	2000	0	0	0	0	3	0	0	0		0	0	0		来！给你点力量！	我放电咯！	都给我站站好！
+1313	script/ai/task/teamfb_xiannv.lua	1	1000	1000	8	256	0	0	0	0	0	0	0	0	0	0		1	0	0		我受到攻击了！快来救我！	噢~NO！别打我！我快不行了！	我快死啦！快点来救我啊！
+1314	script/ai/task/teamfb_niumowang.lua	1	700	700	8	256	0	2000	0	0	0	0	2	0	0	0		1	0	0				
+1315	script/ai/task/teamfb_datouling.lua	1	700	700	8	256	0	2000	0	0	0	0	2	0	0	0		1	0	0				
+1316	script/ai/task/teamfb_chunge2.lua	1	10000	10000	8	600	0	2000	0	0	0	0	3	0	0	0		0	0	0				
+1317	script/ai/task/teamfb_dajiangjun.lua	1	700	700	8	256	0	2000	0	0	0	0	2	0	0	0		1	0	0				
+1318	script/ai/task/teamfb_dajiaozhu.lua	1	700	700	8	256	0	2000	0	0	0	0	2	0	0	0		1	0	0				
+1330	script/ai/task/teamfb_houzi.lua	1	700	700	8	256	0	2000	0	0	0	0	2	0	0	0		1	0	0		别打我啊~!我的宝物要丢出来啦！		
+1340	script/ai/task/pt-near12.lua	1	1000	1000	8	256	0	2000	0	0	0	0	0	0	0	0		1	0	0		别打我啊~!我的宝物要丢出来啦！		
+1341	script/ai/task/teamfb_zhaizhu.lua	1	2000	2000	8	256	0	6000	0	0	0	0	0	0	0	0		1	0	0		别打我啊~!我的宝物要丢出来啦！		
+1342	script/ai/task/teamfb_tazhu.lua	1	1500	1500	8	256	0	6000	0	0	0	0	0	0	0	0		1	0	0		别打我啊~!我的宝物要丢出来啦！		
+1349	script/ai/task/teamfb_shouwei.lua	1	220	220	8	256	0	6000	0	0	0	0	8	0	0	0		1	0	0		有敌人入侵！！快来人！！		
+1350	script/ai/task/teamfb_shibing.lua	1	3000	3000	8	256	0	6000	0	0	0	0	0	0	0	0		1	0	0		别打我啊~!我的宝物要丢出来啦！		
+1351	script/ai/task/teamfb_shouwei.lua	1	220	220	8	256	0	6000	0	0	0	0	1	0	0	0		1	0	0		有敌人入侵！！快来人！！		
+1352	script/ai/task/teamfb_shouwei.lua	1	220	220	8	256	0	6000	0	0	0	0	2	0	0	0		1	0	0		有敌人入侵！！快来人！！		
+1353	script/ai/task/teamfb_shouwei.lua	1	220	220	8	256	0	6000	0	0	0	0	3	0	0	0		1	0	0		有敌人入侵！！快来人！！		
+1354	script/ai/task/teamfb_shouwei1.lua	1	260	260	8	256	0	6000	0	0	0	0	4	0	0	0		1	0	0		你是谁！！		
+1355	script/ai/task/teamfb_shouwei1.lua	1	260	260	8	256	0	6000	0	0	0	0	5	0	0	0		1	0	0		有敌人！！		
+1356	script/ai/task/teamfb_shouwei1.lua	1	260	260	8	256	0	6000	0	0	0	0	6	0	0	0		1	0	0		你真以为我看不见你啊？		
+1357	script/ai/task/teamfb_shouwei1.lua	1	260	260	8	256	0	6000	0	0	0	0	7	0	0	0		1	0	0		你真以为我看不见你啊？		
+1358	script/ai/task/teamfb_zhaizhu.lua	1	2000	2000	8	256	0	6000	0	0	0	0	0	0	0	0		1	0	0				
+1365	script/ai/task/teamfb_shibing.lua	1	2500	2500	8	256	0	6000	0	0	0	0	0	0	0	0		1	0	0				
+1366	script/ai/task/vipfb_huoyumi.lua	1	2500	2500	8	256	0	6000	0	0	0	0	0	0	0	0		1	0	0		烧粟米啰！		
+1367	script/ai/task/vipfb_mozhang.lua	1	800	800	8	256	0	6000	0	0	0	0	0	0	0	0		1	0	0				
+1368	script/ai/task/texu2-1.lua	1	3000	3000	8	256	0	6000	0	0	0	0	0	0	0	0		1	0	0				
+1369	script/ai/task/vipfb_bingyumi.lua	1	2500	2500	8	256	0	6000	0	0	0	0	0	0	0	0		1	0	0		冻死你们！		
+1370	script/ai/task/vipfb_baigujing.lua	1	2500	2500	8	256	0	6000	0	0	0	0	0	0	0	0		1	0	0		给我乖乖地受死吧！		
+1371	script/ai/task/teamfb_gui.lua	1	2500	2500	8	256	0	6000	0	0	0	0	0	0	0	0		1	0	0		给我乖乖地受死吧！		
+1450	script/ai/task/teamfb_shibing.lua	1	800	800	8	256	0	6000	0	0	0	0	0	0	0	0		1	0	0				
+1451	script/ai/task/teamfb_shibing.lua	1	800	800	8	256	0	6000	0	0	0	0	0	0	0	0		1	0	0				
+1452	script/ai/task/teamfb_shibing1.lua	1	500	500	8	256	0	6000	0	0	0	0	1	0	0	0		1	0	0				
+1453	script/ai/task/teamfb_paota.lua	1	800	800	8	256	0	6000	0	0	0	0	0	0	0	0		1	0	0				
+1454	script/ai/task/teamfb_shibing.lua	1	1200	1200	8	256	0	6000	0	0	0	0	0	0	0	0		1	0	0				
+1455	script/ai/task/teamfb_biaoche.lua	1	100	100	8	256	0	6000	0	0	0	0	0	0	0	0		1	0	0				
+1456	script/ai/task/teamfb_shibing.lua	1	400	400	8	256	0	6000	0	0	0	0	0	0	0	0		1	0	0				
+1457	script/ai/task/teamfb_paota.lua	1	1300	1300	8	256	0	6000	0	0	0	0	0	0	0	0		1	0	0				
+1458	script/ai/task/teamfb_shibing.lua	1	600	600	8	256	0	6000	0	0	0	0	0	0	0	0		1	0	0				
+1459	script/ai/task/teamfb_bianyao.lua	1	2000	2000	8	256	0	6000	0	0	0	0	0	0	0	0		1	0	0		都给我滚出来！	出来！出来！出来！	岂有此理！都给我滚出来！
+1460	script/ai/task/teamfb_shibing.lua	1	3000	3000	8	256	0	6000	0	0	0	0	0	0	0	0		1	0	0				
+1461	script/ai/task/teamfb_shibing.lua	1	700	700	8	256	0	6000	0	0	0	0	0	0	0	0		1	0	0				
+1500	script/ai/task/pt-far1.lua	1	700	700	8	400	0	2000	0	0	0	0	0	0	0	0		1	0	0				
+1501	script/ai/task/texu4.lua	1	2000	2000	8	400	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1502	script/ai/task/texu4.lua	1	2000	2000	8	400	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1503	script/ai/task/texu4.lua	1	2000	2000	8	400	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1504	script/ai/task/texu4.lua	1	2000	2000	8	400	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1529	script/ai/task/teamfb_paota.lua	1	2000	2000	8	400	0	0	0	0	0	0	0	0	0	0		1	0	0				
+1530	script/ai/task/pt-near7.lua	1	1300	1300	8	256	0	1500	0	0	0	0	0	0	0	0		0	0	0				
+1535	script/ai/task/pt-near7.lua	1	1300	1300	8	256	0	1500	0	0	0	0	0	0	0	0		0	0	0				
+1548	script/ai/task/pt-near7.lua	1	1300	1300	8	256	0	1500	0	0	0	0	0	0	0	0		0	0	0				
+1553	script/ai/task/pt-near7.lua	1	1300	1300	8	256	0	1500	0	0	0	0	0	0	0	0		0	0	0				
+1554	script/ai/task/sm_shibing.lua	1	1500	1500	8	256	0	10000	0	0	0	0	25	0	0	0		0	0	0				
+1555	script/ai/task/sm_shibing.lua	1	1500	1500	8	256	0	10000	0	0	0	0	26	0	0	0		0	0	0				
+1556	script/ai/task/sm_shibing.lua	1	1500	1500	8	256	0	10000	0	0	0	0	27	0	0	0		0	0	0				
+1557	script/ai/task/sm_shibing.lua	1	1500	1500	8	256	0	10000	0	0	0	0	28	0	0	0		0	0	0				
+1558	script/ai/task/sm_shibing.lua	1	1500	1500	8	256	0	10000	0	0	0	0	29	0	0	0		0	0	0				
+1559	script/ai/task/sm_shibing.lua	1	1500	1500	8	256	0	10000	0	0	0	0	30	0	0	0		0	0	0				
+1560	script/ai/task/sm_shibing.lua	1	1500	1500	8	256	0	10000	0	0	0	0	31	0	0	0		0	0	0				
+1561	script/ai/task/sm_shibing.lua	1	1500	1500	8	256	0	10000	0	0	0	0	32	0	0	0		0	0	0				
+1562	script/ai/task/sm_shibing.lua	1	1500	1500	8	256	0	10000	0	0	0	0	33	0	0	0		0	0	0				
+1563	script/ai/task/sm_shibing.lua	1	1500	1500	8	256	0	10000	0	0	0	0	34	0	0	0		0	0	0				
+1564	script/ai/task/sm_shibing.lua	1	700	700	8	256	0	2000	0	0	0	0	35	0	0	0		0	0	0		提升战力请看大神宝典！		
+1565	script/ai/task/sm_shibing.lua	1	700	700	8	256	0	2000	0	0	0	0	36	0	0	0		0	0	0		提升战力请看大神宝典！		
+1566	script/ai/task/pt-near7.lua	1	450	450	8	150	0	600	0	0	0	0	0	0	0	0		1	0	0		提升战力请看大神宝典！		
+1567	script/ai/task/teamfb_shibing.lua	1	450	450	8	256	0	1000	0	0	0	0	0	0	0	0		1	0	0		提升战力请看大神宝典！		
+2000	script/ai/task/pt-near7.lua	1	300	300	8	150	0	400	0	0	0	0	0	0	0	0		1	0	0				
+2001	script/ai/task/texu4.lua	1	2000	2000	8	400	0	0	0	0	0	0	0	0	0	0		1	0	0				
+2002	script/ai/task/texu4.lua	1	2000	2000	8	400	0	0	0	0	0	0	0	0	0	0		1	0	0				
+2003	script/ai/task/texu4.lua	1	2000	2000	8	400	0	0	0	0	0	0	0	0	0	0		1	0	0				

@@ -1,0 +1,8 @@
+X	Y	RestFrame	FaceTo	AnimationID	AniLoop	IsRun	ScriptName
+0	0	0	0	0	0	0
+6852	922	0	0	0	1	0
+7472	2437	0	0	0	1	0
+7549	5306	0	0	0	1	0
+7170	6684	0	0	0	1	0
+6097	7290	0	0	0	1	0
+4555	7624	0	0	0	1	0

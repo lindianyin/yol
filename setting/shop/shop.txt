@@ -1,0 +1,5 @@
+shopId	shopName	categoryPath
+1	商城	mall_category.txt
+2	银两商店	shop_silver.txt
+3	家族商店	shop_Family.txt
+4	精魄商店	shop_jingpo.txt

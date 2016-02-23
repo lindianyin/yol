@@ -1,0 +1,2 @@
+PointClass	X	Y	Z	FaceDirection
+heigui	2415	3173	1048576	75

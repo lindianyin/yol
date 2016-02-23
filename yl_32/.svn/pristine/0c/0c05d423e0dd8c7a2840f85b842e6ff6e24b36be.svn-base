@@ -1,0 +1,61 @@
+/* -------------------------------------------------------------------------
+//	文件名		：	kluacharacter_table.hpp
+//	创建者		：	LuaScriptTool
+//	功能描述	：	本文件由VisualStudio宏生成，请不要手动修改！！
+//	使用方法	：	在相应的CPP文件末端，include此文件
+//
+// -----------------------------------------------------------------------*/
+
+DEFINE_LUA_CLASS_BEGIN(KLuaCharacter)
+	REGISTER_LUA_DWORD_READONLY(Id, "")
+	REGISTER_LUA_INTEGER_READONLY(Visible, "")
+	REGISTER_LUA_DWORD_READONLY(SceneId, "")
+	REGISTER_LUA_DWORD_READONLY(SceneTemplateId, "")
+	REGISTER_LUA_INTEGER_READONLY(FaceDirection, "")
+	REGISTER_LUA_STRING_READONLY(Name, "玩家名称")
+	REGISTER_LUA_DWORD_READONLY(KinId, "玩家家族Id")
+	REGISTER_LUA_FUNC(IsNpc, "判断一个Character是否是一个Character", "", "", "")
+	REGISTER_LUA_FUNC(IsDead, "判断是否死亡", "", "", "1 死亡状态 nil 未死亡")
+	REGISTER_LUA_FUNC(IsPlayer, "判断一个Character是否是一个Player", "", "", "")
+	REGISTER_LUA_FUNC(IsBZonePlayer, "判断一个Character是否是一个跨服Player", "", "", "")
+	REGISTER_LUA_FUNC(GetVar, "获取角色变量", "dd", "wVarGroup;wVarId;", "")
+	REGISTER_LUA_FUNC(SetVar, "设置角色变量", "ddd", "wVarGroup;wVarId;dwVarValue;", "")
+	REGISTER_LUA_FUNC(RawSetVar, "", "ddd", "wVarGroup;wVarId;dwVarValue;", "")
+	REGISTER_LUA_FUNC(GetPosition, "获取逻辑位置", "", "", "{ dwSceneId, nX, nY, nZ }")
+	REGISTER_LUA_FUNC(GetWorldPos, "获取逻辑位置，兼容某些旧脚本", "", "", "dwSceneId, nX, nY, nZ")
+	REGISTER_LUA_FUNC(GetDestination, "获取目标点位置", "", "", "{ dwSceneId, nX, nY, nZ }")
+	REGISTER_LUA_FUNC(Jump, "跳跃", "[d]", "是否同步给他自己（默认为1，用于服务端主动控制玩家移动）;", "")
+	REGISTER_LUA_FUNC(GoTo, "使角色走向目标点", "ddd[d]", "x;y;z;是否同步给他自己（默认为0，服务端主动控制玩家移动时用1）;", "")
+	REGISTER_LUA_FUNC(StopMove, "停止移动", "", "", "")
+	REGISTER_LUA_FUNC(AddExp, "增加经验", "d", "增加经验值;", "")
+	REGISTER_LUA_FUNC(ChangeFaceDirection, "改变朝向", "d", "nFaceDirection;", "")
+	REGISTER_LUA_FUNC(GetCharacterTempTable, "获得临时table", "", "", "")
+	REGISTER_LUA_FUNC(IsNearBy, "判断目标是否在Character附近", "d[d]", "dwSceneObjectId 目标player/npc/doodad的Id;nDistance 距离(厘米);", "1 在附近 0 不在")
+	REGISTER_LUA_FUNC(IsNearByIn2D, "XY平面判断目标是否在Character附近", "dd", "dwSceneObjectId 目标player/npc/doodad的Id;nDistance 距离(厘米);", "1 在附近 0 不在")
+	REGISTER_LUA_FUNC(IsInDynamicScene, "判断是否在副本中", "", "", "TRUE FALSE")
+	REGISTER_LUA_FUNC(IsOnFierce, "判断是否处于狂暴状态", "", "", "1 狂暴 0 正常")
+	REGISTER_LUA_FUNC(KilledBy, "直接杀死角色", "[o]", "pKiller;", "")
+	REGISTER_LUA_FUNC(IsInRecRange, "是否在区域范围内", "dddd", "最小X;最大X;最小Y;最大Y;", "bool")
+	REGISTER_LUA_FUNC(IsInCircle, "是否在区域范围内", "dddd", "区域中心X;区域中心Y;区域中心Z;区域半径R;", "bool")
+	REGISTER_LUA_FUNC(IsBack, "是否在区域范围内", "d", "AimID;", "bool")
+	REGISTER_LUA_FUNC(GetEnemyInDis, "返回区域范围内敌人列表", "d", "nRadius;", "")
+	REGISTER_LUA_FUNC(CopyAITarget, "复制AI目标", "dd", "dwDestId;nTargetType;", "1成功 0失败")
+	REGISTER_LUA_FUNC(GetTarget, "获取目标", "", "", "")
+	REGISTER_LUA_FUNC(CalcFightScore, "重新计算角色战斗力", "", "", "")
+	REGISTER_LUA_FUNC(SetTarget, "设置目标", "", "", "")
+	REGISTER_LUA_FUNC(ModifyThreat, "设置威胁值", "dd", "dwCharacterId;nThreat;", "")
+
+#ifdef GAME_SERVER
+	REGISTER_LUA_FUNC(SetVisible, "隐藏角色", "d", "1显示 0隐藏;", "")
+	REGISTER_LUA_FUNC(SetSkillHidden, "隐藏角色", "d", "1隐身 0显身;", "")
+	REGISTER_LUA_FUNC(SetMoveState, "设定角色移动状态", "d", "nState;", "")
+	REGISTER_LUA_FUNC(GetMoveState, "获取角色移动状态", "", "", "d")
+	REGISTER_LUA_FUNC(SetFaceDirection, "设定角色朝向", "d", "朝向0-360;", "")
+	REGISTER_LUA_FUNC(GetNearByNpcInSector, "获取扇形范围内NPC", "dd", "nRadius 半径;nAngle 角度（一半）;", "")
+	REGISTER_LUA_FUNC(GetNearByPlayerInSector, "获取扇形范围内玩家", "dd", "nRadius 半径;nAngle 角度（一半）;", "")
+	REGISTER_LUA_FUNC(GetFrontPosition, "获取目标前方距离X的点", "d[d]", "nDistance 距离(单位m);nDirection 方向;", "")
+	REGISTER_LUA_FUNC(GetDirection, "获取目标与（nX,nY）的点的距离", "dd", "nX;nY;", "")
+	REGISTER_LUA_FUNC(AddSkillTest, "加技能，测试", "d", "nSkillId;", "")
+	REGISTER_LUA_FUNC(CheckTrigger, "加BUFF，测试", "s[oo]", "szEvent;EventSender;EventReceive;", "")
+#endif // #ifdef GAME_SERVER
+DEFINE_LUA_CLASS_END()

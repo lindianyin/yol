@@ -1,0 +1,8 @@
+id	awardId	finishCount	autoGive	awardDesc	conditionDesc	iconPath	iconIdx	tips
+条件id	奖励id	完成次数	自动给	奖励说明	说明	图标路径	图标索引	提示
+1	13	1	0	1000铜钱	坐骑达到第三阶	items/item_scriptitem001.unity3d		坐骑达到第三阶
+2	14	1	0	2000铜钱	拥有3个以上的绿色神仙	items/item_scriptitem001.unity3d		拥有3个以上的绿色神仙
+3	15	1	0	3000铜钱	竞技场进入300名	items/item_petitem001.unity3d		竞技场进入300名
+4	16	1	0	4000铜钱	2件装备升到蓝品	items/item_scriptitem001.unity3d		2件装备升到蓝品
+5	17	1	0	5000铜钱	伐魔塔达到40层	items/item_scriptitem001.unity3d		伐魔塔达到40层
+6	18	1	0	6000铜钱	战斗力达到25000	items/item_petitem001.unity3d		战斗力达到25000

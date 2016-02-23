@@ -1,0 +1,29 @@
+MapId	MinLevel	Degree	Name	EnterNeedItem
+550	30	None	百毒邪教	
+551	30	None	百鬼夜行	
+552	40	None	进击的妖兽	
+553	40	None	进击的胖子	
+554	50	None	邪恶天残	
+555	50	None	邪恶空虚	
+556	60	None	邪恶天残	
+557	60	None	邪恶空虚	
+303	25	LS_Multi	冲出敌阵-普通	
+301	35	LS_Multi	四兽宝塔-普通	
+302	45	LS_Multi	偷袭恶人寨-普通	
+304	50	LS_Multi	机关地牢-普通	
+318	25	LS_Multi	冲出敌阵-困难	
+316	35	LS_Multi	四兽宝塔-困难	
+317	45	LS_Multi	偷袭恶人寨-困难	
+319	50	LS_Multi	机关地牢-困难	
+501	25	YS_Multi	密室逃脱-普通	
+500	35	YS_Multi	惊险陡坡-普通	
+502	45	YS_Multi	群魔来袭-普通	
+503	50	YS_Multi	斗破三界-普通	
+521	25	YS_Multi	密室逃脱-困难	
+520	35	YS_Multi	惊险陡坡-困难	
+522	45	YS_Multi	群魔来袭-困难	
+523	50	YS_Multi	斗破三界-困难	
+601	30	ZZ_Multi	冰火炼狱-普通	18,1,245:1
+602	40	ZZ_Multi	赤炼魔掌-普通	18,1,246:1
+600	50	ZZ_Multi	大将军-普通	18,1,248:1
+603	55	ZZ_Multi	白骨精-普通	18,1,247:1

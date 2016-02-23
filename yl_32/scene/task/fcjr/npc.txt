@@ -1,0 +1,24 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+425	邪恶魔人						scene/task/fcjr/fcjr_juren.txt
+426	邪恶魔人						scene/task/fcjr/fcjr_juren.txt
+427	透明						scene/task/fcjr/fcjr_touming.txt
+428	旋风						scene/task/fcjr/fcjr_touming.txt
+429	天兵 (站打)						scene/task/fcjr/fcjr_tianbing.txt
+430	天兵（冲打）					2	scene/task/fcjr/fcjr_tianbing.txt
+431	魔兵（站打）						scene/task/fcjr/fcjr_mobing.txt
+432	魔兵						scene/task/fcjr/fcjr_mobing.txt
+433	天兵（剧情带头）						scene/task/fcjr/fcjr_tianbing.txt
+434	天兵（剧情）						scene/task/fcjr/fcjr_tianbing.txt
+435	天兵（剧情）						scene/task/fcjr/fcjr_tianbing.txt
+436	魔兵（冲打）						scene/task/fcjr/fcjr_mobing.txt
+437	自杀						scene/task/fcjr/fcjr_touming.txt
+438	目标						scene/task/fcjr/fcjr_touming.txt
+439	魔兵弓箭手						scene/task/fcjr/fcjr_jian.txt
+440	天兵 (剧情)						scene/task/fcjr/fcjr_tianbing.txt
+441	邪恶魔人						scene/task/fcjr/fcjr_juren.txt
+442	魔石						scene/task/fcjr/fcjr_moshi.txt
+443	魔兵						scene/task/fcjr/fcjr_mobing.txt
+444	魔兵						scene/task/fcjr/fcjr_mobing.txt
+445	火球						scene/task/fcjr/fcjr_touming.txt
+446	魔兵						scene/task/fcjr/fcjr_mobing.txt
+447	魔兵弓箭手						scene/task/fcjr/fcjr_mobing.txt

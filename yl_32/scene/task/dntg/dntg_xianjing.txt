@@ -1,0 +1,6 @@
+PointClass	X	Y	Z	FaceDirection
+xianjing	3005	3639	1048576	75
+xianjing	3277	3793	1048576	75
+xianjing	3224	4191	1048576	75
+xianjing	2795	4170	1048576	75
+xianjing	2720	3851	1048576	75

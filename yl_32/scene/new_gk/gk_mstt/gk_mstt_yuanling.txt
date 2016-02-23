@@ -1,0 +1,2 @@
+PointClass	X	Y	Z	FaceDirection
+yuanling	3107	5442	1048576	45

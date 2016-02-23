@@ -1,0 +1,7 @@
+PointClass	X	Y	Z	FaceDirection
+bianshen	944	1073	1048576	0
+bianshen	1614	1136	1048576	0
+bianshen	1849	1496	1048576	0
+bianshen	1921	2072	1048576	0
+bianshen	1210	2586	1048576	0
+bianshen1	1051	1914	1048576	0

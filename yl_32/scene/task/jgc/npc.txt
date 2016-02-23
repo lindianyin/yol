@@ -1,0 +1,11 @@
+TemplateId	Comment	X	Y	Z	FaceDirejgcion	RegenerationTime	PosFile	Count
+727	机关人						scene/task/jgc/jgc_jiguanren.txt
+728	机关兽						scene/task/jgc/jgc_jingying.txt
+729	超级机关兽						scene/task/jgc/jgc_jingying.txt
+730	机关						scene/task/jgc/jgc_jiguan.txt
+731	火球1						scene/task/jgc/jgc_jiguan.txt
+732	火球2						scene/task/jgc/jgc_jiguan.txt
+733	火球3						scene/task/jgc/jgc_jiguan.txt
+734	火球4						scene/task/jgc/jgc_jiguan.txt
+735	火球5						scene/task/jgc/jgc_jiguan.txt
+736	火球6						scene/task/jgc/jgc_jiguan.txt

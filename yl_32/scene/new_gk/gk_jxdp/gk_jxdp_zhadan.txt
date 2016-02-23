@@ -1,0 +1,5 @@
+PointClass	X	Y	Z	FaceDirection
+zhadan	1514	5941	1048576	45
+zhadan1	1514	5941	1048576	45
+zhadan2	2014	6247	1048576	45
+zhadan3	2036	6636	1048576	45

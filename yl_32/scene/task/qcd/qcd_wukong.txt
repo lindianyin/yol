@@ -1,0 +1,3 @@
+PointClass	X	Y	Z	FaceDirection
+wukong	845	1514	1048576	75
+wukong1	1765	1978	1048576	0

@@ -1,0 +1,5 @@
+PointClass	X	Y	Z	FaceDirection
+shuijing1	2974	2035	1048576	45
+shuijing2	1944	5635	1048576	45
+shuijing4	3106	5312	1048576	45
+shuijing3	6041	5912	1048576	45

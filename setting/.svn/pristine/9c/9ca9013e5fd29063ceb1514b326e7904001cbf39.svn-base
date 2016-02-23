@@ -1,0 +1,3 @@
+PatrolPathID	PatrolPathWalkSpeed	PatrolPathOrderID	PatrolPathFileName
+1	13	1	setting/scene/shxd/patrolpath/patrolpathlist0.txt
+2	13	1	setting/scene/shxd/patrolpath/patrolpathlist1.txt

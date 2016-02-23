@@ -1,0 +1,2 @@
+PatrolPathID	PatrolPathWalkSpeed	PatrolPathOrderID	PatrolPathFileName
+1	11	1	setting/scene/ttz/patrolpath/patrolpathlist0.txt

@@ -1,0 +1,12 @@
+TemplateId	Comment	X	Y	Z	FaceDiresmpd2ion	RegenerationTime	PosFile	Count
+580	百年老妖（巡逻）						scene/task/smpd2/smpd2_bai.txt	
+581	百年老妖（被吸）						scene/task/smpd2/smpd2_bai.txt	
+582	千年老妖（剧情）						scene/task/smpd2/smpd2_qian.txt	
+583	千年老妖						scene/task/smpd2/smpd2_qian.txt	
+584	宝塔（采集）						scene/task/smpd2/smpd2_ta.txt	
+585	宝塔（吸人）						scene/task/smpd2/smpd2_ta.txt	
+586	千年老妖（被吸）						scene/task/smpd2/smpd2_qian.txt	
+587	目标（无用）						scene/task/smpd2/smpd2_touming.txt	
+588	透明伤人						scene/task/smpd2/smpd2_ta.txt	
+589	宝塔（剧情）						scene/task/smpd2/smpd2_ta.txt	
+590	宝塔（无箭头）						scene/task/smpd2/smpd2_ta.txt	

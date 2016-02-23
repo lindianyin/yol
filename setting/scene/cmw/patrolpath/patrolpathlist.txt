@@ -1,0 +1,2 @@
+PatrolPathID	PatrolPathWalkSpeed	PatrolPathOrderID	PatrolPathFileName
+3	11	1	setting/scene/cmw/patrolpath/patrolpathlist0.txt

@@ -1,0 +1,14 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+375	牛兵						scene/task/xrg/xrg_niubing.txt
+376	城墙（被攻击）						scene/task/xrg/xrg_qiang.txt
+377	墙上士兵						scene/task/xrg/xrg_mache.txt
+378	牛兵						scene/task/xrg/xrg_niubing.txt
+379	牛兵						scene/task/xrg/xrg_niubing.txt
+380	牛兵						scene/task/xrg/xrg_niubing.txt
+380	牛兵						scene/task/xrg/xrg_niubing.txt
+381	邪恶牛兵（带电）						scene/task/xrg/xrg_xiee.txt
+382	邪恶牛兵（不带电）						scene/task/xrg/xrg_xiee.txt
+383	马车						scene/task/xrg/xrg_mache.txt
+384	士兵						scene/task/xrg/xrg_mache.txt
+385	邪恶牛兵（带电剧情）						scene/task/xrg/xrg_xiee.txt
+386	邪恶牛兵（带电跑）						scene/task/xrg/xrg_xiee.txt

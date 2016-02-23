@@ -1,0 +1,5 @@
+PointClass	X	Y	Z	FaceDirection
+zisha	2062	2362	1048576	110
+zisha	1920	2599	1048576	0
+zisha	2296	2418	1048576	0
+mubiao	2330	2639	1048576	0

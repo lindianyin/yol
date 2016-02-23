@@ -1,0 +1,11 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+8201	黑老鸦						scene/fmt/fmt03/monster.txt	
+8211	鸟人						scene/fmt/fmt03/monster.txt	
+8221	猕猴						scene/fmt/fmt03/monster.txt	
+8231	江湖人士						scene/fmt/fmt03/monster.txt	
+8241	<color=green>[精英]大巨人						scene/fmt/fmt03/monster.txt	
+8251	毒箭兵						scene/fmt/fmt03/monster.txt	
+8261	熔岩怪						scene/fmt/fmt03/monster.txt	
+8271	鬼魂						scene/fmt/fmt03/monster.txt	
+8281	食人花						scene/fmt/fmt03/monster.txt	
+8291	<color=green>[boss]右封印将军						scene/fmt/fmt03/monster.txt	

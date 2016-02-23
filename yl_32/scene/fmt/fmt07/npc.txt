@@ -1,0 +1,11 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+8001	魔兵						scene/fmt/fmt01/monster.txt	
+8011	白脸鬼						scene/fmt/fmt01/monster.txt	
+8021	黑脸鬼						scene/fmt/fmt01/monster.txt	
+8031	鱼怪						scene/fmt/fmt01/monster.txt	
+8041	南海龙太子						scene/fmt/fmt01/monster.txt	
+8051	河妖						scene/fmt/fmt01/monster.txt	
+8061	河怪						scene/fmt/fmt01/monster.txt	
+8071	大河怪						scene/fmt/fmt01/monster.txt	
+8081	强盗						scene/fmt/fmt01/monster.txt	
+8091	二当家						scene/fmt/fmt01/monster.txt	

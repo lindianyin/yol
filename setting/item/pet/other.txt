@@ -1,0 +1,30 @@
+Name	Desc	Genre	DetailType	ParticularType	Icon	View	Intro	CurrencyType	Price	Stack	ItemValue	MakeCost	BindType	Valuable	CanTrade	CanDestroy	ReqLevel	Quality	ClassName	ForbidType	CDType	ExtParam1	ExtParam2	ExtParam3	ExtParam4	ExtParam5	ExtParam6	ExtParam7	ExtParam8	ExtParam9	ExtParam10
+神仙升阶丸	\r<color=yellow>神仙升阶需消耗的道具\r<color=green>获得方式：\r1.神仙卡牌合成获得\r2.精魄商店兑换获得\r3.参加洞天副本概率掉落\r4.商城购买获得\r\r<color=cyan>在神仙进阶面板中使用	24	2	8				2	500	999	1000		1	0			1	4													
+神仙聚灵球	用于增加召唤神仙成功概率	24	3	1			右键点击使用	2		999	1000		1	0			1	3	pet												
+神仙经验书	\r<color=yellow>神仙升级需消耗的道具，使用后可增加10000点神仙经验值\r<color=green>获得方式：\r1.通关御神副本\r2.商城购买获得\r\r<color=cyan>在神仙面板中使用	24	5	1			右键点击使用	2	50	999	1000		1	0			1	3	pet			10000									
+神仙技能书	\r<color=yellow>神仙技能升级需消耗的道具\r<color=green>获得方式：\r1.神仙卡牌合成获得\r2.商城购买获得\r\r<color=cyan>在神仙面板中使用	24	8	1			右键点击使用	2	50	999	1000		1	0			1	3	pet												
+神仙声望包	开启能获得1000声望，用于在南天门招募神仙。	24	9	1			右键点击使用	2		1	1000		1	0			1	5	box_award			25									
+天神令	\r<color=yellow>使用后可获得白品神仙：童女\r<color=green>获得方式：\r碎片合成\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	10	1			右键点击使用	2	1000	1	1000		1	0			1	1	pet_card			802	1	8							
+天神令	\r<color=yellow>使用后可获得白品神仙：日月星君\r<color=green>获得方式：\r碎片合成\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	11	1			右键点击使用	2	1000	1	1000		1	0			1	1	pet_card			805	1	8							
+天神令	\r<color=yellow>使用后可获得白品神仙：龟丞相\r<color=green>获得方式：\r碎片合成\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	12	1			右键点击使用	2	1000	1	1000		1	0			1	1	pet_card			808	1	8							
+天神令	\r<color=yellow>使用后可获得白品神仙：巨灵神\r<color=green>获得方式：\r碎片合成\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	13	1			右键点击使用	2	1000	1	1000		1	0			1	1	pet_card			809	1	8							
+天神令	\r<color=yellow>使用后可获得绿品神仙：小龙女\r<color=green>获得方式：\r碎片合成\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	14	1			右键点击使用	2	3000	1	1000		1	0			1	2	pet_card			803	2	8							
+天神令	\r<color=yellow>使用后可获得绿品神仙：南海龙太子\r<color=green>获得方式：\r碎片合成\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	15	1			右键点击使用	2	3000	1	1000		1	0			1	2	pet_card			804	2	8							
+天神令	\r<color=yellow>使用后可获得绿品神仙：紫霞仙子\r<color=green>获得方式：\r碎片合成、开通VIP1\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	16	1			右键点击使用	2	3000	1	1000		1	0			1	2	pet_card			810	2	8							
+天神令	\r<color=yellow>使用后可获得绿品神仙：雷震子\r<color=green>获得方式：\r碎片合成\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	17	1			右键点击使用	2	3000	1	1000		1	0			1	2	pet_card			811	2	8							
+天神令	\r<color=yellow>使用后可获得蓝品神仙：嫦娥\r<color=green>获得方式：\r碎片合成\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	18	1			右键点击使用	2	5000	1	1000		1	0			1	3	pet_card			812	3	8							
+天神令	\r<color=yellow>使用后可获得蓝品神仙：九天玄女\r<color=green>获得方式：\r碎片合成\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	19	1			右键点击使用	2	5000	1	1000		1	0			1	3	pet_card			813	3	8							
+天神令	\r<color=yellow>使用后可获得蓝品神仙：猪八戒\r<color=green>获得方式：\r碎片合成\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	20	1			右键点击使用	2	5000	1	1000		1	0			1	3	pet_card			814	3	8							
+天神令	\r<color=yellow>使用后可获得蓝品神仙：哪吒\r<color=green>获得方式：\r碎片合成、开通VIP4\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	21	1			右键点击使用	2	5000	1	1000		1	0			1	3	pet_card			815	3	8							
+天神令	\r<color=yellow>使用后可获得紫品神仙：托塔天王\r<color=green>获得方式：\r碎片合成\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	22	1			右键点击使用	2	8000	1	1000		1	0			1	4	pet_card			816	4	8							
+天神令	\r<color=yellow>使用后可获得紫品神仙：阎罗王\r<color=green>获得方式：\r碎片合成\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	23	1			右键点击使用	2	8000	1	1000		1	0			1	4	pet_card			817	4	8							
+天神令	\r<color=yellow>使用后可获得紫品神仙：王母娘娘\r<color=green>获得方式：\r碎片合成\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	24	1			右键点击使用	2	8000	1	1000		1	0			1	4	pet_card			818	4	8							
+天神令	\r<color=yellow>使用后可获得紫品神仙：二郎神\r<color=green>获得方式：\r碎片合成、开通VIP6\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	25	1			右键点击使用	2	8000	1	1000		1	0			1	4	pet_card			807	4	8							
+天神令	\r<color=yellow>使用后可获得橙品神仙：太上老君\r<color=green>获得方式：\r碎片合成\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	26	1			右键点击使用	2	10000	1	1000		1	0			1	5	pet_card			806	5	8							
+天神令	\r<color=yellow>使用后可获得橙品神仙：孙悟空\r<color=green>获得方式：\r碎片合成\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	27	1			右键点击使用	2	10000	1	1000		1	0			1	5	pet_card			819	5	8							
+天神令	\r<color=yellow>使用后可获得橙品神仙：精卫\r<color=green>获得方式：\r碎片合成\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	28	1			右键点击使用	2	10000	1	1000		1	0			1	5	pet_card			820	5	8							
+天神令	\r<color=yellow>使用后可获得橙品神仙：南海观音\r<color=green>获得方式：\r碎片合成、开通VIP8\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	29	1			右键点击使用	2	10000	1	1000		1	0			1	5	pet_card			821	5	8							
+天神令	\r<color=yellow>使用后可获得金品神仙：盘古\r<color=green>获得方式：\r碎片合成\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	30	1			右键点击使用	2	15000	1	1000		1	0			1	6	pet_card			822	6	8							
+天神令	\r<color=yellow>使用后可获得金品神仙：伏羲\r<color=green>获得方式：\r碎片合成\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	31	1			右键点击使用	2	15000	1	1000		1	0			1	6	pet_card			823	6	8							
+天神令	\r<color=yellow>使用后可获得金品神仙：如来佛祖\r<color=green>获得方式：\r碎片合成、开通VIP10\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	32	1			右键点击使用	2	15000	1	1000		1	0			1	6	pet_card			824	6	8							
+天神令	\r<color=yellow>使用后可获得金品神仙：女娲\r<color=green>获得方式：\r碎片合成\r\r<color=cyan>在神仙栏位有空位时，右键点击使用	24	33	1			右键点击使用	2	15000	1	1000		1	0			1	6	pet_card			825	6	8							

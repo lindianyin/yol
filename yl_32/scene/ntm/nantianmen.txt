@@ -1,0 +1,2 @@
+PointClass	X	Y	Z	FaceDirection
+nantianmen	2038	2060	1069056	239

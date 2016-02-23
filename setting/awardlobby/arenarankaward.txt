@@ -1,0 +1,7 @@
+id	iconPath	iconIndex	awardId	desc	picName	minValue
+1			1	竞技冲榜第1名	jj_1	
+2			2	竞技冲榜第2名	jj_2	
+3			3	竞技冲榜第3名	jj_3	
+4			4	竞技冲榜4-10	jj_4	
+5			5	竞技冲榜11-30	jj_11	
+6			6	竞技冲榜31-&	jj_31	

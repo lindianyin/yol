@@ -1,0 +1,26 @@
+PetId	PetNpcId	NpcRepresentId	Name	Desc	Quality	IconPath	IconIndex	Hungry	ShowEffectPendant	PetSkill1	PetSkill2	Effect1	Effect2	Effect3	Effect4	Effect5	Effect6	Effect7	Effect8	Effect9
+宠物形象	这个神仙对应有一个NPC,神仙岛的神仙（npc.txt）	对应NpcRepresent表，跟宠神仙表现	名字	描述	所属品质			饥饿度消耗	出现特效挂件	技能1	技能2	特效1	特效2	特效3	特效4	特效5	特效6	特效7	特效8	特效9
+802	501	501	童女	童女     （1级神仙）	1	icon/shenxiantouxiang_001.unity3d	4	0		8	42									
+805	505	505	日月星君	日月星君 （1级神仙）	1	icon/shenxiantouxiang_001.unity3d	3	0		9	48									
+808	508	508	龟丞相	龟丞相   （1级神仙）	1	icon/shenxiantouxiang_001.unity3d	2	0		7	36									
+809	509	509	巨灵神	巨灵神    (1级神仙）	1	icon/shenxiantouxiang_001.unity3d	1	0		6	30									
+803	500	500	小龙女	小龙女   （2级神仙）	2	icon/shenxiantouxiang_001.unity3d	5	0		11	37									
+804	504	504	南海龙太子	南海龙太子（2级神仙）	2	icon/shenxiantouxiang_001.unity3d	7	0		10	31									
+810	510	510	紫霞仙子	紫霞仙子 （2级神仙）	2	icon/shenxiantouxiang_001.unity3d	6	0		12	43									
+811	511	511	雷震子	雷震子   （2级神仙）	2	icon/shenxiantouxiang_001.unity3d	8	0		13	49									
+812	512	512	嫦娥	嫦娥     （3级神仙）	3	icon/shenxiantouxiang_001.unity3d	9	0		15	38									
+813	513	513	九天玄女	九天玄女 （3级神仙）	3	icon/shenxiantouxiang_001.unity3d	10	0		16	44									
+814	514	514	猪八戒	猪八戒   （3级神仙）	3	icon/shenxiantouxiang_001.unity3d	12	0		17	50									
+815	515	515	哪吒	哪吒     （3级神仙）	3	icon/shenxiantouxiang_001.unity3d	11	0		14	32									
+816	516	516	托塔天王	托塔天王 （4级神仙）	4	icon/shenxiantouxiang_001.unity3d	14	0		19	39									
+817	517	517	阎罗王	阎罗王   （4级神仙）	4	icon/shenxiantouxiang_001.unity3d	15	0		21	51									
+818	518	518	王母娘娘	王母娘娘 （4级神仙）	4	icon/shenxiantouxiang_001.unity3d	16	0		20	45									
+807	503	503	二郎神	二郎神   （4级神仙）	4	icon/shenxiantouxiang_001.unity3d	13	0		18	33									
+806	502	502	太上老君	太上老君 （5级神仙）	5	icon/shenxiantouxiang_002.unity3d	3	0		25	52									
+819	519	519	孙悟空	孙悟空   （5级神仙）	5	icon/shenxiantouxiang_002.unity3d	2	0		22	34									
+820	520	520	精卫	精卫     （5级神仙）	5	icon/shenxiantouxiang_002.unity3d	4	0		23	40									
+821	521	521	南海观音	南海观音 （5级神仙）	5	icon/shenxiantouxiang_002.unity3d	1	0		24	46									
+822	522	522	盘古	盘古     （6级神仙）	6	icon/shenxiantouxiang_002.unity3d	7	0		26	35									
+823	523	523	伏羲	伏羲     （6级神仙）	6	icon/shenxiantouxiang_002.unity3d	8	0		29	53									
+824	524	524	如来佛祖	如来佛祖 （6级神仙）	6	icon/shenxiantouxiang_002.unity3d	5	0		27	41									
+825	525	525	女娲	女娲     （6级神仙）	6	icon/shenxiantouxiang_002.unity3d	6	0		28	47									

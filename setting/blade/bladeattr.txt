@@ -1,0 +1,2 @@
+Life	Mana	Attack	Def	Hit	Miss	Crit	Resist
+100	100	100	100	100	100	100	100

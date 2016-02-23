@@ -1,0 +1,4 @@
+PointClass	X	Y	Z	FaceDirection
+jingying1	2504	5628	1048576	35
+jingying1	2922	5733	1048576	75
+jingying1	3413	5746	1048576	75

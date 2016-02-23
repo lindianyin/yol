@@ -1,0 +1,2 @@
+ItemTemplateId	Level	Min	Max	DropRate
+1	1			

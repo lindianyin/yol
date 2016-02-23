@@ -1,0 +1,9 @@
+StageID	MinLineNum	MaxLineNum
+装备品级	开始行数	结束行数
+1	3	14
+2	3	26
+3	3	38
+4	3	50
+5	3	62
+6	3	74
+7	3	86

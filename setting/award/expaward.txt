@@ -1,0 +1,15 @@
+ExpAwardId	Desc	Path
+玩法id	玩法描述	玩法经验奖励路径
+1	关卡	stage_exp_award.txt
+2	伐魔塔	tower_exp_award.txt
+3	10级单人副本	instance_exp_award_lv10.txt
+4	20级单人副本	instance_exp_award_lv20.txt
+5	30级单人副本	instance_exp_award_lv30.txt
+6	每日必做完成经验	dailytasks_exp_award.txt
+7	40级单人副本	instance_exp_award_lv40.txt
+8	50级单人副本	instance_exp_award_lv50.txt
+9	60级单人副本	instance_exp_award_lv60.txt
+10	蛮荒之地NPC经验20级	mhzd_exp_award_lv20.txt
+11	蛮荒之地NPC经验40级	mhzd_exp_award_lv40.txt
+12	蛮荒之地NPC经验60级	mhzd_exp_award_lv60.txt
+13	蛮荒之地NPC经验80级	mhzd_exp_award_lv80.txt

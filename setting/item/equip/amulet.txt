@@ -1,0 +1,5 @@
+Name	Desc	Genre	DetailType	ParticularType	Level	Category	Pandent1ID	Pandent2ID	CurrencyType	Price	ReqLevel	MaxDurability	ItemValue	CanTrade	CanDestroy	Quality	BindType	ClassName	SlotMin	SlotMax	BasicPropType	BasicPropValue	NeedItem1G	NeedItem1D	NeedItem1P	NeedItem1Amount	NeedItem2G	NeedItem2D	NeedItem2P	NeedItem2Amount	NeedItem3G	NeedItem3D	NeedItem3P	NeedItem3Amount	ExPandent1	ExPandent2	ExPandent3
+						种类	特效挂件	特效挂件	货币类型	价值	需求等级	耐久度（不需要）		可否交易（不需要）	可否破坏（不需要）	品质	捆绑类型		宝石槽位	宝石槽位	装备基础属性类型	装备基础属性值															
+护符（白）		1	2	1	1	1	0	0	2	10	10	10			1	1	1	equip	3	3	modifydmg_v																
+护符（绿）		1	2	1	2	1	0	0	2	10	20	10			1	2	1	equip	3	3	modifydmg_v	45	18	1	312	1	18	1	301	2	18	1	302	2			
+护符（蓝）		1	2	1	3	1	0	0	2	10	30	10			1	3	1	equip	3	3	modifydmg_v																

@@ -1,0 +1,16 @@
+Name	Desc	Genre	DetailType	ParticularType	Level	Icon	View	Intro	CurrencyType	Price	Stack	ItemValue	CanSell	BindType	CanTrade	CanDestroy	ReqLevel	Quality	ClassName	ForbidType	CDType	MagicName1	Value1	Time1	MagicName2	Value2	Time2	MagicName3	Value3	Time3	CanUseInBZone
+金创药（小）	金创药（小）	17	1	1	1	\image\item\other\medicine\medicine_111_s.spr		最普通的补药，可回复少量生命。<color=green>适合PK竞技使用。<color>	2	1	1							1	medicine		1	add_buffer	601								
+新手金创药	血药模版	17	2	1	1				2	10	50		1	1		1	1	1	medicine		1	addcurlife_v	200								1
+入门金创药	血药模版	17	2	2	1				2	30	50		1	1		1	20	2	medicine		1	addcurlife_v	500								
+初级金创药	血药模版	17	2	3	1				2	60	50		1	1		1	30	2	medicine		1	addcurlife_v	800								
+中级金创药	血药模版	17	2	4	1				2	100	50		1	1		1	40	2	medicine		1	addcurlife_v	1200								
+精致金创药	血药模版	17	2	5	1				2	200	50		1	1		1	50	2	medicine		1	addcurlife_v	2000								
+高级金创药	血药模版	17	2	6	1				2	400	50		1	1		1	60	3	medicine		1	addcurlife_v	3000								
+新手元气丹	蓝药模版	17	3	1	1				2	10	50		1	1		1	1	1	medicine		2	addcurmana_v	150								
+入门元气丹	蓝药模版	17	3	2	1				2	30	50		1	1		1	20	2	medicine		2	addcurmana_v	400								
+初级元气丹	蓝药模版	17	3	3	1				2	60	50		1	1		1	30	2	medicine		2	addcurmana_v	650								
+中级元气丹	蓝药模版	17	3	4	1				2	100	50		1	1		1	40	2	medicine		2	addcurmana_v	1000								
+精致元气丹	蓝药模版	17	3	5	1				2	200	50		1	1		1	50	2	medicine		2	addcurmana_v	1500								
+高级元气丹	蓝药模版	17	3	6	1				2	400	50		1	1		1	60	3	medicine		2	addcurmana_v	2500								
+金创元气丹	双回药模版	17	4	1	1				2	10	50		1	1		1	1	1	medicine		3	addcurlife_v	10		addcurmana_v	10					
+筋骨药	属性药模版	17	5	1	1				2	10	50		1	1		1	10	1	medicine		4	addstrth	10	9600							

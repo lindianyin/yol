@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{16eb0919-7454-467c-9907-cf49784c629e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\LibQrt\Src\MysqlDB\stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\MysqlDB\KGD_Connect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\MysqlDB\KGD_Error.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\MysqlDB\KGD_MySQL_Database.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\MysqlDB\KGD_MySQL_Field.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\MysqlDB\KGD_MySQL_Result.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\LibQrt\Src\MysqlDB\stdafx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\MysqlDB\KGD_Error.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\MysqlDB\KGD_MySQL_Database.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\MysqlDB\KGD_MySQL_Field.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\MysqlDB\KGD_MySQL_Result.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\MysqlDB\KGD_Name.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+TemplateId	Comment	X	Y	Z	FaceDireqcdion	RegenerationTime	PosFile	Count
+591	ÀÏÊ÷¾«						scene/task/qcd/qcd_shujing.txt
+592	ÀÏÊ÷¾«						scene/task/qcd/qcd_shujing.txt
+593	ËïÎò¿Õ						scene/task/qcd/qcd_wukong.txt
+594	ËïÎò¿Õ						scene/task/qcd/qcd_wukong.txt
+595	Ï²ÑòÑò						scene/task/qcd/qcd_yang.txt

@@ -1,0 +1,1 @@
+ExpSceneId	Type	TargetId	ProgressId	Name	TemplateSceneId	PosX	PosY	PosZ	PosFile	TotalStar	AwardType	StarTips

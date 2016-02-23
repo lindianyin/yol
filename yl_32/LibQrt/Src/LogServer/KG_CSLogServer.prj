@@ -1,0 +1,28 @@
+[Include]
+/usr/include
+../../../Include
+../../../../DevEnv/Include
+
+[Config Debug]
+Product		EXE ../../../Product/linuxd/kg_cslogserverd_linux
+Options		Debug
+Defines		__linux; _STANDALONE; C_C_VERSION; KG_USE_LARGER_PACKAGE;
+ObjDir		LDebug
+LibDir		../../../lib/linuxd; ../../../../DevEnv/Lib/linuxd
+Libraries	Common; Engine; mysqlclient; z; pthread
+
+[Config Release]
+Product		Exe ../../../Product/linux/kg_cslogserver_linux
+Options		Release
+Defines		__linux; _STANDALONE; C_C_VERSION; KG_USE_LARGER_PACKAGE;
+ObjDir		LRelease
+LibDir		../../../lib/linuxd; ../../../../DevEnv/Lib/linuxd
+Libraries	Common; Engine; mysqlclient; z; pthread
+
+[Source]
+stdafx.cpp
+LogServer.cpp
+KG_Database.cpp
+KG_LogThread.cpp
+KG_SocketThread.cpp
+KG_MicroTimer.cpp

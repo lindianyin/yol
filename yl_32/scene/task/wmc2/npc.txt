@@ -1,0 +1,8 @@
+TemplateId	Comment	X	Y	Z	FaceDirewmc2ion	RegenerationTime	PosFile	Count
+760	”ƒ¡È						scene/task/wmc2/wmc2_bing.txt
+761	∂Ò¡È						scene/task/wmc2/wmc2_bing.txt
+762	‘π¡È£®æÁ«È£©						scene/task/wmc2/wmc2_boss.txt
+763	‘π¡È£®æÁ«È£©						scene/task/wmc2/wmc2_boss.txt
+764	–Ï∏£						scene/task/wmc2/wmc2_boss.txt
+765	–Ï∏££®æÁ«È£©						scene/task/wmc2/wmc2_boss.txt
+766	‘π¡È						scene/task/wmc2/wmc2_boss.txt

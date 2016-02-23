@@ -1,0 +1,3 @@
+PointClass	X	Y	Z	FaceDirection
+xiaobailian	2487	1874	1048576	75
+mubiao	2492	2674	1048576	75

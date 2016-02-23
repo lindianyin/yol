@@ -1,0 +1,2 @@
+PointClass	X	Y	Z	FaceDirection
+boss	1937	6561	1048576	75

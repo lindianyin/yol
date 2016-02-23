@@ -1,0 +1,10 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+2120	ÓãÑý						scene/dtfb/dt_jjdys/jjdys_yuyao.txt
+2121	´óÓãÑý						scene/dtfb/dt_jjdys/jjdys_yuyao.txt
+2122	ºïÑý						scene/dtfb/dt_jjdys/jjdys_houyao.txt
+2123	´óºïÑý						scene/dtfb/dt_jjdys/jjdys_houyao.txt
+2124	Ê÷Ñý						scene/dtfb/dt_jjdys/jjdys_shuyao.txt
+2125	¾ÞÊ÷Ñý						scene/dtfb/dt_jjdys/jjdys_shuyao.txt
+2126	ÄñÑý						scene/dtfb/dt_jjdys/jjdys_niaoyao.txt
+2127	¾ÞÄñÑý						scene/dtfb/dt_jjdys/jjdys_niaoyao.txt
+2128	ÁúÑý						scene/dtfb/dt_jjdys/jjdys_boss.txt

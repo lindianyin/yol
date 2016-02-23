@@ -1,0 +1,3 @@
+StageID	MinLineNum	MaxLineNum
+神仙品级	开始行数	结束行数
+1	3	9

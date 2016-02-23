@@ -1,0 +1,6 @@
+Index	szAwardType
+1	KinReputeEntry
+2	bindmoney
+3	activemoney
+4	bindcoin
+5	factionequip

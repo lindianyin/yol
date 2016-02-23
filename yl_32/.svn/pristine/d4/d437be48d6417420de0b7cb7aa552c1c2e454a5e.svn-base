@@ -1,0 +1,4 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+2529	战宝堂三层入口						scene/activity/zbt/twoceng2/men.txt
+2531	怪兽						scene/activity/zbt/twoceng2/boss.txt
+2534	小怪					10	scene/activity/zbt/twoceng2/monster.txt

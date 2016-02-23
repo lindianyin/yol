@@ -1,0 +1,8 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+25	Ð¡¹í						scene/task/dyzm/dyzm_shouwei.txt	
+26	°×Á³¹í						scene/task/dyzm/dyzm_quan.txt	
+27	ÖÐ¹í						scene/task/dyzm/dyzm_shouwei.txt	
+28	ºÚÁ³¹í						scene/task/dyzm/dyzm_heigui.txt	
+29	Ð¡¹í						scene/task/dyzm/dyzm_shouwei.txt	
+30	Ð¡¹í						scene/task/dyzm/dyzm_shouwei.txt	
+31	»ð¹ø						scene/task/dyzm/dyzm_huoguo.txt	

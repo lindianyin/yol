@@ -1,0 +1,15 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+345	火焰猕猴						scene/task/hgs/hgs_huoyan.txt	
+346	大眼猕猴						scene/task/hgs/hgs_dayan.txt	
+347	火焰猕猴(剧情)						scene/task/hgs/hgs_huoyan.txt	
+348	大眼猕猴（剧情）						scene/task/hgs/hgs_dayan.txt	
+349	火焰猕猴(剧情)						scene/task/hgs/hgs_huoyan.txt	
+350	猕猴法师（站立）						scene/task/hgs/hgs_fashi.txt	
+351	自杀						scene/task/hgs/hgs_touming.txt	
+352	目标						scene/task/hgs/hgs_touming.txt	
+353	猕猴祭司						scene/task/hgs/hgs_jisi.txt	
+354	猕猴法师						scene/task/hgs/hgs_fashi.txt	
+355	火焰猕猴(剧情2)						scene/task/hgs/hgs_huoyan.txt	
+356	猕猴祭司(剧情2)						scene/task/hgs/hgs_jisi.txt	
+357	猕猴法师(剧情2)						scene/task/hgs/hgs_fashi.txt	
+358	猕猴祭司						scene/task/hgs/hgs_jisi.txt	

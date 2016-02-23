@@ -1,0 +1,3 @@
+PointClass	X	Y	Z	FaceDirection
+dadangjia1	2469	2881	1048576	75
+dadangjia2	2469	2881	1048576	75

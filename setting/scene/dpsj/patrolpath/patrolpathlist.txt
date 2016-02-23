@@ -1,0 +1,2 @@
+PatrolPathID	PatrolPathWalkSpeed	PatrolPathOrderID	PatrolPathFileName
+1	13	1	setting/scene/dpsj/patrolpath/patrolpathlist0.txt

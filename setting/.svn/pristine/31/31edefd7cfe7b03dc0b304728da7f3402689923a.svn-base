@@ -1,0 +1,12 @@
+level	awardId	needCoins	gain	iconPath1	iconIndex1	iconPath2	iconIndex2	iconPath3	iconIndex3	npcEffectId	npcTempleteId	giftsPath	scale
+vip等级	奖励id,对应award表	需要充值元宝	会员增益	图标路径	图标索引	图标路径	图标索引	图标路径	图标索引		ncp模板id	礼包路径	npc缩放比列
+1	1	100	增加100生命	icon/v101Pic.unity3d	0	icon/v102Pic.unity3d	0	icon/v103Pic.unity3d	0	0	5000	vip1_gifts.txt	100.0, 100.0, 100.0
+2	2	500	增加200生命	icon/v201Pic.unity3d	0	icon/v202Pic.unity3d	0	icon/v203Pic.unity3d	0	0	5001	vip2_gifts.txt	60.0, 60.0, 60.0
+3	3	1000	增加300生命	icon/v301Pic.unity3d	0	icon/v302Pic.unity3d	0	icon/v303Pic.unity3d	0	77	0	vip3_gifts.txt	25.0, 25.0, 25.0
+4	4	2000	增加400生命	icon/v401Pic.unity3d	0	icon/v402Pic.unity3d	0	icon/v403Pic.unity3d	0	0	5003	vip4_gifts.txt	80.0, 80.0, 80.0
+5	5	5000	增加500生命	icon/v501Pic.unity3d	0	icon/v502Pic.unity3d	0	icon/v503Pic.unity3d	0	78	0	vip5_gifts.txt	25.0, 25.0, 25.0
+6	6	10000	增加600生命	icon/v601Pic.unity3d	0	icon/v602Pic.unity3d	0	icon/v603Pic.unity3d	0	0	5005	vip6_gifts.txt	55.0, 55.0, 55.0
+7	7	20000	增加700生命	icon/v701Pic.unity3d	0	icon/v702Pic.unity3d	0	icon/v703Pic.unity3d	0	79	0	vip7_gifts.txt	25.0, 25.0, 25.0
+8	8	50000	增加800生命	icon/v801Pic.unity3d	0	icon/v802Pic.unity3d	0	icon/v803Pic.unity3d	0	0	5007	vip8_gifts.txt	25.0, 25.0, 25.0
+9	9	100000	增加900生命	icon/v901Pic.unity3d	0	icon/v902Pic.unity3d	0	icon/v903Pic.unity3d	0	80	0	vip9_gifts.txt	25.0, 25.0, 25.0
+10	10	200000	增加1000生命	icon/v1001Pic.unity3d	0	icon/v1002Pic.unity3d	0	icon/v1003Pic.unity3d	0	0	5009	vip10_gifts.txt	25.0, 25.0, 25.0

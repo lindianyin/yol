@@ -1,0 +1,12 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+1470	机关人						scene/fb/teamfb05/sdbgj_guai.txt	
+1471	机关人						scene/fb/teamfb05/sdbgj_guai.txt	
+1472	机关兽						scene/fb/teamfb05/sdbgj_guai1.txt	
+1473	机关兽						scene/fb/teamfb05/sdbgj_guai1.txt	
+1474	机关邪童						scene/fb/teamfb05/sdbgj_guai2.txt	
+1475	机关邪童						scene/fb/teamfb05/sdbgj_guai2.txt	
+1476	机关傀儡						scene/fb/teamfb05/sdbgj_boss.txt	
+1477	火把						scene/fb/teamfb05/sdbgj_huoju.txt	
+1478	火把						scene/fb/teamfb05/sdbgj_huoju.txt	
+1479	一出来自杀						scene/fb/teamfb05/sdbgj_huoju.txt	
+1480	机关兽失灵						scene/fb/teamfb05/sdbgj_huoju.txt	

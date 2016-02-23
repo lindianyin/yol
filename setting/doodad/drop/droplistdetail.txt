@@ -1,0 +1,2 @@
+Level	Gold	NormalExp	CareerExp	Items
+1	1	1	1	1

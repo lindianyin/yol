@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{06743858-5b9f-45c6-9fb7-73501b3f45df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scene">
+      <UniqueIdentifier>{da9d6e5f-9df4-43de-b813-84492e1f3e0d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kenemycondition.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kgamebasescript_table.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kgamecenterprocess.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kgameservereyes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kluacharacter_table.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kluadoodad_table.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kluanpc_table.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kluaplayer_table.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kmodulemanager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\knetconnectplayer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\knetconnectplayer_client.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kplayerbaseprocess.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kplayerbaseprocess_client.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kplayerdbmanager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\KRelayClient.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\ksocketinterface.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kvarsetting.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\stdafx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\scene\ikscenemovectl.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kcell.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kobjectindex.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kregion.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kscene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kscenemgr.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kterraindata.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kcharacter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kcharacterclient.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kcharactermgr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kcharacterserver.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kcontainer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kdoodad.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kdoodadmgr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kdoodadscript.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kdoodadserver.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kenemycondition.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kgamebasescript.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kgamecenterprocess.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kgameclient.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kgameserver.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kgameservereyes.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kgameservereyes_script.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kgcmodulebase.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\klogwritter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kluacharacter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kluadoodad.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kluanpc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kluaplayer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kmodulemanager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\knetconnectplayer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\knetconnectplayer_client.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\knpc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\knpcclient.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\knpcmgr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\knpcserver.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\korpgworld.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\koverloadextension.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kplayer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kplayerbaseprocess.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kplayerbaseprocess_client.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kplayerclient.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kplayerdbmanager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kplayermanager_client.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kplayermgr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kplayerprotocolprocess.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kplayerserver.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kprotocolsize.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kregeneration_mgr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\KRelayClient.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\ksocketclient.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\ksocketserver.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kvarsetting.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\synchelper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kbaseobject.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kcell.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kmath.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kregion.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kscene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kscenemgr.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\scene\ksceneobject.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\scene\ksceneobjnode.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kterraindata.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

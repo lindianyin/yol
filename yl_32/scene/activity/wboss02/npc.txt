@@ -1,0 +1,7 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+2506	守卫						scene/activity/wboss02/monster.txt	
+2507	圆月狂刀						scene/activity/wboss02/boss.txt	
+2508	鲁大深						scene/activity/wboss02/boss.txt	
+2509	魔僧						scene/activity/wboss02/boss.txt	
+2510	武痴						scene/activity/wboss02/boss.txt	
+2504	去准备场						scene/activity/wboss02/boss.txt	

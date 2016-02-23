@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\activity\kactivityctrl.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\activity\kactivitymanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\activity\kactivitymodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\activity\kactivityscript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\AIPatrolGroupManager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\AISearchTactics.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\AISkillSelector.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\kaictrl.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\kaimanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\kaivm.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\kluaai.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\kluaaiaction.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\kluaailogic.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\kluaaistate.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\PatrolPath.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\PatrolPathList.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\Target.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\ThreatList.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\arena\ArenaHelper.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\arena\arenamodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\arena\ArenaRelayClient.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\arena\LuaPlayerArena.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\arena\playerarena.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\artifact\artifactmanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\artifact\artifactmodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\artifact\artifactsetting.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\artifact\luaplayerartifact.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\artifact\playerartifact.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\awardlobby\awardlobbymanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\awardlobby\awardlobbymodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\awardlobby\awardlobbysetting.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\awardlobby\luaplayerawardlobby.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\awardlobby\playerawardlobby.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\award\kaward.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\award\kawardctrl.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\award\kawardmanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\award\kawardmodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\award\kawardscript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\award\kawardsetting.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\bank\bankmanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\bank\bankmodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\bank\banksetting.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\bank\playerbank.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\bladestate\kbladectrl.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\bladestate\kblademodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\bladestate\kbladesetting.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\bufcommand.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\buffer.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\buffermanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\buffermodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\bufferprotocolprocessor.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\bufferscript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\bufsetting.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\buftimereffect.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\buftriggereffect.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\characterbuffer.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\groundbuffer.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\luabuffereffect.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\objectbuffer.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\chat\kchatapply_client.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\chat\kchatapply_gs.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\chat\kchatmodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\chat\kchatprotocolprocess.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\chat\kchatscript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\chat\kluaplayerchat.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\chat\kplayerchat.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\crosssv\kcrossservscript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\crosssv\kcrosssvctrl.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\escort\kescortctrl.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\escort\kescorthelper.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\escort\kescortmodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\escort\kescortrelayclient.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\escort\kescortscript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\faction\factionmanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\faction\factionmodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\faction\factionprotocolprocessor.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\faction\factionsetting.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\faction\playerfaction.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\fightskill\characterskill.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\fightskill\fightskill.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\fightskill\fightskillmanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\fightskill\fightskillmodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\fightskill\fightskillprotocolprocessor.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\fightskill\fightskillscript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\fightskill\fightskillsetting.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\fightskill\luacharacterskill.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\findpath\kfindpathmodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\findpath\kluaplayerfindpath.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\findpath\kplayerfindpath.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\gem\gemmanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\gem\gemmodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\gem\gemsetting.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\gem\luaplayergem.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\gem\playergem.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\instance\kinstancectrl.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\instance\kinstancemodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\instance\kinstancescript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\itemenv.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kbasproptbl.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kcdtime.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kdupeditemdeal.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kitem.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kitemgenerator.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kitemmgr.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kitemprotocolprocess.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kitemroom.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kitemscript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kitemsetting.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kitemtimeoutctrl.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\klibofbpt.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kluaitem.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kluaplayeritem.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kmagicattribgroup.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kmagicattribmanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kmagicdesc.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kmasocketset.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kplayeritem.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kswitchitem.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\kglobaldatascript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\kgsglobaldatamodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\kin\KinGcScript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\kin\KinModule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\kin\KinRelayClient.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\korpgmodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\kplayerchatchannel_gs.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\kprogressbar.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\kscenescript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\kscripthelper.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\kteammodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\kteamptcsize.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\kteamscriptfuns.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\LuaConstList.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\mail2\MailModule2.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\mail2\MailRelayClient.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\mail\kluaplayermail.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\mail\kmailctrl.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\mail\kmailmgr_client.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\mail\kmailmgr_gs.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\mail\kmailmodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\mail\kmailscript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\meditation\kmeditationctrl.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\meditation\kmeditationmodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\opense\luaplayeropense.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\opense\opensemanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\opense\opensemodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\opense\opensesetting.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\opense\playeropense.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\overallteam\koverallmanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\overallteam\koverallrelayclient.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kluapet.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kluaride.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kpet.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kpetctrl.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kpetmanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kpetmodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kpetscript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kpetsetting.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kride.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kridectrl.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\qplayerteam.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\qpursesetting.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\qteamgchandler.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\qteamserver.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\quiz\kquizscript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\quiz\luaplayerquiz.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\quiz\playerquiz.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\quiz\quizmanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\quiz\quizmodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\quiz\QuizRelayClient.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\quiz\quizsetting.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\rank\krankctrl.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\rank\krankmanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\rank\krankmodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\rank\krankscript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\rank\RankRelayClient.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\record\RecordRelayClient.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\relation\RelationModule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\remindscript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\remind\remindmanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\remind\remindmodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\stage\kstagectrl.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\stage\kstagemodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\stage\kstagescript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\target\luaplayertarget.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\target\playertarget.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\target\targetmanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\target\targetmodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\target\targetsetting.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\task\kluatask.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\task\ktaskctrl.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\task\ktaskctrl_s.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\task\ktaskmodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\task\ktaskscript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\task\ktasksetting.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\task\ktasktimer.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\title\luaplayertitle.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\title\playertitle.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\title\titlemanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\title\titlemodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\title\titlesetting.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\tower\ktowerctrl.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\tower\ktowermodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\tower\ktowerscript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\kbuysellmgr.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\kbuysellsetting.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\kgoods.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\kluaplayerpurse.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\kplayerpurse.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\kpursedata.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\kpursemodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\kpurseprotocolhandler.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\kpursescript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\qmysterygoods.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\qmysteryshopscript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\qplayershop.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\qsellsetting.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\qshopmodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\qshopscript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\vip\luaplayervip.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\vip\playervip.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\vip\vipmanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\vip\vipmodule.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamemodule\vip\vipsetting.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\activity\activitydef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\activity\kactivityctrl.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\activity\kactivitymanager.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\activity\kactivitymodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\activity\kactivityprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\activity\kactivityscript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\AIPatrolGroupManager.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\AISearchTactics.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\AISkillSelector.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\kluaai.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\kluaaiaction_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\kluaailogic_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\kluaaistate_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\kluaai_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\PatrolPathList.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\ai\ThreatList.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\arena\arenadef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\arena\ArenaHelper.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\arena\arenamodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\arena\arenaprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\arena\ArenaRelayClient.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\arena\LuaPlayerArena.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\arena\LuaPlayerArena_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\arena\playerarena.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\artifact\artifactdef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\artifact\artifactmanager.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\artifact\artifactmodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\artifact\artifactprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\artifact\artifactsetting.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\artifact\luaplayerartifact.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\artifact\luaplayerartifact_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\artifact\playerartifact.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\awardlobby\awardlobbydef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\awardlobby\awardlobbymanager.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\awardlobby\awardlobbymodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\awardlobby\awardlobbyprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\awardlobby\awardlobbysetting.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\awardlobby\luaplayerawardlobby.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\awardlobby\luaplayerawardlobby_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\awardlobby\playerawardlobby.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\award\awarddef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\award\kaward.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\award\kawardctrl.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\award\kawardmanager.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\award\kawardmodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\award\kawardprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\award\kawardscript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\award\kawardsetting.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\bank\bankdef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\bank\bankmanager.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\bank\bankmodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\bank\bankprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\bank\banksetting.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\bank\playerbank.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\bladestate\bladedef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\bladestate\kbladectrl.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\bladestate\kblademodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\bladestate\kbladeprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\bladestate\kbladesetting.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\bufcommand.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\buffer.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\buffermanager.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\bufferprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\bufferprotocolprocessor.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\bufferscript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\bufsetting.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\buftimereffect.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\buftriggereffect.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\groundbuffer.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\buffer\luabuffereffect_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\chat\kchatapply_client.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\chat\kchatapply_gs.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\chat\kchatprotocolprocess.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\chat\kchatscript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\chat\kluaplayerchat_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\crosssv\crosssvdef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\crosssv\kcrosssvctrl.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\crosssv\kcrosssvscript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\escort\kescortctrl.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\escort\kescorthelper.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\escort\kescortmodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\escort\kescortprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\escort\kescortrelayclient.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\escort\kescortscript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\faction\factiondef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\faction\factionmanager.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\faction\factionmodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\faction\factionprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\faction\factionprotocolprocessor.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\faction\factionsetting.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\fightskilldef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\fightskill\fightskill.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\fightskill\fightskillmanager.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\fightskill\fightskillmodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\fightskill\fightskillprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\fightskill\fightskillprotocolprocessor.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\fightskill\fightskillscript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\fightskill\fightskillsetting.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\fightskill\luacharacterskill_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\findpath\kfindpathmodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\findpath\kluaplayerfindpath.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\findpath\kluaplayerfindpath_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\findpath\kplayerfindpath.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\gem\gemdef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\gem\gemmanager.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\gem\gemmodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\gem\gemprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\gem\gemsetting.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\gem\luaplayergem.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\gem\luaplayergem_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\gem\playergem.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\instance\instancedef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\instance\kinstancectrl.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\instance\kinstancemodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\instance\kinstanceprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\instance\kinstancescript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\itemenv.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\itemenv_i.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kbasproptbl.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kcdtime.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kdupeditembase.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kdupeditemdeal.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kdupeditemdef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kitem.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kitemdatadef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kitemgenerator.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kitemmgr.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kitemprotocolprocess.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kitemroom.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kitemscript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kitemsetting.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kitemtimeoutctrl.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\klibofbpt.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kluaitem.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kluaitem_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kluaplayeritem.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kluaplayeritem_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kmagicattrib.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kmagicattribgroup.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kmagicattribmanager.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kmagicdesc.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kmanager_i.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kmasocketset.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kplayeritem.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\item2\kswitchitem.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\kglobaldatascript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\kgsglobaldatamodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\kin\KinGcScript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\kin\KinModule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\kin\KinRelayClient.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\kobjbuffer.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\korpgmodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\kscenescript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\kteammodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\kteamscriptfuns_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\mail2\MailModule2.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\mail2\MailProtocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\mail2\MailRelayClient.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\mail\kluaplayermail_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\mail\kmailscript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\meditation\kmeditationctrl.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\meditation\kmeditationmodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\meditation\kmeditationprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\meditation\meditationdef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\opense\luaplayeropense.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\opense\luaplayeropense_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\opense\opensedef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\opense\opensemanager.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\opense\opensemodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\opense\openseprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\opense\opensesetting.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\opense\playeropense.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\overallteam\koverallmanager.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\overallteam\koverallrelayclient.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kluapet.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kluapet_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kluaride.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kluaride_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kpet.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kpetctrl.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kpetmanager.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kpetmodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kpetprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kpetscript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kpetsetting.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kride.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\kridectrl.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\pet\petdef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\qpursedef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\qpursesetting.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\qteamgchandler.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\qteamserver.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\quiz\kquizscript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\quiz\luaplayerquiz_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\quiz\playerquiz.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\quiz\quizmanager.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\quiz\quizmodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\quiz\quizprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\quiz\QuizRelayClient.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\quiz\quizsetting.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\rank\krankctrl.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\rank\krankmanager.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\rank\krankmodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\rank\krankprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\rank\krankscript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\rank\rankdef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\rank\RankRelayClient.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\record\RecordRelayClient.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\relation\RelationModule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\remindscript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\remind\remindmanager.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\remind\remindmodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\remind\remindprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\resource.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\stage\kstagectrl.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\stage\kstagemodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\stage\kstageprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\stage\kstagescript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\stage\stagedef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\stdafx.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\target\luaplayertarget.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\target\luaplayertarget_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\target\playertarget.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\target\targetdef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\target\targetmanager.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\target\targetmodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\target\targetprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\target\targetsetting.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\task\kluatask.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\task\kluatask_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\task\ktaskmodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\task\ktaskscript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\task\ktasksetting.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\title\luaplayertitle.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\title\luaplayertitle_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\title\playertitle.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\title\titledef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\title\titlemanager.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\title\titlemodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\title\titleprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\title\titlesetting.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\tower\ktowerctrl.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\tower\ktowermodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\tower\ktowerprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\tower\ktowerscript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\tower\towerdef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\kbuysellmgr.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\kbuysellsetting.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\kgoods.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\kluaplayerpurse.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\kluaplayerpurse_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\kplayerpurse.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\kpursedata.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\kpursemodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\kpursescript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\qmysterygoods.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\qmysteryshopprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\qmysteryshopscript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\qplayershop.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\qsellmgr.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\qsellsetting.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\qshopmodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\qshopprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\trade\qshopscript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\vip\luaplayervip.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\vip\luaplayervip_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\vip\playervip.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\vip\vipdef.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\vip\vipmanager.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\vip\vipmodule.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\vip\vipprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamemodule\vip\vipsetting.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\ai\kaictrl.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\ai\kaimanager.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\ai\kaivm.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\ai\kluaaiaction.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\ai\kluaailogic.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\ai\kluaaistate.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\ai\PatrolPath.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\ai\Target.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\bufferdef.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\buffermodule.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\characterbuffer.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\characterskill.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\chat\kchatmodule.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\chat\kluaplayerchat.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\chat\kplayerchat.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\coreusenamedef.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\findpath\kplayerfindpath_i.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\item2\itemdef.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\kescortdef.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\kgc_mapmanager_gs.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\kgc_transfer_gs.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\kinprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\kmoduledef.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\kobjeventcheck.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\kplayerchatchannel_gs.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\kprogressbar.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\kscripthelper.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\ktaskctrl.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\ktaskprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\ktasktimer.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\kteamprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\luabuffereffect.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\luacharacterskill.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\luaplayerquiz.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\mail\kluaplayermail.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\mail\kmailctrl.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\mail\kmailmgr_client.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\mail\kmailmgr_gs.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\mail\kmailmodule.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\objectbuffer.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\playerfaction.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\qfindpathprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\qplayerteam.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\relationprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\trade\kplayerpurse.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\trade\kplayerpurse_i.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\trade\kpurseprotocol.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\trade\kpurseprotocoldef.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamemodule\trade\kpurseprotocolhandler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\libcore\libcore.vcxproj">
+      <Project>{e65fe66d-fbec-49d5-9d24-4a34de1cd551}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\libQMysql\libQMysql.vcxproj">
+      <Project>{9843f901-fa54-4f0f-ad0c-4fc3973107e9}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\lua5.1.4\lua5.1.4.vcxproj">
+      <Project>{f0066989-a923-4cbe-9996-f5a1f2466ed3}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\onlinegamebase\onlinegamebase.vcxproj">
+      <Project>{b8b85f46-ff03-442d-ac12-3d1b7dcf90d3}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BA8BFF43-BA63-4D9C-824C-ABD20A10712E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>onlinegamemodule</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;STATIC_QRT;GAME_SERVER;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\sourcecode\include;$(SolutionDir)..\LibQrt\Include;$(SolutionDir)..\sourcecode\gameworld\onlinegamemodule;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;STATIC_QRT;GAME_SERVER;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\sourcecode\include;$(SolutionDir)..\LibQrt\Include;$(SolutionDir)..\sourcecode\gameworld\onlinegamemodule;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

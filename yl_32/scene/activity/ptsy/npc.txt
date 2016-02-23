@@ -1,0 +1,2 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+2650	уз╦Щ						scene/activity/ptsy/pt.txt

@@ -1,0 +1,4 @@
+PointClass	X	Y	Z	FaceDirection
+houzi	2977	6659	1048576	0
+houzi2	5927	5351	1048576	0
+houzi3	3024	3144	1048576	0

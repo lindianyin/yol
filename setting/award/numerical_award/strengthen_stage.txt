@@ -1,0 +1,3 @@
+StageID	MinLevel	MaxLevel
+默认为1	强化下限	强化上限
+1	1	42

@@ -1,0 +1,4 @@
+id	awardId	finishCount	autoGive	awardDesc	conditionDesc	iconPath	iconIdx	tips
+条件id	奖励id	完成次数	自动给	奖励说明	说明	图标路径	图标索引	提示
+1	13	1	0	5000铜钱	拥有7个绿品以上神仙	items/item_petitem001.unity3d		拥有7个绿品以上神仙
+2	14	1	0	6000铜钱	坐骑升到第四阶	items/item_famaterial001.unity3d		坐骑升到第四阶

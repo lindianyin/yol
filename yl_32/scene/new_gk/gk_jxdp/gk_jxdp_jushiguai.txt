@@ -1,0 +1,2 @@
+PointClass	X	Y	Z	FaceDirection
+jushiguai	6588	6565	1048576	75

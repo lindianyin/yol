@@ -1,0 +1,8 @@
+RankId	BasicNature1	BasicNature1Value	BasicNature2	BasicNature2Value	BasicNature3	BasicNature3Value	BasicNature4	BasicNature4Value	BasicNature5	BasicNature5Value	BasicNature6	BasicNature6Value	RideNature1	RideNature1Value	RideNature2	RideNature2Value
+	生命上限		命中		闪避		会心		会心伤害				乘骑属性1		乘骑属性2	
+1	addmaxlife_v	50	addhitrate_v	50	adddodge_v	25	addallcriticalrate_v	15	addcriticaldmg_p	2			addrunspeed_v	10		
+2	addmaxlife_v	150	addhitrate_v	100	adddodge_v	50	addallcriticalrate_v	60	addcriticaldmg_p	5			addrunspeed_v	12		
+3	addmaxlife_v	300	addhitrate_v	200	adddodge_v	100	addallcriticalrate_v	165	addcriticaldmg_p	7			addrunspeed_v	14		
+4	addmaxlife_v	500	addhitrate_v	400	adddodge_v	200	addallcriticalrate_v	280	addcriticaldmg_p	8			addrunspeed_v	16		
+5	addmaxlife_v	750	addhitrate_v	800	adddodge_v	400	addallcriticalrate_v	425	addcriticaldmg_p	9			addrunspeed_v	18		
+6	addmaxlife_v	1050	addhitrate_v	1600	adddodge_v	800	addallcriticalrate_v	600	addcriticaldmg_p	10			addrunspeed_v	20		

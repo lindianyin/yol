@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{630b43d4-49da-43d4-ad69-5b2ff1f57e15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\fseye">
+      <UniqueIdentifier>{48c3b4c6-327e-43bf-a63d-a6fcf3c929fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\LibQrt\Src\LogServer\KG_Database.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\LogServer\KG_LogThread.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\LogServer\KG_MicroTimer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\LogServer\KG_SocketThread.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\LogServer\LogServer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\LogServer\stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\LibQrt\Src\LogServer\KG_Database.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\LogServer\KG_LogThread.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\LogServer\KG_MicroTimer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\LogServer\KG_Queue.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\LogServer\KG_SocketThread.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\LogServer\LogServer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\LogServer\PassGen.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\LogServer\stdafx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\LogServer\fseye\fseye_protocol.h">
+      <Filter>src\fseye</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\LogServer\fseye\kipcstream.h">
+      <Filter>src\fseye</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\LogServer\fseye\kringbuffer.h">
+      <Filter>src\fseye</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

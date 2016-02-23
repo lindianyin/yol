@@ -1,0 +1,3 @@
+Id	QuestionContent	Answer_A	Answer_B	Answer_C	Answer_D	CorrectIdx	QuestionPic
+1	我漂亮吗？	你好漂亮	你相当漂亮	你太漂亮了	你已经无法用漂亮来形容	1
+2	我漂亮吗？	你好漂亮	你相当漂亮	你太漂亮了	你已经无法用漂亮来形容	1

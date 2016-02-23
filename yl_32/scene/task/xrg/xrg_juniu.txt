@@ -1,0 +1,2 @@
+PointClass	X	Y	Z	FaceDirection
+juniu	929	1827	1048576	0

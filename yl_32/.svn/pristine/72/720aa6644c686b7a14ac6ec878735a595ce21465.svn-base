@@ -1,0 +1,16 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+360	巨人						scene/task/jrlx/jrlx_juren.txt
+361	巨人						scene/task/jrlx/jrlx_juren.txt
+362	巨石1					3	scene/task/jrlx/jrlx_jushi.txt
+363	被撞目标					2	scene/task/jrlx/jrlx_touming.txt
+364	巨石2					3	scene/task/jrlx/jrlx_jushi.txt
+365	巨石3					3	scene/task/jrlx/jrlx_jushi.txt
+366	石人奴隶(剧情1)						scene/task/jrlx/jrlx_zhuru.txt
+367	石人奴隶						scene/task/jrlx/jrlx_zhuru.txt
+368	石人奴隶					5	scene/task/jrlx/jrlx_zhuru.txt
+369	石人奴隶						scene/task/jrlx/jrlx_zhuru.txt
+370	巨石（剧情）						scene/task/jrlx/jrlx_jushi.txt
+371	石人侏儒						scene/task/jrlx/jrlx_shiren.txt
+372	石人侏儒						scene/task/jrlx/jrlx_shiren.txt
+373	目标						scene/task/jrlx/jrlx_touming.txt
+374	自杀						scene/task/jrlx/jrlx_touming.txt

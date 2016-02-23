@@ -1,0 +1,8 @@
+Level	Desc	IsSave	IsSync	OverlayDay	AutoGive	FightingSpirit	Exp	Energy	Silver	Prestige	Item1	Item1AmountMin	Item1AmountMax	Item1Rate	Item1TimeOut	Item2	Item2AmountMin	Item2AmountMax	Item2Rate	Item2TimeOut	Item3	Item3AmountMin	Item3AmountMax	Item3Rate	Item3TimeOut	Item4	Item4AmountMin	Item4AmountMax	Item4Rate	Item4TimeOut	Item5	Item5AmountMin	Item5AmountMax	Item5Rate	Item5TimeOut	Item6	Item6AmountMin	Item6AmountMax	Item6Rate	Item6TimeOut	Item7	Item7AmountMin	Item7AmountMax	Item7Rate	Item7TimeOut	Item8	Item8AmountMin	Item8AmountMax	Item8Rate	Item8TimeOut	Item9	Item9AmountMin	Item9AmountMax	Item9Rate	Item9TimeOut	Item10	Item10AmountMin	Item10AmountMax	Item10Rate	Item10TimeOut
+名次	奖励备注，供理解	是否存盘	是否发送客户端	累计天数	是否直接领取	战魂	经验	真气	银两	声望																																																		
+1	神仙冲榜第1名	1	1	1	0			20000	20000		24,5,1,0	50	50	100		24,8,1,0	50	50	100																																									
+2	神仙冲榜第2名	1	1	1	0			15000	15000		24,5,1,0	40	40	100		24,8,1,0	40	40	100																																									
+3	神仙冲榜第3名	1	1	1	0			10000	10000		24,5,1,0	30	30	100		24,8,1,0	30	30	100																																									
+4	神仙冲榜4-10	1	1	1	0			8000	8000		24,5,1,0	20	20	100		24,8,1,0	20	20	100																																									
+5	神仙冲榜11-30	1	1	1	0			5000	5000		24,5,1,0	15	15	100		24,8,1,0	15	15	100																																									
+6	神仙冲榜31-&	1	1	1	0			5000	5000		24,5,1,0	5	5	100		24,8,1,0	5	5	100																																									

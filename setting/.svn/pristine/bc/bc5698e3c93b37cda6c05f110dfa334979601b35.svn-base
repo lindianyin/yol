@@ -1,0 +1,14 @@
+Name	Id	Genre	DetailType	ParticularType	Level	Bind	Price	CurrencyType	nTimeFrameStartDay	timeSaleStart	timeSaleClose	stock	purchaseLimit	vip	discount	effectiveTime	hot	hotStartTime	hotCloseTime	limitType	limitTime
+还魂丹	1	18	1	213	0	1	20	1	-1	0	0	-1	-1	0	100						
+高级还魂丹	2	18	1	212	0	1	100	1	-1	0	0	-1	-1	0	100						
+战魂包	3	18	1	214	0	1	20	1	-1	0	0	-1	-1	0	100						
+珍珠	4	18	1	262	0	1	5	1	-1	0	0	-1	-1	0	100						
+翡翠	5	18	1	263	0	1	20	1	-1	0	0	-1	-1	0	100						
+玛瑙	6	18	1	264	0	1	45	1	-1	0	0	-1	-1	0	100						
+钻石	7	18	1	265	0	1	95	1	-1	0	0	-1	-1	0	100						
+升星石	8	18	1	283	0	1	100	1	-1	0	0	-1	-1	0	100						
+任务刷新符	9	18	1	687	0	1	50	1	-1	0	0	-1	-1	0	100						
+弹劾令	10	18	1	266	0	1	1000	1	-1	0	0	-1	-1	0	100						
+赦免令	11	18	1	121	0	1	50	1	-1	0	0	-1	-1	0	100						
+抛光石	12	18	1	682	0	1	8	1	-1	0	0	-1	-1	0	100						
+高级抛光石	13	18	1	683	0	1	20	1	-1	0	0	-1	-1	0	100						

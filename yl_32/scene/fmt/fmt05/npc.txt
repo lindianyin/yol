@@ -1,0 +1,11 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+840	41						scene/fmt/fmt05/monster.txt
+841	42						scene/fmt/fmt05/monster.txt
+842	43						scene/fmt/fmt05/monster.txt
+843	44						scene/fmt/fmt05/monster.txt
+844	45						scene/fmt/fmt05/monster.txt
+845	46						scene/fmt/fmt05/monster.txt
+846	47						scene/fmt/fmt05/monster.txt
+847	48						scene/fmt/fmt05/monster.txt
+848	49						scene/fmt/fmt05/monster.txt
+849	50						scene/fmt/fmt05/monster.txt

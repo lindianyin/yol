@@ -1,0 +1,3 @@
+PointClass	X	Y	Z	FaceDirection
+juren1	34	2890	1048576	0
+juren2	34	3945	1048576	0

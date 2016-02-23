@@ -1,0 +1,111 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gc", "gc", "{31D92629-F7BA-4F64-8FE4-1A2F420EB0C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gcmodule", "gcmodule", "{D7B99072-252F-49E2-B629-32CC4AF54231}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "other", "other", "{9CC4E3CB-287A-4DA1-9918-B6D6AB28AAF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "basic", "basic", "{F1D1763A-DE36-4024-995D-6182C7888A7D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chat_gc", "..\gameworld\gcmodule\chat_gc.vcproj", "{1DDE8367-CBB6-466A-A569-08F855535E40}"
+	ProjectSection(ProjectDependencies) = postProject
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647} = {38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "globaldata_gc", "..\gameworld\gcmodule\globaldata_gc.vcproj", "{BEF77CF4-3E21-4762-B167-EBEA7ABF46D1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647} = {38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gclogicbase", "..\gameworld\gclogicbase\gclogicbase.vcproj", "{F6B978D7-FF9B-4A81-9FA2-19657F10615E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "roleserver", "roleserver\roleserver.vcproj", "{B228237D-A2B9-4600-8556-EE86FDF7EA62}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "onlinegamebase", "..\gameworld\onlinegamebase\onlinegamebase.vcproj", "{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gamecenter", "gamecenter\gamecenter.vcproj", "{ED17DBC8-285A-4D62-9F0E-64E0D91A3287}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F6B978D7-FF9B-4A81-9FA2-19657F10615E} = {F6B978D7-FF9B-4A81-9FA2-19657F10615E}
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647} = {38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gateway", "gateway2\gateway.vcproj", "{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coordinator", "coordinator\coordinator.vcproj", "{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mail_gc", "..\gameworld\gcmodule\mail_gc.vcproj", "{7F4D4753-4D9F-4A91-AB8E-8078485A04ED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647} = {38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "team_gc", "..\gameworld\gcmodule\team_gc.vcproj", "{CB521AD6-1F49-4533-9986-567607B7ED49}"
+	ProjectSection(ProjectDependencies) = postProject
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647} = {38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		debug|Win32 = debug|Win32
+		release|Win32 = release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DDE8367-CBB6-466A-A569-08F855535E40}.debug|Win32.ActiveCfg = debug|Win32
+		{1DDE8367-CBB6-466A-A569-08F855535E40}.debug|Win32.Build.0 = debug|Win32
+		{1DDE8367-CBB6-466A-A569-08F855535E40}.release|Win32.ActiveCfg = release|Win32
+		{1DDE8367-CBB6-466A-A569-08F855535E40}.release|Win32.Build.0 = release|Win32
+		{BEF77CF4-3E21-4762-B167-EBEA7ABF46D1}.debug|Win32.ActiveCfg = debug|Win32
+		{BEF77CF4-3E21-4762-B167-EBEA7ABF46D1}.debug|Win32.Build.0 = debug|Win32
+		{BEF77CF4-3E21-4762-B167-EBEA7ABF46D1}.release|Win32.ActiveCfg = release|Win32
+		{BEF77CF4-3E21-4762-B167-EBEA7ABF46D1}.release|Win32.Build.0 = release|Win32
+		{F6B978D7-FF9B-4A81-9FA2-19657F10615E}.debug|Win32.ActiveCfg = debug|Win32
+		{F6B978D7-FF9B-4A81-9FA2-19657F10615E}.debug|Win32.Build.0 = debug|Win32
+		{F6B978D7-FF9B-4A81-9FA2-19657F10615E}.release|Win32.ActiveCfg = release|Win32
+		{F6B978D7-FF9B-4A81-9FA2-19657F10615E}.release|Win32.Build.0 = release|Win32
+		{B228237D-A2B9-4600-8556-EE86FDF7EA62}.debug|Win32.ActiveCfg = debug|Win32
+		{B228237D-A2B9-4600-8556-EE86FDF7EA62}.debug|Win32.Build.0 = debug|Win32
+		{B228237D-A2B9-4600-8556-EE86FDF7EA62}.release|Win32.ActiveCfg = release|Win32
+		{B228237D-A2B9-4600-8556-EE86FDF7EA62}.release|Win32.Build.0 = release|Win32
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}.debug|Win32.ActiveCfg = unify debug|Win32
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}.debug|Win32.Build.0 = unify debug|Win32
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}.release|Win32.ActiveCfg = unify release|Win32
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}.release|Win32.Build.0 = unify release|Win32
+		{ED17DBC8-285A-4D62-9F0E-64E0D91A3287}.debug|Win32.ActiveCfg = debug|Win32
+		{ED17DBC8-285A-4D62-9F0E-64E0D91A3287}.debug|Win32.Build.0 = debug|Win32
+		{ED17DBC8-285A-4D62-9F0E-64E0D91A3287}.release|Win32.ActiveCfg = release|Win32
+		{ED17DBC8-285A-4D62-9F0E-64E0D91A3287}.release|Win32.Build.0 = release|Win32
+		{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}.debug|Win32.ActiveCfg = debug|Win32
+		{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}.debug|Win32.Build.0 = debug|Win32
+		{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}.release|Win32.ActiveCfg = release|Win32
+		{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}.release|Win32.Build.0 = release|Win32
+		{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}.debug|Win32.ActiveCfg = debug|Win32
+		{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}.debug|Win32.Build.0 = debug|Win32
+		{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}.release|Win32.ActiveCfg = release|Win32
+		{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}.release|Win32.Build.0 = release|Win32
+		{7F4D4753-4D9F-4A91-AB8E-8078485A04ED}.debug|Win32.ActiveCfg = debug|Win32
+		{7F4D4753-4D9F-4A91-AB8E-8078485A04ED}.debug|Win32.Build.0 = debug|Win32
+		{7F4D4753-4D9F-4A91-AB8E-8078485A04ED}.release|Win32.ActiveCfg = release|Win32
+		{7F4D4753-4D9F-4A91-AB8E-8078485A04ED}.release|Win32.Build.0 = release|Win32
+		{CB521AD6-1F49-4533-9986-567607B7ED49}.debug|Win32.ActiveCfg = debug|Win32
+		{CB521AD6-1F49-4533-9986-567607B7ED49}.debug|Win32.Build.0 = debug|Win32
+		{CB521AD6-1F49-4533-9986-567607B7ED49}.release|Win32.ActiveCfg = release|Win32
+		{CB521AD6-1F49-4533-9986-567607B7ED49}.release|Win32.Build.0 = release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D7B99072-252F-49E2-B629-32CC4AF54231} = {31D92629-F7BA-4F64-8FE4-1A2F420EB0C6}
+		{F6B978D7-FF9B-4A81-9FA2-19657F10615E} = {31D92629-F7BA-4F64-8FE4-1A2F420EB0C6}
+		{ED17DBC8-285A-4D62-9F0E-64E0D91A3287} = {31D92629-F7BA-4F64-8FE4-1A2F420EB0C6}
+		{1DDE8367-CBB6-466A-A569-08F855535E40} = {D7B99072-252F-49E2-B629-32CC4AF54231}
+		{BEF77CF4-3E21-4762-B167-EBEA7ABF46D1} = {D7B99072-252F-49E2-B629-32CC4AF54231}
+		{7F4D4753-4D9F-4A91-AB8E-8078485A04ED} = {D7B99072-252F-49E2-B629-32CC4AF54231}
+		{CB521AD6-1F49-4533-9986-567607B7ED49} = {D7B99072-252F-49E2-B629-32CC4AF54231}
+		{B228237D-A2B9-4600-8556-EE86FDF7EA62} = {9CC4E3CB-287A-4DA1-9918-B6D6AB28AAF2}
+		{007DC0B6-2335-4BC3-88D9-CDF9E22376CC} = {9CC4E3CB-287A-4DA1-9918-B6D6AB28AAF2}
+		{8C3845FA-CD60-4946-8DBF-EDCD5936F97F} = {9CC4E3CB-287A-4DA1-9918-B6D6AB28AAF2}
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647} = {F1D1763A-DE36-4024-995D-6182C7888A7D}
+	EndGlobalSection
+EndGlobal

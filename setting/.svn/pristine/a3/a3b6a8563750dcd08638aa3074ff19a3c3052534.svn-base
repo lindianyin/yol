@@ -1,0 +1,10 @@
+Name	Desc	Genre	DetailType	ParticularType	Level	Category	Pandent1ID	Pandent2ID	CurrencyType	Price	ReqLevel	MaxDurability	ItemValue	CanTrade	CanDestroy	Quality	BindType	ClassName	SlotMin	SlotMax	BasicPropType	BasicPropValue	ExPandent1	ExPandent2	ExPandent3	ExPandent4
+						种类	特效挂件（男）	特效挂件（女）	货币类型（不需要）	价值（不需要）	需求等级	耐久度（不需要）		可否交易（不需要）	可否破坏（不需要）	品质	捆绑类型		宝石槽位	宝石槽位	装备基础属性类型	装备基础属性值				
+神皇套装		1	11	1	0	1	1001	1002	2	10	1	10			1	5	1	equip	0	0	modifydmg_v	500	1801	1800		
+主仆时装		1	11	3	0	1	1003	1004	2	10	1	10			1	4	1	equip	0	0	modifydmg_v	200	4112	4113		
+战神时装		1	11	4	0	1	1005	1006	2	10	1	10			1	4	1	equip	0	0	modifydmg_v	400	4116	4117		
+原始战甲		1	11	5	0	1	1007	1008	2	10	1	10			1	5	1	equip	0	0	modifydmg_v	750	1801	1800		
+神皇套装（永久）		1	11	6	0	1	1001	1002	2	10	1	10			1	5	1	equip	0	0	modifydmg_v	500	1801	1800		
+主仆时装（永久）		1	11	7	0	1	1003	1004	2	10	1	10			1	4	1	equip	0	0	modifydmg_v	200	4112	4113		
+战神时装（永久）		1	11	8	0	1	1005	1006	2	10	1	10			1	4	1	equip	0	0	modifydmg_v	400	4116	4117		
+原始战甲（永久）		1	11	9	0	1	1007	1008	2	10	1	10			1	5	1	equip	0	0	modifydmg_v	750	1801	1800		

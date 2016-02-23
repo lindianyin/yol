@@ -1,0 +1,4 @@
+id	awardId	finishCount	autoGive	awardDesc	conditionDesc	iconPath	iconIdx	tips
+条件id	奖励id	完成次数	自动给	奖励说明	说明	图标路径	图标索引	提示
+1	3	1	0	5000银两	任意一个神器收集满1星以上	items/item_petitem001.unity3d		任意一个神器收集满1星以上
+2	4	1	0	5001银两	任意一个神器收集满2星以上	items/item_petitem001.unity4d		任意一个神器收集满2星以上

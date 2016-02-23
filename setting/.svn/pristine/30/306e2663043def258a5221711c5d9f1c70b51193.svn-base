@@ -1,0 +1,9 @@
+id	awardId	autoGive	conditionPath	desc	iconPath	iconIdx	tips
+天数	奖励id	自动给	完成条件路径	说明	图标路径	图标索引	提示
+1		0	firstday.txt	通关伐魔塔第二大层	items/targeticon.unity3d	4	"5000银两,5000真气,100声望"
+2		0	secondday.txt	全身绿装	items/targeticon.unity3d	2	"5000银两,5000真气,200声望"
+3		0	thirdday.txt	通关困难多人关卡	items/targeticon.unity3d	3	"8000银两,8000真气,300声望"
+4		0	fourthday.txt	通关伐魔塔第四大层	items/targeticon.unity3d	4	"10000银两,10000真气,500声望"
+5		0	fifthday.txt	降服绿色神仙	items/targeticon.unity3d	1	"12000银两,12000真气,800声望"
+6		0	sixthday.txt	通关伐魔塔	items/targeticon.unity3d	4	"15000银两,15000真气,1000声望"
+7		0	seventhday.txt	通关困难多人副本	items/targeticon.unity3d	5	"15000银两,15000真气,1500声望"

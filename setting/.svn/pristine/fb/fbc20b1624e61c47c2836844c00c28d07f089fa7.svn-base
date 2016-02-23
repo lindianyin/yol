@@ -1,0 +1,3 @@
+StageID	MinLineNum	MaxLineNum
+星级等级（1-5代表1到5星的行数，6-10代表1到5星的加成）	开始行数	结束行数
+1	3	757

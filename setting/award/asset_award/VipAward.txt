@@ -1,0 +1,12 @@
+Level	Desc	IsSave	IsSync	OverlayDay	AutoGive	FightingSpirit	Exp	Energy	Silver	Prestige	Item1	Item1AmountMin	Item1AmountMax	Item1Rate	Item1TimeOut	Item2	Item2AmountMin	Item2AmountMax	Item2Rate	Item2TimeOut	Item3	Item3AmountMin	Item3AmountMax	Item3Rate	Item3TimeOut	Item4	Item4AmountMin	Item4AmountMax	Item4Rate	Item4TimeOut	Item5	Item5AmountMin	Item5AmountMax	Item5Rate	Item5TimeOut	Item6	Item6AmountMin	Item6AmountMax	Item6Rate	Item6TimeOut	Item7	Item7AmountMin	Item7AmountMax	Item7Rate	Item7TimeOut	Item8	Item8AmountMin	Item8AmountMax	Item8Rate	Item8TimeOut	Item9	Item9AmountMin	Item9AmountMax	Item9Rate	Item9TimeOut	Item10	Item10AmountMin	Item10AmountMax	Item10Rate	Item10TimeOut
+名次	奖励备注，供理解	是否存盘	是否发送客户端	累计天数	是否直接领取	战魂	经验	真气	银两	声望																																																		
+1	VIP1大礼包	1	1	10000	0	5000		20000	20000		24,16,1,0	1	1	100		24,8,1,0	20	20	100		24,5,1,0	4	4	100		18,1,30,0	24	24	100																															
+2	VIP2大礼包	1	1	10000	0	5000		30000	30000		24,2,8,0	2	2	100		18,1,245,0	2	2	100		24,5,1,0	4	4	100		18,1,30,0	24	24	100																															
+3	VIP3大礼包	1	1	10000	0	10000		40000	40000		24,2,8,0	3	3	100		18,1,263,0	10	10	100		24,8,1,0	50	50	100		24,5,1,0	50	50	100																															
+4	VIP4大礼包	1	1	10000	0	10000		40000	40000		24,21,1,0	1	1	100		18,2,2,4	1	1	100		24,8,1,0	80	80	100		24,5,1,0	80	80	100																															
+5	VIP5大礼包	1	1	10000	0	20000		60000	60000		18,1,152,0	10	10	100		18,1,155,0	10	10	100		18,1,158,0	10	10	100		18,1,161,0	10	10	100																															
+6	VIP6大礼包	1	1	10000	0	20000		60000	60000		24,25,1,0	1	1	100		18,2,1,4	2	2	100		24,8,1,0	100	100	100		24,5,1,0	100	100	100																															
+7	VIP7大礼包	1	1	10000	0	40000		80000	80000		18,2,1,4	2	2	100		18,2,2,4	2	2	100		18,2,3,4	2	2	100		18,2,4,4	2	2	100																															
+8	VIP8大礼包	1	1	10000	0	40000					24,29,1,0	1	1	100		18,2,1,5	2	2	100		18,2,2,5	2	2	100		24,2,8,0	30	30	100		24,2,8,0	30	30	100		18,1,151,0	10	10	100																					
+9	VIP9大礼包	1	1	10000	0	50000					18,1,238,0	1	1	100		18,1,239,0	1	1	100		18,1,264,0	30	30	100		18,1,265,0	30	30	100		18,1,152,0	20	20	100		18,1,155,0	20	20	100																					
+10	VIP10大礼包	1	1	10000	0	60000					24,32,1,0	1	1	100		18,2,1,6	3	3	100		18,2,2,6	3	3	100		18,1,238,0	1	1	100		18,1,239,0	1	1	100		18,1,237,0	1	1	100																					

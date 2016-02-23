@@ -1,0 +1,3 @@
+Name	Id	Genre	DetailType	ParticularType	Level	Bind	Price	CurrencyType	nTimeFrameStartDay	timeSaleStart	timeSaleClose	stock	purchaseLimit	vip	discount	effectiveTime	hot	hotStartTime	hotCloseTime	limitType	limitTime
+药草	1	18	1	22	0	1	10	2	-1	0	0	-1	-1	0	100	0	0	2014/1/23 0:00	2014/1/25 10:00		
+神仙经验书	2	24	5	1	0	1	10000	2	-1	0	0	-1	-1	0	100	0	0	2014/1/23 0:00	2014/1/25 10:00		

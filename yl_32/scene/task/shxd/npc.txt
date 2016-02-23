@@ -1,0 +1,16 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+406	”„π÷ª—Ê						scene/task/shxd/shxd_yuguai.txt
+407	”„π÷						scene/task/shxd/shxd_yuguai.txt
+408	”„π÷∫Æ±˘						scene/task/shxd/shxd_yuguai.txt
+409	”„π÷≈‹1						scene/task/shxd/shxd_yuguai.txt
+410	”„π÷≈‹2						scene/task/shxd/shxd_yuguai.txt
+411	ƒø±Í						scene/task/shxd/shxd_touming.txt
+412	◊‘…±						scene/task/shxd/shxd_touming.txt
+413	”„π÷…µ’æ						scene/task/shxd/shxd_yuguai.txt
+414	”„π÷ª—Ê						scene/task/shxd/shxd_yuguai.txt
+415	”„π÷≤π—™						scene/task/shxd/shxd_yuguai.txt
+416	µ∞						scene/task/shxd/shxd_dan.txt
+417	µ∞						scene/task/shxd/shxd_dan.txt
+418	”„π÷¥Ú±¶÷È						scene/task/shxd/shxd_yuguai.txt
+419	”„π÷∂Ò∞‘						scene/task/shxd/shxd_eba.txt
+420	”„π÷∂Ò∞‘						scene/task/shxd/shxd_eba.txt

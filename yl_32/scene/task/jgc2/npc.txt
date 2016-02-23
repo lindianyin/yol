@@ -1,0 +1,6 @@
+TemplateId	Comment	X	Y	Z	FaceDirejgc2ion	RegenerationTime	PosFile	Count
+740	机关人						scene/task/jgc2/jgc2_jiguanren.txt
+741	机关兽						scene/task/jgc2/jgc2_jiguanren.txt
+742	机关邪童						scene/task/jgc2/jgc2_boss.txt
+743	机关						scene/task/jgc2/jgc2_jiguan.txt
+744	超级机关兽						scene/task/jgc2/jgc2_jiguanren.txt

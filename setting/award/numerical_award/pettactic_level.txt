@@ -1,0 +1,9 @@
+Level	Life	Ability	Attack	Defense	Hit	Dodge	Crit	Resist	Cost
+神仙属性索引（0：生命 1：攻击 2：命中 3：暴击 4：抗暴 5：防御 6：闪避）	不同属性加成比 100是满加
+0	50
+1	50
+2	50
+3	50
+4	50
+5	50
+6	50

@@ -1,0 +1,8 @@
+Level	Life	Ability	Attack	Defense	Hit	Dodge	Crit	Resist	Cost
+神仙品质	生命	内力	攻击	防御	命中	闪避	暴击	抗暴	消耗声望
+1									500
+2									5000
+3									10000
+4									20000
+5									100000
+6									200000

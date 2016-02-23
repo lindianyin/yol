@@ -1,0 +1,11 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+330	â¨ºï(Ô¶)						scene/task/ptsh/ptsh_houzi.txt
+331	Îò¿Õ						scene/task/ptsh/ptsh_wukong.txt
+332	Îò¿Õ						scene/task/ptsh/ptsh_wukong.txt
+333	ó´ÌÒÔ°ÊØÎÀ						scene/task/ptsh/ptsh_shouwei.txt
+334	â¨ºï£¨½ü£©						scene/task/ptsh/ptsh_houzi.txt
+335	â¨ºï£¨¾çÇé2£©						scene/task/ptsh/ptsh_houzi.txt
+336	ó´ÌÒ£¨¾çÇé2£©						scene/task/ptsh/ptsh_tao.txt
+337	ó´ÌÒ(Õ¾)						scene/task/ptsh/ptsh_tao.txt
+4004	â¨ºï(Ô¶)						scene/task/ptsh/ptsh_houzi.txt
+4005	â¨ºï£¨½ü£©						scene/task/ptsh/ptsh_houzi.txt

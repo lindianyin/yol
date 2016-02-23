@@ -1,0 +1,24 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+2801	带枪侍卫					1	scene/activity/mhzd1/pos.txt	
+2802	荒漠刀客					1	scene/activity/mhzd1/pos.txt	
+2803	桃源树妖					1	scene/activity/mhzd1/pos.txt	
+2804	暗黑魔牛					1	scene/activity/mhzd1/pos.txt	
+2807	20级boss1 20级野外						scene/activity/mhzd1/pos.txt	
+2808	20级boss2 20级野外						scene/activity/mhzd1/pos.txt	
+2809	20级boss3 20级野外						scene/activity/mhzd1/pos.txt	
+2810	20级boss4 20级野外						scene/activity/mhzd1/pos.txt	
+2811	20级boss5 20级野外						scene/activity/mhzd1/pos.txt	
+2812	20级boss6 20级野外						scene/activity/mhzd1/pos.txt	
+2813	20级boss7 20级野外						scene/activity/mhzd1/pos.txt	
+2820	乌黑大鹏					1	scene/activity/mhzd1/pos.txt	
+2821	凶猛野狼					1	scene/activity/mhzd1/pos.txt	
+2822	胡须男					1	scene/activity/mhzd1/pos.txt	
+2823	无魂毒虫					1	scene/activity/mhzd1/pos.txt	
+2824	西山羚					1	scene/activity/mhzd1/pos.txt	
+2825	橘黄蟹					1	scene/activity/mhzd1/pos.txt	
+2826	大臂怪					1	scene/activity/mhzd1/pos.txt	
+2827	怨灵					1	scene/activity/mhzd1/pos.txt	
+2814	<color=green>驿站						scene/activity/mhzd1/pos.txt	
+2815	<color=green>驿站						scene/activity/mhzd1/pos.txt	
+2816	<color=green>驿站						scene/activity/mhzd1/pos.txt	
+2817	<color=green>驿站						scene/activity/mhzd1/pos.txt	

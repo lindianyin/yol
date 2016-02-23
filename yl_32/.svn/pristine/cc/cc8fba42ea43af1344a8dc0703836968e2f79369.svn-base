@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{1e2769e9-787f-4e35-bc35-e6e3b31eaddc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\sourcecode\server\gateway2\Gateway.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\gateway2\KGatewayEyes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\gateway2\kldapclient.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\gateway2\KPaysysAgency.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\gateway2\KPlayerManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\gateway2\KQueueManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\gateway2\KRelayAgency.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\gateway2\KSndaAgency.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\gateway2\resource.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\gateway2\stdafx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\gateway2\UnityPolicyServer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\sourcecode\server\gateway2\Gateway.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\gateway2\KGatewayEyes.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\gateway2\kldapclient.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\gateway2\KPaysysAgency.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\gateway2\KPlayerManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\gateway2\KQueueManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\gateway2\KRelayAgency.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\gateway2\KSndaAgency.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\gateway2\Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\gateway2\stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\gateway2\UnityPolicyServer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

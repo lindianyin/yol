@@ -1,0 +1,5 @@
+PatrolPathID	PatrolPathWalkSpeed	PatrolPathOrderID	PatrolPathFileName
+1	20	1	setting/scene/gk_jszl/patrolpath/patrolpathlist3.txt
+2	20	2	setting/scene/gk_jszl/patrolpath/patrolpathlist4.txt
+3	20	3	setting/scene/gk_jszl/patrolpath/patrolpathlist5.txt
+4	20	4	setting/scene/gk_jszl/patrolpath/patrolpathlist6.txt

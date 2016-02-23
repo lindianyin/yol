@@ -1,0 +1,4 @@
+id	awardId	finishCount	autoGive	awardDesc	conditionDesc	iconPath	iconIdx	tips
+条件id	奖励id	完成次数	自动给	奖励说明	说明	图标路径	图标索引	提示
+1	9	1	0	1000铜钱	镶嵌超过4个以上任意宝石	items/item_famaterial003.unity3d		镶嵌超过4个以上任意宝石
+2	10	1	0	1001铜钱	镶嵌超过5个以上任意宝石	items/item_famaterial003.unity4d		镶嵌超过5个以上任意宝石

@@ -1,0 +1,13 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+95	强盗						scene/task/czyd/czyd_qiangdao.txt
+96	小白脸						scene/task/czyd/czyd_luren.txt
+97	怪盗小李						scene/task/czyd/czyd_qiangdao.txt
+98	强盗						scene/task/czyd/czyd_qiangdao.txt
+99	信号弹						scene/task/czyd/czyd_xinhaodan.txt
+100	透明剧情						scene/task/czyd/czyd_juqing.txt
+101	强盗						scene/task/czyd/czyd_qiangdao.txt
+102	强盗						scene/task/czyd/czyd_qiangdao.txt
+103	强盗						scene/task/czyd/czyd_qiangdao.txt
+104	强盗						scene/task/czyd/czyd_qiangdao.txt
+105	隐形目标						scene/task/czyd/czyd_yinxing.txt
+106	大炸弹						scene/task/czyd/czyd_yinxing.txt

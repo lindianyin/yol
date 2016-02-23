@@ -1,0 +1,4 @@
+PointClass	X	Y	Z	FaceDirection
+xiaoji1	1745	1223	1048576	75
+xiaoji2	1672	1166	1048576	0
+xiaoji3	1807	1155	1048576	150

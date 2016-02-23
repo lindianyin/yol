@@ -1,0 +1,20 @@
+level	num	rate	type	isOpen	iconPath	iconIndex	desc			
+vip等级	次数	倍率	类型(0:每天加次数;1:倍率;2:开启;3:购买加次数)	是否开启(0:不开启;1:开启)	图标路径	图标索引	描述			
+0				0						
+1			2	0	icon/UIVIP_V_XPanel.unity3d	2	×			
+2			2	0	icon/UIVIP_V_XPanel.unity3d	2	×			
+3			2	0	icon/UIVIP_V_XPanel.unity3d	2	×			
+4			2	0	icon/UIVIP_V_XPanel.unity3d	2	×			
+5			2	0	icon/UIVIP_V_XPanel.unity3d	2	×			
+6			2	0	icon/UIVIP_V_XPanel.unity3d	2	×			
+7			2	0	icon/UIVIP_V_XPanel.unity3d	2	×			
+8			2	0	icon/UIVIP_V_XPanel.unity3d	2	×			
+9			2	1	icon/UIVIP_V_XPanel.unity3d	1	√			
+10			2	1	icon/UIVIP_V_XPanel.unity3d	1	√			
+										
+										
+										
+										
+										
+										
+										                                                                                                                                                                                                                                                                                                                                                              

@@ -1,0 +1,10 @@
+Name	Id	Genre	DetailType	ParticularType	Level	Bind	Price	CurrencyType	nTimeFrameStartDay	timeSaleStart	timeSaleClose	stock	purchaseLimit	vip	discount	effectiveTime	hot	hotStartTime	hotCloseTime	limitType	limitTime
+一级生命宝石	1	18	2	1	1	1	100	8	-1	0	0	-1	-1	0	100	0	0				
+一级攻击宝石	2	18	2	2	1	1	100	8	-1	0	0	-1	-1	0	100	0	0				
+一级防御宝石	3	18	2	3	1	1	100	8	-1	0	0	-1	-1	0	100	0	0				
+一级暴击宝石	4	18	2	4	1	1	100	8	-1	0	0	-1	-1	0	100	0	0				
+一级抗暴宝石	5	18	2	5	1	1	100	8	-1	0	0	-1	-1	0	100	0	0				
+一级命中宝石	6	18	2	6	1	1	100	8	-1	0	0	-1	-1	0	100	0	0				
+一级闪避宝石	7	18	2	7	1	1	100	8	-1	0	0	-1	-1	0	100	0	0				
+神仙升阶丸	8	24	2	8	0	1	500	8	-1	0	0	-1	-1	0	100	0	0				
+小宝兔幻化丹	9	18	1	31	0	1	300	8	-1	0	0	-1	-1	0	100	0	0				

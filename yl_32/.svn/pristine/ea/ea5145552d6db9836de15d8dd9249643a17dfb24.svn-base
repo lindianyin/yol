@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamebase\kbadwordfilter.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamebase\kdatetimecontrol.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamebase\kfilescript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamebase\klibscript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamebase\kluatimermgr_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamebase\kunifyscript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamebase\Regexp.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegamebase\stdafx.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamebase\ikbadwordfilter.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamebase\iptransform.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamebase\keyes.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamebase\kguidhelper.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamebase\kjxexunify.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamebase\kplayerback_interface.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamebase\kruntimedebug.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamebase\kscriptmanager.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamebase\ksysservice.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamebase\ktimeline.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamebase\ktimermgr.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamebase\LRUCacheMap.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamebase\mysqldatabase.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamebase\performancestat.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamebase\rancombi.h" />
+    <ClInclude Include="..\..\sourcecode\include\onlinegamebase\randomc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamebase\iptransform.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamebase\kbadwordfilter.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamebase\kdatetimecontrol.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamebase\keyes.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamebase\kfilescript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamebase\kjxexunify.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamebase\klibscript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamebase\kluatimermgr.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamebase\kruntimememleakdetect.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamebase\kscriptmanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamebase\ktimeline.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamebase\ktimermgr.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamebase\kunifyscript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamebase\mersenne.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamebase\mother.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamebase\mysqldatabase.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamebase\performancestat.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamebase\Regexp.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegamebase\userintf.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B8B85F46-FF03-442D-AC12-3D1B7DCF90D3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>onlinegamebase</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;STATIC_QRT;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\LibQrt\Include;$(SolutionDir)..\sourcecode\include;C:\Program Files (x86)\MySQL\MySQL Connector C 6.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;STATIC_QRT;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\LibQrt\Include;$(SolutionDir)..\sourcecode\include;C:\Program Files (x86)\MySQL\MySQL Connector C 6.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

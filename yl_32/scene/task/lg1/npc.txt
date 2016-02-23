@@ -1,0 +1,8 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+35	”„π÷						scene/task/lg1/lg_yuguai.txt
+36	”„π÷						scene/task/lg1/lg_yuguai.txt
+37	…Ò√ÿ»À						scene/task/lg1/lg_shenmiren.txt
+38	”„π÷						scene/task/lg1/lg_yuguai.txt
+39	”„π÷						scene/task/lg1/lg_yuguai.txt
+34	…Ò√ÿ»À1						scene/task/lg1/lg_shenmiren.txt
+33	“˛–Œ						scene/task/lg1/lg_yinxing.txt

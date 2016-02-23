@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{ec2cbccc-6535-4434-9294-9994de730c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\kin">
+      <UniqueIdentifier>{4c9ad7b7-a6b7-4f8b-9e19-ad2064ddc7df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\quiz">
+      <UniqueIdentifier>{e1e359ee-cad4-4670-b874-798d8f0e9d77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mail2">
+      <UniqueIdentifier>{0cbec1ba-4fea-4a42-b5de-43e8b80ac7b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\rank">
+      <UniqueIdentifier>{01517bc2-8c11-4eeb-813f-9d6888820bb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\auction">
+      <UniqueIdentifier>{9cfe17ad-c62e-482e-8633-b46c56fa1820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\team">
+      <UniqueIdentifier>{a4227db1-2a0d-43c2-90b5-cf5e831c102d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\relation">
+      <UniqueIdentifier>{76ef5f5d-e2eb-440f-9148-5654454950e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arena">
+      <UniqueIdentifier>{71838b24-9b38-4d78-93ca-b6cecabb0563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\QRandname">
+      <UniqueIdentifier>{df4cf583-829b-4f11-9e6d-3d4e2ba8e6f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\record">
+      <UniqueIdentifier>{9ab6a6db-1003-48f9-ba77-4a45d0427bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\escort">
+      <UniqueIdentifier>{1aaec609-6405-46da-8cf7-055f0680d4a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\globaldata">
+      <UniqueIdentifier>{b338ee90-b7be-4906-9520-881a0d311db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\battlezone">
+      <UniqueIdentifier>{5fec5d58-8fb6-4cbd-9a33-b293741a49f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\overallqueue">
+      <UniqueIdentifier>{ef176cd0-f2e7-4d84-ac88-351ccaa8975a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\BornPlaceList.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\DBBase.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\dbmanager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\DBTools.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\GameCenter.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\GameCenterMonitor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\GameCenterSettings.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\GatewayAgency.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\gclogicbasescript_table.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\globalservermaster.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\globalserverprotocolhandler.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\globalserverslave.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\GMSendAwardDB.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\IDSequence.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\KinScript_table.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\KRole.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\LogServerAgency.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\MapCopy.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\MapInfo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\MapManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\MiscDB.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\openseSave.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\PayAgency.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\RoleDB.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\RoleManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\ServerHandler.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\StatDataManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\stdafx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\kin\Kin.h">
+      <Filter>src\kin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\kin\kinhandler.h">
+      <Filter>src\kin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\kin\KinHistory.h">
+      <Filter>src\kin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\kin\KinManager.h">
+      <Filter>src\kin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\kin\KinRepertory.h">
+      <Filter>src\kin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\quiz\QuizManager.h">
+      <Filter>src\quiz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\quiz\QuizServerHandler.h">
+      <Filter>src\quiz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\mail2\MailBox.h">
+      <Filter>src\mail2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\mail2\MailChecker.h">
+      <Filter>src\mail2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\mail2\MailManager.h">
+      <Filter>src\mail2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\mail2\MailOperation.h">
+      <Filter>src\mail2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\rank\krankhandler.h">
+      <Filter>src\rank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\rank\krankmanager.h">
+      <Filter>src\rank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\rank\krankpool.h">
+      <Filter>src\rank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\auction\AuctionManager.h">
+      <Filter>src\auction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\auction\AuctionOperation.h">
+      <Filter>src\auction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\team\TeamCenter.h">
+      <Filter>src\team</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\team\teammodule_gc.h">
+      <Filter>src\team</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\bidequalrelationfactory_t.h">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\bidfriendrelation.h">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\bidunequalrelationfactory_t.h">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\buddyfactory.h">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\closefriendrelation.h">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\couplefactory.h">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\datarelation_t.h">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\datasaveloader.h">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\enemyfactory.h">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\friendfactory.h">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\introductionfactory.h">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\playerrelation_datadef.h">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\playerrelation_i.h">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\relation.h">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\relationcounter.h">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\relationfactorylist.h">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\relationmanager.h">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\relationrulemanager.h">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\relationscriptfuns_table.hpp">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\tmpfriendfactory.h">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\trainingfactory.h">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\trainingsetting.h">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\relation\unirelationfactory.h">
+      <Filter>src\relation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\arena\ArenaManager.h">
+      <Filter>src\arena</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\arena\ArenaServerHandler.h">
+      <Filter>src\arena</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\QRandomName\QRandomName.h">
+      <Filter>src\QRandname</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\record\krecordmanager.h">
+      <Filter>src\record</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\record\krecordserverhandler.h">
+      <Filter>src\record</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\record\recorddef.h">
+      <Filter>src\record</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\escort\kescorthandler.h">
+      <Filter>src\escort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\escort\kescortmanager.h">
+      <Filter>src\escort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\globaldata\GlobalDataDbProcess.h">
+      <Filter>src\globaldata</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\globaldata\GlobalDataModule.h">
+      <Filter>src\globaldata</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\globaldata\GlobalDataProtocolProcess.h">
+      <Filter>src\globaldata</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\globaldata\ScheduleTaskCenter.h">
+      <Filter>src\globaldata</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\battlezone\battlezone.h">
+      <Filter>src\battlezone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\battlezone\battlezonedef.h">
+      <Filter>src\battlezone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\battlezone\battlezonemaster.h">
+      <Filter>src\battlezone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\battlezone\battlezoneslave.h">
+      <Filter>src\battlezone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\overallqueue\kqueuedef.h">
+      <Filter>src\overallqueue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\overallqueue\kqueuehandler.h">
+      <Filter>src\overallqueue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\overallqueue\kqueuemaster.h">
+      <Filter>src\overallqueue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sourcecode\server\coordinator2\overallqueue\kqueueslave.h">
+      <Filter>src\overallqueue</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\BornPlaceList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\coordinator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\DBBase.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\dbmanager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\DBTools.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\GameCenter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\GameCenterMonitor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\GameCenterSettings.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\GatewayAgency.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\gclogicbasescript.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\gcplayercommon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\globalservermaster.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\globalserverslave.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\GMSendAwardDB.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\IDSequence.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\KinScript.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\KRole.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\LogServerAgency.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\MapCopy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\MapInfo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\MapManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\MiscDB.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\MiscDBThread.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\openseSave.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\PayAgency.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\RoleDB.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\RoleDBThread.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\RoleManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\ServerHandler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\StatDataManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\kin\Kin.cpp">
+      <Filter>src\kin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\kin\kinhandler.cpp">
+      <Filter>src\kin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\kin\KinHistory.cpp">
+      <Filter>src\kin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\kin\KinManager.cpp">
+      <Filter>src\kin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\kin\KinRepertory.cpp">
+      <Filter>src\kin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\quiz\QuizManager.cpp">
+      <Filter>src\quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\quiz\QuizServerHandler.cpp">
+      <Filter>src\quiz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\mail2\MailBox.cpp">
+      <Filter>src\mail2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\mail2\MailChecker.cpp">
+      <Filter>src\mail2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\mail2\MailManager.cpp">
+      <Filter>src\mail2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\mail2\MailServerHandler.cpp">
+      <Filter>src\mail2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\rank\krankhandler.cpp">
+      <Filter>src\rank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\rank\krankmanager.cpp">
+      <Filter>src\rank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\rank\krankpool.cpp">
+      <Filter>src\rank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\auction\AuctionManager.cpp">
+      <Filter>src\auction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\auction\AuctionServerHandler.cpp">
+      <Filter>src\auction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\team\TeamCenter.cpp">
+      <Filter>src\team</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\team\teammodule_gc.cpp">
+      <Filter>src\team</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\relation\bidfriendrelation.cpp">
+      <Filter>src\relation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\relation\buddyfactory.cpp">
+      <Filter>src\relation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\relation\closefriendrelation.cpp">
+      <Filter>src\relation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\relation\couplefactory.cpp">
+      <Filter>src\relation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\relation\datasaveloader.cpp">
+      <Filter>src\relation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\relation\enemyfactory.cpp">
+      <Filter>src\relation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\relation\friendfactory.cpp">
+      <Filter>src\relation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\relation\introductionfactory.cpp">
+      <Filter>src\relation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\relation\relation.cpp">
+      <Filter>src\relation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\relation\relationcounter.cpp">
+      <Filter>src\relation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\relation\relationfactorylist.cpp">
+      <Filter>src\relation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\relation\relationmanager.cpp">
+      <Filter>src\relation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\relation\relationrulemanager.cpp">
+      <Filter>src\relation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\relation\relationscriptfuns.cpp">
+      <Filter>src\relation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\relation\tmpfriendfactory.cpp">
+      <Filter>src\relation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\relation\trainingfactory.cpp">
+      <Filter>src\relation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\relation\trainingsetting.cpp">
+      <Filter>src\relation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\relation\unirelationfactory.cpp">
+      <Filter>src\relation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\arena\ArenaManager.cpp">
+      <Filter>src\arena</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\arena\ArenaServerHandler.cpp">
+      <Filter>src\arena</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\QRandomName\QRandomName.cpp">
+      <Filter>src\QRandname</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\record\krecordmanager.cpp">
+      <Filter>src\record</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\record\krecordserverhandler.cpp">
+      <Filter>src\record</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\escort\kescorthandler.cpp">
+      <Filter>src\escort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\escort\kescortmanager.cpp">
+      <Filter>src\escort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\globaldata\GlobalDataDbProcess.cpp">
+      <Filter>src\globaldata</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\globaldata\GlobalDataModule.cpp">
+      <Filter>src\globaldata</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\globaldata\GlobalDataProtocolProcess.cpp">
+      <Filter>src\globaldata</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\globaldata\GlobalDataScript.cpp">
+      <Filter>src\globaldata</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\globaldata\ScheduleTaskCenter.cpp">
+      <Filter>src\globaldata</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\battlezone\battlezone.cpp">
+      <Filter>src\battlezone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\battlezone\battlezonemaster.cpp">
+      <Filter>src\battlezone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\battlezone\battlezoneslave.cpp">
+      <Filter>src\battlezone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\overallqueue\kqueuehandler.cpp">
+      <Filter>src\overallqueue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\overallqueue\kqueuemaster.cpp">
+      <Filter>src\overallqueue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sourcecode\server\coordinator2\overallqueue\kqueueslave.cpp">
+      <Filter>src\overallqueue</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

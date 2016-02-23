@@ -1,0 +1,4 @@
+PointClass	X	Y	Z	FaceDirection
+zhadan	275	1420	1048576	75
+zhadan	303	465	1048576	75
+zhadan1	1869	379	1048576	75

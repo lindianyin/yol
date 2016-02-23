@@ -1,0 +1,2 @@
+PointClass	X	Y	Z	FaceDirection
+xufu	6264	1265	1048576	0

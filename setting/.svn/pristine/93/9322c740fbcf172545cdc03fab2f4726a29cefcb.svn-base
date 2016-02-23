@@ -1,0 +1,6 @@
+PatrolPathID	PatrolPathWalkSpeed	PatrolPathOrderID	PatrolPathFileName
+1	16	1	setting/scene/fcjr/patrolpath/patrolpathlist0.txt
+2	13	1	setting/scene/fcjr/patrolpath/patrolpathlist1.txt
+3	13	1	setting/scene/fcjr/patrolpath/patrolpathlist2.txt
+4	16	1	setting/scene/fcjr/patrolpath/patrolpathlist3.txt
+5	11	1	setting/scene/fcjr/patrolpath/patrolpathlist4.txt

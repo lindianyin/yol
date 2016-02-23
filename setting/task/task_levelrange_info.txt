@@ -1,0 +1,2 @@
+level_range_min	level_range_max	level_range_desc
+1	9	在新手村开始剧情任务，学习各项基本技能，熟悉整个江湖世界。

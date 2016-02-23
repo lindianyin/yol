@@ -1,0 +1,4 @@
+Name	Index	Persist	TimesKeyName	IconPath	IconIndex	Type	OpenDays	OpenTimes	CallScript	ClientScript	Params
+活动名字	活动索引，如无则不用填	活动持续时长，分钟为单位	要跟次数配置里的名字对应上，用来取活动当前剩余次数	活动图标路径	活动图标索引	1为多个时段选择其一开放的活动，2为次数限制的活动，3为定时开放的活动	一周内哪几天开,如填：1,3,5  表示周一、周三、周五开活动,注意0为周日	开的具体时间，可以填多个，格式如:0930|1230  表是此活动有早上9点半以及中午12点半两个时间选择	点击参加按钮后调用的脚本	是否为客户端脚本	调用脚本的参数，都为整型
+篝火	1001	20	篝火	avatars/activeicon.unity3d	8	1	0,1,2,3,4,5,6	0910|1110|1510|1710|2010|2210	Activity:c2s_EnterBonfireActivity		1001
+蟠桃盛宴	1002	5		avatars/activeicon.unity3d	9	1	0,1,2,3,4,5,6	0900|1100|1500|1700|2000|2200	Activity:c2s_EnterKinActivity		1002

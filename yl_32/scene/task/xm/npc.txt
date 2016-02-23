@@ -1,0 +1,11 @@
+TemplateId	Comment	X	Y	Z	FaceDirexmion	RegenerationTime	PosFile	Count
+610	狐狸						scene/task/xm/xm_huli.txt	
+611	<color=green>[精英]狐狸精						scene/task/xm/xm_huli.txt	
+612	孙悟空						scene/task/xm/xm_wukong.txt	
+613	孙悟空						scene/task/xm/xm_wukong.txt	
+614	狐狸						scene/task/xm/xm_huli.txt	
+615	狐狸精						scene/task/xm/xm_huli.txt	
+616	小庙						scene/task/xm/xm_fang.txt	
+617	透明目标						scene/task/xm/xm_touming.txt	
+618	点燃						scene/task/xm/xm_fang.txt	
+619	火焰						scene/task/xm/xm_fang.txt	

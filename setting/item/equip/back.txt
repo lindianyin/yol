@@ -1,0 +1,17 @@
+Name	Desc	Genre	DetailType	ParticularType	Level	Category	Pandent1ID	Pandent2ID	CurrencyType	Price	ReqLevel	MaxDurability	ItemValue	CanTrade	CanDestroy	Quality	BindType	ClassName	SlotMin	SlotMax	BasicPropType	BasicPropValue	ExPandent1	ExPandent2	ExPandent3	ExPandent4
+天使之翅		1	13	4	1	5	1108	1108	2	0	1	50			0	6	1	equip	0	0	modifydmg_v	100				
+五菱刃		1	13	6	1	7	1110	1110	2	0	1	50			0	6	1	equip	0	0	modifydmg_v	150				
+光蝶之翅		1	13	7	1	10	1119	1119	2	0	1	50			0	6	1	equip	0	0	modifydmg_v	200				
+仙灵之翅		1	13	8	1	11	1120	1120	2	0	1	50			0	6	1	equip	0	0	modifydmg_v	250				
+炎灵火羽		1	13	9	1		4200	4200	2	0	1	50			0	6	1	equip	0	0	modifydmg_v	400				
+器灵钢羽		1	13	10	1		4202	4202	2	0	1	50			0	6	1	equip	0	0	modifydmg_v	750				
+幽灵冥羽		1	13	11	1		4204	4204	2	0	1	50			0	6	1	equip	0	0	modifydmg_v	1250				
+天尊圣环		1	13	12	1		4206	4206	2	0	1	50			0	6	1	equip	0	0	modifydmg_v	2000				
+天使之翅（永久）		1	13	13	1	5	1108	1108	2	0	1	50			0	6	1	equip	0	0	modifydmg_v	100				
+五菱刃（永久）		1	13	14	1	7	1110	1110	2	0	1	50			0	6	1	equip	0	0	modifydmg_v	150				
+光碟之翅（永久）		1	13	15	1	10	1119	1119	2	0	1	50			0	6	1	equip	0	0	modifydmg_v	200				
+仙灵之翅（永久）		1	13	16	1	11	1120	1120	2	0	1	50			0	6	1	equip	0	0	modifydmg_v	250				
+炎灵火羽（永久）		1	13	17	1		4200	4200	2	0	1	50			0	6	1	equip	0	0	modifydmg_v	400				
+器灵钢羽（永久）		1	13	18	1		4202	4202	2	0	1	50			0	6	1	equip	0	0	modifydmg_v	750				
+幽灵冥羽（永久）		1	13	19	1		4204	4204	2	0	1	50			0	6	1	equip	0	0	modifydmg_v	1250				
+天尊圣环（永久）		1	13	20	1		4206	4206	2	0	1	50			0	6	1	equip	0	0	modifydmg_v	2000				

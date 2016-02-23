@@ -1,0 +1,11 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+40	鱼怪						scene/task/lg2/lg_yuguai.txt	
+41	三太子						scene/task/lg2/lg_taizi.txt	
+42	龙						scene/task/lg2/lg_long.txt	
+43	冰雹技能						scene/task/lg2/lg_jineng.txt	
+44	内丹（光球）						scene/task/lg2/lg_shuizhu.txt	
+45	封印						scene/task/lg2/lg_fengyin.txt	
+46	三太子						scene/task/lg2/lg_taizi.txt	
+47	内丹（光球）						scene/task/lg2/lg_shuizhu.txt	
+36	鱼怪						scene/task/lg2/lg_yuguai.txt	
+48	鱼怪						scene/task/lg2/lg_shuiyao.txt	

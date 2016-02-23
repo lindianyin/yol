@@ -1,0 +1,13 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+120	透明目标						scene/task/nssd/nssd_touming.txt
+121	透明						scene/task/nssd/nssd_touming.txt
+122	年兽技能						scene/task/nssd/nssd_nianshou.txt
+123	年兽主体						scene/task/nssd/nssd_nianshou.txt
+124	年兽分身						scene/task/nssd/nssd_nianshou.txt
+125	年兽乱跑						scene/task/nssd/nssd_nianshou.txt
+126	透明						scene/task/nssd/nssd_touming.txt
+127	年兽（分身前）						scene/task/nssd/nssd_nianshou.txt
+128	年兽分身						scene/task/nssd/nssd_nianshou.txt
+129	年兽分身						scene/task/nssd/nssd_nianshou.txt
+130	年兽分身						scene/task/nssd/nssd_nianshou.txt
+131	年兽分身						scene/task/nssd/nssd_nianshou.txt

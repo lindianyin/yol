@@ -1,0 +1,11 @@
+Name	Desc	Genre	DetailType	ParticularType	Icon	View	Intro	CurrencyType	Price	Stack	ItemValue	MakeCost	BindType	Valuable	CanTrade	CanDestroy	ReqLevel	Quality	ClassName	ForbidType	CDType	ExtParam1	ExtParam2	ExtParam3	ExtParam4	ExtParam5	ExtParam6	ExtParam7	ExtParam8	ExtParam9	ExtParam10
+仙泉水		20	1	1				2	1	100	100		3	0				4	taskitem			7148									
+祖传玉佩		20	1	2				2	1	100	100		3	0				4	taskitem			7148									
+暖心香囊		20	1	3				2	1	100	100		3	0				4	taskitem			7148									
+柴火		20	1	4				2	1	100	100		3	0				4	taskitem			7148									
+巨额银票		20	1	5				2	1	100	100		3	0				4	taskitem			7148									
+珍奇宝箱		20	1	6				2	1	100	100		3	0				4	taskitem			7148									
+水曲柳木		20	1	7				2	1	100	100		3	0				4	taskitem			7148									
+野牛皮		20	1	8				2	1	100	100		3	0				4	taskitem			7148									
+虫草聚元丹		20	1	9				2	1	100	100		3	0				4	taskitem			7148									
+黄金福袋		20	1	10				2	1	100	100		3	0				4	taskitem			7148									

@@ -1,0 +1,8 @@
+id	awardId	finishCount	autoGive	awardDesc	conditionDesc	iconPath	iconIdx	tips
+条件id	奖励id	完成次数	自动给	奖励说明	说明	图标路径	图标索引	提示
+1	19	1	0	1000铜钱	任意两个神器收集满1星以上	items/item_scriptitem001.unity3d		任意两个神器收集满1星以上
+2	20	1	0	2000铜钱	通关35级御神副本（困难）	items/item_scriptitem001.unity3d		通关35级御神副本（困难）
+3	21	1	0	3000铜钱	通关35级炼兽副本（困难）	items/item_famaterial001.unity3d		通关35级炼兽副本（困难）
+4	22	1	0	4000铜钱	5件装备升到蓝品	items/item_scriptitem001.unity3d		5件装备升到蓝品
+5	23	1	0	5000铜钱	伐魔塔达到45层	items/item_scriptitem001.unity3d		伐魔塔达到45层
+6	24	1	0	6000铜钱	战斗力达到30000	items/item_famaterial001.unity3d		战斗力达到30000

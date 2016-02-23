@@ -1,0 +1,4 @@
+character_var_def.txt
+	VarGroup、VarFirst、VarLast均为必填项，SyncSelf、SyncOther、ClientFlag默认为否
+	变量ID取值范围为0~255，变量Group取值范围均为10~255（0~9程序保留）
+	ClientFlag标志此变量可以由客户端修改并同步到服务器

@@ -1,0 +1,10 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+2140	天残弟子						scene/dtfb/dt_xetc/xetc_yi.txt
+2141	天残四长老						scene/dtfb/dt_xetc/xetc_yi.txt
+2142	天残弟子						scene/dtfb/dt_xetc/xetc_er.txt
+2143	天残三长老						scene/dtfb/dt_xetc/xetc_er.txt
+2144	天残弟子						scene/dtfb/dt_xetc/xetc_san.txt
+2145	天残二长老						scene/dtfb/dt_xetc/xetc_san.txt
+2146	天残弟子						scene/dtfb/dt_xetc/xetc_si.txt
+2147	天残一长老						scene/dtfb/dt_xetc/xetc_si.txt
+2148	邪恶天残						scene/dtfb/dt_xetc/xetc_boss.txt

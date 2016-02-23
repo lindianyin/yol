@@ -1,0 +1,12 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+1419	红色箭头						scene/fb/teamfb04/ccdz_touming.txt
+1420	被劫镖车						scene/fb/teamfb04/ccdz_biaoche.txt
+1421	劫匪（戴帽）					4	scene/fb/teamfb04/ccdz_jiefei.txt
+1422	劫匪（没戴帽）					6	scene/fb/teamfb04/ccdz_jiefei.txt
+1423	劫匪						scene/fb/teamfb04/ccdz_jiefei.txt
+1424	劫匪						scene/fb/teamfb04/ccdz_jiefei.txt
+1425	帐篷						scene/fb/teamfb04/ccdz_zhangpeng.txt
+1426	箭塔						scene/fb/teamfb04/ccdz_jianta.txt
+1427	被踩自杀						scene/fb/teamfb04/ccdz_touming.txt
+1428	一出来自杀						scene/fb/teamfb04/ccdz_touming.txt
+1429	劫匪头领 						scene/fb/teamfb04/ccdz_boss.txt

@@ -1,0 +1,5 @@
+TemplateId	Comment	X	Y	Z	FaceDiremwyd2ion	RegenerationTime	PosFile	Count
+660	僵尸兵						scene/task/mwyd2/mwyd2_jiangshi.txt
+661	<color=green>[精英]僵尸兵						scene/task/mwyd2/mwyd2_jiangshi.txt
+662	陨石						scene/task/mwyd2/mwyd2_boss.txt
+663	魔王分身						scene/task/mwyd2/mwyd2_boss.txt

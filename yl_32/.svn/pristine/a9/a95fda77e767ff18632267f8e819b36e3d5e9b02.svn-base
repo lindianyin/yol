@@ -1,0 +1,7 @@
+IP=`curl -s www.wyown.com/clientip`
+echo "大神服务器" >msg.tmp
+echo "${IP}" >>msg.tmp
+echo "启动完成" >>msg.tmp
+cat `find ./ -name *.pid` | xargs ps -o pid,comm -p | grep -v 'COMMAND' >>msg.tmp
+./sendmsg.py msg.tmp
+rm -fr msg.tmp

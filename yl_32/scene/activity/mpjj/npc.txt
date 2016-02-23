@@ -1,0 +1,4 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+2536	宝箱bpc						scene/activity/mpjj/baoxiang.txt	
+2537	冠军旗子						scene/activity/mpjj/qizi.txt	
+2538	透明人屏障						scene/activity/mpjj/qizi.txt	

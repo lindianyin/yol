@@ -1,0 +1,11 @@
+Level	Desc	IsSave	IsSync	OverlayDay	AutoGive	FightingSpirit	Exp	Energy	Silver	Prestige	Item1	Item1AmountMin	Item1AmountMax	Item1Rate	Item1TimeOut	Item2	Item2AmountMin	Item2AmountMax	Item2Rate	Item2TimeOut	Item3	Item3AmountMin	Item3AmountMax	Item3Rate	Item3TimeOut	Item4	Item4AmountMin	Item4AmountMax	Item4Rate	Item4TimeOut	Item5	Item5AmountMin	Item5AmountMax	Item5Rate	Item5TimeOut	Item6	Item6AmountMin	Item6AmountMax	Item6Rate	Item6TimeOut	Item7	Item7AmountMin	Item7AmountMax	Item7Rate	Item7TimeOut	Item8	Item8AmountMin	Item8AmountMax	Item8Rate	Item8TimeOut	Item9	Item9AmountMin	Item9AmountMax	Item9Rate	Item9TimeOut	Item10	Item10AmountMin	Item10AmountMax	Item10Rate	Item10TimeOut
+家族等级	奖励备注，供理解	是否存盘	是否发送客户端	累计天数	是否直接领取	战魂	经验	真气	银两	声望																																																		
+1	家族篝火令	1	1	1							18,1,267,0	1	1	100																																														
+2	[1级家族]篝火完成奖励	1	1	1					5000		18,1,262,0	5	5	100																																														
+3	[2级家族]篝火完成奖励	1	1	1					6000		18,1,262,0	10	10	100		18,1,263,0	5	5	100																																									
+4	[3级家族]篝火完成奖励	1	1	1					8000		18,1,262,0	15	15	100		18,1,263,0	10	10	100		18,1,264,0	5	5	100																																				
+5	[4级家族]篝火完成奖励	1	1	1					10000		18,1,262,0	20	20	100		18,1,263,0	15	15	100		18,1,264,0	10	10	100		18,1,265,0	5	5	100																															
+6	[5级家族]篝火完成奖励	1	1	1					12000		18,1,262,0	25	25	100		18,1,263,0	20	20	100		18,1,264,0	15	15	100		18,1,265,0	10	10	100																															
+7	[6级家族]篝火完成奖励	1	1	1					15000		18,1,262,0	30	30	100		18,1,263,0	25	25	100		18,1,264,0	20	20	100		18,1,265,0	15	15	100																															
+8	[7级家族]篝火完成奖励	1	1	1					20000		18,1,262,0	35	35	100		18,1,263,0	30	30	100		18,1,264,0	25	25	100		18,1,265,0	20	20	100																															
+9	[8级家族]篝火完成奖励	1	1	1					25000		18,1,262,0	40	40	100		18,1,263,0	35	35	100		18,1,264,0	30	30	100		18,1,265,0	25	25	100																															

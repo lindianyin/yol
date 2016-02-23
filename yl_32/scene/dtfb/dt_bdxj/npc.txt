@@ -1,0 +1,8 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+2100	¶¾ó¸òÜ						scene/dtfb/dt_bdxj/bdxj_chanchu.txt
+2101	ó¸òÜ¾«						scene/dtfb/dt_bdxj/bdxj_chanchu.txt
+2102	¶¾³æ						scene/dtfb/dt_bdxj/bdxj_feichong.txt
+2103	¾ç¶¾³æ						scene/dtfb/dt_bdxj/bdxj_feichong.txt
+2104	¶¾Ö©Öë						scene/dtfb/dt_bdxj/bdxj_zhizhu.txt
+2105	ºÚ¹Ñ¸¾						scene/dtfb/dt_bdxj/bdxj_zhizhu.txt
+2106	°Ù¶¾½ÌÖ÷						scene/dtfb/dt_bdxj/bdxj_boss.txt

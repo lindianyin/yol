@@ -1,0 +1,4 @@
+id	awardId	finishCount	autoGive	awardDesc	conditionDesc	iconPath	iconIdx	tips
+条件id	奖励id	完成次数	自动给	奖励说明	说明	图标路径	图标索引	提示
+1	5	1	0	1000铜钱	坐骑达到第三阶	items/item_scriptitem001.unity3d		坐骑达到第三阶
+2	6	1	0	1001铜钱	坐骑达到第三阶	items/item_scriptitem001.unity4d		坐骑达到第三阶

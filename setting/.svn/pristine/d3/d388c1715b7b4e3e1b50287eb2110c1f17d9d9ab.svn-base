@@ -1,0 +1,3 @@
+Level	Desc	IsSave	IsSync	OverlayDay	AutoGive	FightingSpirit	Exp	Energy	Silver	Prestige	Item1	Item1AmountMin	Item1AmountMax	Item1Rate	Item1TimeOut	Item2	Item2AmountMin	Item2AmountMax	Item2Rate	Item2TimeOut	Item3	Item3AmountMin	Item3AmountMax	Item3Rate	Item3TimeOut	Item4	Item4AmountMin	Item4AmountMax	Item4Rate	Item4TimeOut	Item5	Item5AmountMin	Item5AmountMax	Item5Rate	Item5TimeOut	Item6	Item6AmountMin	Item6AmountMax	Item6Rate	Item6TimeOut	Item7	Item7AmountMin	Item7AmountMax	Item7Rate	Item7TimeOut	Item8	Item8AmountMin	Item8AmountMax	Item8Rate	Item8TimeOut	Item9	Item9AmountMin	Item9AmountMax	Item9Rate	Item9TimeOut	Item10	Item10AmountMin	Item10AmountMax	Item10Rate	Item10TimeOut
+名次	奖励备注，供理解	是否存盘	是否发送客户端	累计天数	是否直接领取	战魂	经验	真气	银两	声望
+1	完成每日必做奖励	1	1	1	1	1000	6	5000	10000

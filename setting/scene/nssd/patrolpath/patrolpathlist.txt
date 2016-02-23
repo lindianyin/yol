@@ -1,0 +1,7 @@
+PatrolPathID	PatrolPathWalkSpeed	PatrolPathOrderID	PatrolPathFileName
+2	23	1	setting/scene/nssd/patrolpath/patrolpathlist0.txt
+1	18	1	setting/scene/nssd/patrolpath/patrolpathlist1.txt
+3	18	1	setting/scene/nssd/patrolpath/patrolpathlist2.txt
+4	18	1	setting/scene/nssd/patrolpath/patrolpathlist3.txt
+5	18	1	setting/scene/nssd/patrolpath/patrolpathlist4.txt
+6	20	1	setting/scene/nssd/patrolpath/patrolpathlist5.txt

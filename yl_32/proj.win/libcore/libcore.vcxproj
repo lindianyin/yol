@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\LibQrt\Include\CommonDefine.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\CoreDeclspec.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\EncodeDecode.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\File.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\FileType.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\Interlocked.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\IpMacAddress.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\luna.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\QFile.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\QGUID.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\QIniFile.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\QLinkArray.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\QList.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\QLock.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\QLog.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\QLogFile.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\QLuaScript.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\QLuaScriptGroup.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\QLuaScriptSet.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\QMemory.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\QNode.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\QStrBase.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\QTabFile.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\QTabFileCtrl.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\QThread.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\QTime.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Core\Random.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Misc\ComError.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Misc\IDatabase.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Misc\md5.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Misc\Misc.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Misc\MSUnknown.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Misc\namefilter_i.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Misc\objectpool.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Misc\objevent.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Misc\PassGen.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Misc\qconsolereader.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Misc\qidpool.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Misc\qindexlist.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Misc\randomgen.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Misc\traverse_dir.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Misc\utilities.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Misc\xml_i.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Network\QSocket.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Network\QSocketPack.h" />
+    <ClInclude Include="..\..\LibQrt\Include\ProtocolBasic.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Protocol\AccountLoginDef.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Protocol\BishopPaysysProtocol.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Protocol\BishopRelayProtocol.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Protocol\BishopToolProtocol.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Protocol\GatewayAccountProtocol.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Protocol\GoddessProtocol.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Protocol\KG_CSLogServerProtocal.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Protocol\LogServerProtocol.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Protocol\PaysysGamewordProtocal.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Runtime\Debug.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Runtime\QRT.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Runtime\qstring.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Runtime\Stddef.h" />
+    <ClInclude Include="..\..\LibQrt\Include\Runtime\TypeDef.h" />
+    <ClInclude Include="..\..\LibQrt\Src\Core\CorePrivate.h" />
+    <ClInclude Include="..\..\LibQrt\Src\Core\Crypto\easycrypt.h" />
+    <ClInclude Include="..\..\LibQrt\Src\Core\Crypto\my_md5.h" />
+    <ClInclude Include="..\..\LibQrt\Src\Core\File\AloneFile.h" />
+    <ClInclude Include="..\..\LibQrt\Src\Core\File\IniFile.h" />
+    <ClInclude Include="..\..\LibQrt\Src\Core\File\IniFile2.h" />
+    <ClInclude Include="..\..\LibQrt\Src\Core\File\TabFile.h" />
+    <ClInclude Include="..\..\LibQrt\Src\Core\File\TabFileWritable.h" />
+    <ClInclude Include="..\..\LibQrt\Src\Core\Misc\xml\tinystr.h" />
+    <ClInclude Include="..\..\LibQrt\Src\Core\Misc\xml\tinyxml.h" />
+    <ClInclude Include="..\..\LibQrt\Src\Core\Misc\xml\xmldocument.h" />
+    <ClInclude Include="..\..\LibQrt\Src\Core\Network\SocketCryptKey.h" />
+    <ClInclude Include="..\..\LibQrt\Src\Core\resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Crypto\CRC32.c" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Crypto\easycrypt.c" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Crypto\EncodeDecode.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Crypto\my_md5.c" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\File\AloneFile.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\File\File.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\File\FilePath.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\File\IniFile.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\File\IniFile2.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\File\QLogFile.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\File\TabFile.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\File\TabFileWritable.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Lua\luna.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Lua\QLuaScript.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Lua\QLuaScriptGroup.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Lua\QLuaScriptSet.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\Debug.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\IpMacAddress.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\MSUnknown.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\objevent.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\qconsolereader.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\QGUID.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\qidpool.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\qindexlist.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\QLog.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\qnamefilter.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\QTime.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\Random.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\xml\tinystr.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\xml\tinyxml.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\xml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\xml\tinyxmlparser.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\xml\xmldocument.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Network\QSocket.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Network\QSocketPack.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Runtime\QMemory.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Runtime\QStrBase.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Runtime\qstring.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\Runtime\QThread.cpp" />
+    <ClCompile Include="..\..\LibQrt\Src\Core\stdafx.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E65FE66D-FBEC-49D5-9D24-4A34DE1CD551}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libcore</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;STATIC_QRT;CORE_EXPORTS;SCRIPT_BINDK</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\LibQrt\Src\Core;$(SolutionDir)..\LibQrt\Include\Core;$(SolutionDir)..\LibQrt\Include;$(SolutionDir)..\3rd\lua-5.1.4\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;STATIC_QRT;CORE_EXPORTS;SCRIPT_BINDK</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\LibQrt\Src\Core;$(SolutionDir)..\LibQrt\Include\Core;$(SolutionDir)..\LibQrt\Include;$(SolutionDir)..\3rd\lua-5.1.4\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

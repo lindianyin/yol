@@ -1,0 +1,4 @@
+id	awardId	finishCount	autoGive	awardDesc	conditionDesc	iconPath	iconIdx	tips
+条件id	奖励id	完成次数	自动给	奖励说明	说明	图标路径	图标索引	提示
+1	11	1	0	3000铜钱	拥有5个绿品以上神仙			拥有5个绿品以上神仙
+2	12	1	0	4000铜钱	任意一个神器收集满2星以上			任意一个神器收集满2星以上

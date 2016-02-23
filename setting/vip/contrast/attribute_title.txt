@@ -1,0 +1,20 @@
+level	num	rate	type	isOpen	iconPath	iconIndex	desc
+vip等级	次数	倍率	类型(0:每天加次数;1:倍率;2:开启;3:购买加次数)	是否开启	图标路径	图标索引	描述
+0	5		0				VIP0
+1	10		0				VIP1
+2	15		0				VIP2
+3	20		0				VIP3
+4	25		0				VIP4
+5	30		0				VIP5
+6	35		0				VIP6
+7	40		0				VIP7
+8	45		0				VIP8
+9	50		0				VIP9
+10	55		0				VIP10
+
+
+
+
+
+
+										                                                                                                                                                                                                                                                                                                                                                              

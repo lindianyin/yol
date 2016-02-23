@@ -1,0 +1,12 @@
+IP=`curl -s www.wyown.com/clientip`
+echo "大神服务器" >msg.tmp
+echo "即将重启" >>msg.tmp
+echo "${IP}" >>msg.tmp
+echo "即将重启" >>msg.tmp
+echo "以下进程即将中止" >>msg.tmp
+PID_FILE_LIST=`find ./ -name *.pid`
+if [ "${PID_FILE_LIST}" != "" ]; then
+	cat PID_FILE_LIST | xargs ps -o pid,comm -p | grep -v 'COMMAND' >>msg.tmp
+fi
+./sendmsg.py msg.tmp
+rm -fr msg.tmp

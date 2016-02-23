@@ -1,0 +1,7 @@
+PatrolPathID	PatrolPathWalkSpeed	PatrolPathOrderID	PatrolPathFileName
+3	15	1	setting/scene/cmk/patrolpath/patrolpathlist0.txt
+1	19	1	setting/scene/cmk/patrolpath/patrolpathlist1.txt
+4	19	1	setting/scene/cmk/patrolpath/patrolpathlist2.txt
+5	19	1	setting/scene/cmk/patrolpath/patrolpathlist3.txt
+2	16	1	setting/scene/cmk/patrolpath/patrolpathlist4.txt
+6	16	1	setting/scene/cmk/patrolpath/patrolpathlist5.txt

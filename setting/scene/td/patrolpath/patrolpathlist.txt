@@ -1,0 +1,3 @@
+PatrolPathID	PatrolPathWalkSpeed	PatrolPathOrderID	PatrolPathFileName
+1	23	1	setting/scene/td/patrolpath/patrolpathlist1.txt
+3	40	1	setting/scene/td/patrolpath/patrolpathlist0.txt

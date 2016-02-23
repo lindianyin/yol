@@ -1,0 +1,9 @@
+Attrib	Score
+属性	分数
+modifydmg_v	50
+adddef_v	50
+addhitrate_v	50
+adddodge_v	50
+addcriticalrate_v	50
+addresist_v	50
+addmaxlife_v	5

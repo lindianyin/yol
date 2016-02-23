@@ -1,0 +1,4 @@
+RoomId	Level	Teams	Weight	WinExp	LostExp	WinRepute	LostRepute	Prestige	TollGatePoint
+1	1	1	1000	18	9	1	1	0	0
+28	3	1	1000	27	14	3	3	2	0
+42	4	1	1000	36	18	4	4	5	0

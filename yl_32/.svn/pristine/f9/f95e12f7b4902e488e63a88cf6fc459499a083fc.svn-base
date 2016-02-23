@@ -1,0 +1,44 @@
+[Network]
+InAdapterIdx=1
+OutAdapterIdx=1
+InIp=
+OutIp=
+Port=5004
+
+[Limit]
+MaxRolePerAccount=1
+MaxRoleListBuffer=6000
+MaxClients=100
+MaxAccountsPerDB=2000000
+
+[NameServer]
+Server=10.20.126.112
+Port=3306
+User=anonymous
+Password=_eHJKA_UKMEMeNvR__ZOCLQjYUQjWQPE
+Database=#SW_GATEWAY_USR#_nameserver
+Thread=1
+
+; 角色数据库集群
+[DatabaseCluster]
+NodeCount=1
+User=anonymous
+Password=_eHJKA_UKMEMeNvR__ZOCLQjYUQjWQPE
+;常用CharSet为latin1，gbk和utf8，若此项与本机默认代码页不同
+;而#SW_GATEWAY_USR#包含非英文字符时，数据库初始化可能失败
+;CharSet=gbk
+
+; 数据库集群 结点1
+[DatabaseNode1]
+Server=10.20.126.112
+Port=3306
+Database=#SW_GATEWAY_USR#_9Sky1
+; 数据库并发连接数
+Thread=1
+
+; 数据库集群 结点2
+;[DatabaseNode2]
+;Server=10.20.126.112
+;Port=3306
+;Database=#SW_GATEWAY_USR#_9Sky2
+;Thread=1

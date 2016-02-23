@@ -1,0 +1,25 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+500	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+505	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+501	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+504	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+502	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+503	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+508	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+509	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+510	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+511	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+512	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+513	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+514	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+515	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+516	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+517	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+518	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+519	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+520	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+521	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+522	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+523	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+524	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0
+525	¾²Ì¬³èÎï	2038	2060	1069056	239		scene/ntm/nantianmen.txt	0

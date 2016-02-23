@@ -1,0 +1,8 @@
+id	awardId	finishCount	autoGive	awardDesc	conditionDesc	iconPath	iconIdx	tips
+条件id	奖励id	完成次数	自动给	奖励说明	说明	图标路径	图标索引	提示
+1	1	1	0	1000银两	达到30级	items/item_petitem001.unity3d		达到30级
+2	2	1	0	2000银两	竞技场进行10次挑战	items/item_famaterial001.unity3d		竞技场进行10次挑战
+3	3	1	0	3000银两	一天修仙劫驾10次	items/item_petitem001.unity3d		一天修仙劫驾10次
+4	4	1	0	4000银两	6件装备升到绿品	items/item_petitem001.unity3d		6件装备升到绿品
+5	5	1	0	5000银两	伐魔塔达到20层	items/item_petitem001.unity3d		伐魔塔达到20层
+6	6	1	0	6000银两	首次击杀玩家	items/item_petitem001.unity3d		首次击杀玩家

@@ -1,0 +1,38 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+1050	传送水晶(1~2)						scene/new_gk/gk_mstt/gk_mstt_shuijing.txt
+1051	传送水晶(2~3)						scene/new_gk/gk_mstt/gk_mstt_shuijing.txt
+1052	传送水晶(3~4)						scene/new_gk/gk_mstt/gk_mstt_shuijing.txt
+1053	传送水晶(boss)						scene/new_gk/gk_mstt/gk_mstt_shuijing.txt
+1054	火焰属性箱子						scene/new_gk/gk_mstt/gk_mstt_buff.txt
+1055	速度属性箱子						scene/new_gk/gk_mstt/gk_mstt_buff.txt
+1056	恢复属性箱子						scene/new_gk/gk_mstt/gk_mstt_buff.txt
+1057	火焰属性						scene/new_gk/gk_mstt/gk_mstt_buff.txt
+1058	速度属性						scene/new_gk/gk_mstt/gk_mstt_buff.txt
+1059	恢复属性						scene/new_gk/gk_mstt/gk_mstt_buff.txt
+1060	魔兵						scene/new_gk/gk_mstt/gk_mstt_mobing.txt
+1061	魔兵弓箭手						scene/new_gk/gk_mstt/gk_mstt_mobing.txt
+1062	魔将						scene/new_gk/gk_mstt/gk_mstt_mobing.txt
+1063	魔将						scene/new_gk/gk_mstt/gk_mstt_mobing.txt
+1064	怨灵						scene/new_gk/gk_mstt/gk_mstt_yuanling.txt
+1065	圣光						scene/new_gk/gk_mstt/gk_mstt_shengguang.txt
+1066	妖王						scene/new_gk/gk_mstt/gk_mstt_yaowang.txt
+1067	一出来自杀（用于机制）						scene/new_gk/gk_mstt/gk_mstt_zisha.txt
+1068	缸						scene/new_gk/gk_mstt/gk_mstt_gang.txt
+1069	人踩自杀						scene/new_gk/gk_mstt/gk_mstt_zisha.txt
+1070	鬼魂					5	scene/new_gk/gk_mstt/gk_mstt_gang.txt
+1071	鬼魂					5	scene/new_gk/gk_mstt/gk_mstt_gang.txt
+1072	鬼魂					5	scene/new_gk/gk_mstt/gk_mstt_gang.txt
+1073	鬼魂					5	scene/new_gk/gk_mstt/gk_mstt_gang.txt
+1074	凶猛鬼魂					5	scene/new_gk/gk_mstt/gk_mstt_gang.txt
+1075	鬼魂						scene/new_gk/gk_mstt/gk_mstt_zhaohuan.txt
+1076	鬼魂						scene/new_gk/gk_mstt/gk_mstt_zhaohuan.txt
+1077	鬼魂						scene/new_gk/gk_mstt/gk_mstt_zhaohuan.txt
+1078	鬼魂						scene/new_gk/gk_mstt/gk_mstt_zhaohuan.txt
+1079	透明被杀（配合BOSS技能）						scene/new_gk/gk_mstt/gk_mstt_zisha.txt
+1080	帮妖王加血（配合BOSS技能）						scene/new_gk/gk_mstt/gk_mstt_zhaohuan.txt
+1081	妖王追人大技（配合BOSS技能）						scene/new_gk/gk_mstt/gk_mstt_zhaohuan.txt
+1082	箭头						scene/new_gk/gk_mstt/gk_mstt_gang.txt
+1083	凶鬼						scene/new_gk/gk_mstt/gk_mstt_zhaohuan.txt
+1084	传送水晶(1~2)（困难）						scene/new_gk/gk_mstt/gk_mstt_shuijing.txt
+1085	传送水晶(2~3)（困难）						scene/new_gk/gk_mstt/gk_mstt_shuijing.txt
+1086	传送水晶(BOSS)（困难）						scene/new_gk/gk_mstt/gk_mstt_shuijing.txt

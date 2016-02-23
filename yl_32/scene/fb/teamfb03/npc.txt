@@ -1,0 +1,14 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+1380	人质						scene/fb/teamfb03/dnhfs_renzhi.txt
+1381	恶人守卫（点1-巡逻）						scene/fb/teamfb03/dnhfs_shouwei.txt
+1382	恶人守卫（点1-巡逻）(无用)						scene/fb/teamfb03/dnhfs_shouwei.txt
+1383	恶人手下（支援）						scene/fb/teamfb03/dnhfs_shibing.txt
+1384	被杀						scene/fb/teamfb03/dnhfs_touming.txt
+1385	恶人守卫（点2-巡逻）						scene/fb/teamfb03/dnhfs_shouwei.txt
+1386	恶人守卫（点3-巡逻）						scene/fb/teamfb03/dnhfs_shouwei.txt
+1387	恶人守卫（左桥1-巡逻）						scene/fb/teamfb03/dnhfs_shouwei.txt
+1388	恶人守卫（左桥2-巡逻）						scene/fb/teamfb03/dnhfs_shouwei.txt
+1389	恶人守卫（右桥1-巡逻）						scene/fb/teamfb03/dnhfs_shouwei.txt
+1390	恶人守卫（右桥2-巡逻）						scene/fb/teamfb03/dnhfs_shouwei.txt
+1391	恶人寨寨主（boss）						scene/fb/teamfb03/dnhfs_boss.txt
+1392	透明自杀						scene/fb/teamfb03/dnhfs_touming.txt

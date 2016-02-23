@@ -1,0 +1,13 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+390	Ð°»¯Å£Ä§Íõ						scene/task/nmwdx2/nmwdx2_mowang.txt
+391	Ð°¶ñÅ£±ø						scene/task/nmwdx2/nmwdx2_xiee.txt
+392	Å£±ø						scene/task/nmwdx2/nmwdx2_niubing.txt
+393	×ÔÉ±						scene/task/nmwdx2/nmwdx2_touming.txt
+394	Í¸Ã÷Ä¿±ê						scene/task/nmwdx2/nmwdx2_touming.txt
+395	Ð°¶ñÅ£±ø						scene/task/nmwdx2/nmwdx2_xiee.txt
+396	Å£±ø						scene/task/nmwdx2/nmwdx2_niubing.txt
+397	Ð°¶ñÅ£±ø						scene/task/nmwdx2/nmwdx2_xiee.txt
+398	Å£±ø						scene/task/nmwdx2/nmwdx2_niubing.txt
+399	Ð°»¯Å£Ä§Íõ						scene/task/nmwdx2/nmwdx2_mowang.txt
+400	±¬Õ¨						scene/task/nmwdx2/nmwdx2_touming.txt
+401	Ð°¶ñÅ£±ø						scene/task/nmwdx2/nmwdx2_xiee.txt

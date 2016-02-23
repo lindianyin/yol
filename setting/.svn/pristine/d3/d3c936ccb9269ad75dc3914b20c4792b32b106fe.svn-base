@@ -1,0 +1,8 @@
+id	awardId	finishCount	autoGive	awardDesc	conditionDesc	iconPath	iconIdx	tips
+条件id	奖励id	完成次数	自动给	奖励说明	说明	图标路径	图标索引	提示
+1	25	1	0	1000铜钱	镶嵌超过4个以上任意宝石	items/item_famaterial003.unity3d		镶嵌超过4个以上任意宝石
+2	26	1	0	1000铜钱	任意一个神仙达到35级以上	items/item_famaterial003.unity3d		任意一个神仙达到35级以上
+3	27	1	0	1000铜钱	竞技场进入200名	items/item_famaterial003.unity3d		竞技场进入200名
+4	28	1	0	1000铜钱	7件装备升到蓝品	items/item_famaterial003.unity3d		7件装备升到蓝品
+5	29	1	0	1000铜钱	伐魔塔达到50层	items/item_famaterial003.unity3d		伐魔塔达到50层
+6	30	1	0	1000铜钱	战斗力达到35000	items/item_famaterial003.unity3d		战斗力达到35000

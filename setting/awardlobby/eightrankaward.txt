@@ -1,0 +1,7 @@
+id	iconPath	iconIndex	awardId	desc	picName	minValue
+1			1	炼卦冲榜第1名	lg_1	
+2			2	炼卦冲榜第2名	lg_2	
+3			3	炼卦冲榜第3名	lg_3	
+4			4	炼卦冲榜4-10	lg_4	
+5			5	炼卦冲榜11-30	lg_11	
+6			6	炼卦冲榜31-&	lg_31	

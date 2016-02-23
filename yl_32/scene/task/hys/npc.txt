@@ -1,0 +1,15 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+270	战斗种子						scene/task/hys/hys_zhongzi.txt
+271	战斗树人						scene/task/hys/hys_shuren.txt
+272	熔岩怪						scene/task/hys/hys_rongyan.txt
+273	熔岩怪						scene/task/hys/hys_rongyan.txt
+274	熔岩怪						scene/task/hys/hys_rongyan.txt
+275	冰冻树人						scene/task/hys/hys_shuren.txt
+276	超级熔岩怪						scene/task/hys/hys_rongyan.txt
+277	超级熔岩怪						scene/task/hys/hys_rongyan.txt
+278	超级熔岩怪						scene/task/hys/hys_rongyan.txt
+279	透明自杀						scene/task/hys/hys_touming.txt
+280	红孩儿（剧情）						scene/task/hys/hys_hong.txt
+281	红孩儿 						scene/task/hys/hys_hong.txt
+282	透明目标						scene/task/hys/hys_touming.txt
+283	超级熔岩怪（出现在红孩儿身边）						scene/task/hys/hys_rongyan.txt

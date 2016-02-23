@@ -1,0 +1,19 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+2540	神族基地						scene/activity/zhanchang/shenzu.txt	
+2541	魔族基地						scene/activity/zhanchang/mozu.txt	
+2546	神族炮塔中1						scene/activity/zhanchang/shenzu.txt	
+2547	神族炮塔中2						scene/activity/zhanchang/shenzu.txt	
+2548	神族炮塔左1						scene/activity/zhanchang/shenzu.txt	
+2549	神族炮塔左2						scene/activity/zhanchang/shenzu.txt	
+2550	神族炮塔右1						scene/activity/zhanchang/shenzu.txt	
+2551	神族炮塔右2						scene/activity/zhanchang/shenzu.txt	
+2552	魔族炮塔中1						scene/activity/zhanchang/mozu.txt	
+2553	魔族炮塔中2						scene/activity/zhanchang/mozu.txt	
+2554	魔族炮塔左1						scene/activity/zhanchang/mozu.txt	
+2555	魔族炮塔左2						scene/activity/zhanchang/mozu.txt	
+2556	魔族炮塔右1						scene/activity/zhanchang/mozu.txt	
+2557	魔族炮塔右2						scene/activity/zhanchang/mozu.txt	
+2571	神族npc 中1					3	scene/activity/zhanchang/shenzu.txt	
+2576	神族npc 中6					3	scene/activity/zhanchang/shenzu.txt	
+2589	魔族npc 中1					3	scene/activity/zhanchang/mozu.txt	
+2594	魔族npc 中6					3	scene/activity/zhanchang/mozu.txt	

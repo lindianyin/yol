@@ -1,0 +1,2 @@
+PointClass	X	Y	Z	FaceDirection
+quan	2398	2923	1048576	75

@@ -1,0 +1,10 @@
+Level	Desc	IsSave	IsSync	OverlayDay	AutoGive	FightingSpirit	Exp	Energy	Silver	Prestige	Item1	Item1AmountMin	Item1AmountMax	Item1Rate	Item1TimeOut	Item2	Item2AmountMin	Item2AmountMax	Item2Rate	Item2TimeOut	Item3	Item3AmountMin	Item3AmountMax	Item3Rate	Item3TimeOut	Item4	Item4AmountMin	Item4AmountMax	Item4Rate	Item4TimeOut	Item5	Item5AmountMin	Item5AmountMax	Item5Rate	Item5TimeOut	Item6	Item6AmountMin	Item6AmountMax	Item6Rate	Item6TimeOut	Item7	Item7AmountMin	Item7AmountMax	Item7Rate	Item7TimeOut	Item8	Item8AmountMin	Item8AmountMax	Item8Rate	Item8TimeOut	Item9	Item9AmountMin	Item9AmountMax	Item9Rate	Item9TimeOut	Item10	Item10AmountMin	Item10AmountMax	Item10Rate	Item10TimeOut
+家族等级	奖励备注，供理解	是否存盘	是否发送客户端	累计天数	是否直接领取	战魂	经验	真气	银两	声望																																																		
+1	[1级家族]蟠桃盛宴参与奖励	1	1	1							18,1,262,0	1	1	100																																														
+2	[2级家族]蟠桃盛宴参与奖励	1	1	1							18,1,262,0	2	2	100		18,1,263,0	1	1	100																																									
+3	[3级家族]蟠桃盛宴参与奖励	1	1	1							18,1,262,0	4	4	100		18,1,263,0	2	2	100																																									
+4	[4级家族]蟠桃盛宴参与奖励	1	1	1							18,1,262,0	6	6	100		18,1,263,0	4	4	100		18,1,264,0	1	1	100																																				
+5	[5级家族]蟠桃盛宴参与奖励	1	1	1							18,1,262,0	8	8	100		18,1,263,0	6	6	100		18,1,264,0	2	2	100		18,1,265,0	1	1	100																															
+6	[6级家族]蟠桃盛宴参与奖励	1	1	1							18,1,262,0	10	10	100		18,1,263,0	8	8	100		18,1,264,0	4	4	100		18,1,265,0	2	2	100																															
+7	[7级家族]蟠桃盛宴参与奖励	1	1	1							18,1,262,0	12	12	100		18,1,263,0	10	10	100		18,1,264,0	6	6	100		18,1,265,0	4	4	100																															
+8	[8级家族]蟠桃盛宴参与奖励	1	1	1							18,1,262,0	15	15	100		18,1,263,0	12	12	100		18,1,264,0	8	8	100		18,1,265,0	6	6	100																															

@@ -1,0 +1,2 @@
+PointClass	X	Y	Z	FaceDirection
+dan	4490	4819	1048576	75

@@ -1,0 +1,2 @@
+PointClass	X	Y	Z	FaceDirection
+chanchu	2710	3244	1048576	230

@@ -1,0 +1,2 @@
+PointClass	X	Y	Z	FaceDirection
+jingti	2202	2027	1048576	0

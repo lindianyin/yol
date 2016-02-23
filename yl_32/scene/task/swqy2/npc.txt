@@ -1,0 +1,11 @@
+TemplateId	Comment	X	Y	Z	FaceDireswqy2ion	RegenerationTime	PosFile	Count
+680	法宝						scene/task/swqy2/swqy2_fabao.txt	
+681							scene/task/swqy2/swqy2_fabao.txt	
+682	巨变形水妖						scene/task/swqy2/swqy2_bianxing.txt	
+683	巨变形水妖						scene/task/swqy2/swqy2_bianxing.txt	
+684	<color=red>[boss]怨灵						scene/task/swqy2/swqy2_guai.txt	
+685	<color=red>[boss]鬼王						scene/task/swqy2/swqy2_guai.txt	
+686	阿婆						scene/task/swqy2/swqy2_guai.txt	
+687	变形水妖						scene/task/swqy2/swqy2_bianxing.txt	
+688	鬼魂						scene/task/swqy2/swqy2_guai.txt	
+689	僵尸兵						scene/task/swqy2/swqy2_guai.txt	

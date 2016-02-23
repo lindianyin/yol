@@ -1,0 +1,2 @@
+PointClass	X	Y	Z	FaceDirection
+yinxing	3630	2968	1048576	75

@@ -1,0 +1,10 @@
+Attrib	Score
+属性	分数
+addmaxlife_v	10
+addmaxmana_v	10
+modifydmg_v	100
+adddef_v	20
+addcriticalrate_v	20
+addresist_v	20
+adddodge_v	20
+addhitrate_v	20

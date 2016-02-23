@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coordinator", "coordinator.vcproj", "{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gateway", "..\gateway2\gateway.vcproj", "{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "onlinegamebase", "..\..\gameworld\onlinegamebase\onlinegamebase.vcproj", "{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		debug|Win32 = debug|Win32
+		release|Win32 = release|Win32
+		unify debug|Win32 = unify debug|Win32
+		unify release|Win32 = unify release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}.debug|Win32.ActiveCfg = debug|Win32
+		{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}.debug|Win32.Build.0 = debug|Win32
+		{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}.release|Win32.ActiveCfg = release|Win32
+		{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}.release|Win32.Build.0 = release|Win32
+		{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}.unify debug|Win32.ActiveCfg = debug|Win32
+		{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}.unify debug|Win32.Build.0 = debug|Win32
+		{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}.unify release|Win32.ActiveCfg = release|Win32
+		{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}.unify release|Win32.Build.0 = release|Win32
+		{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}.debug|Win32.ActiveCfg = debug|Win32
+		{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}.debug|Win32.Build.0 = debug|Win32
+		{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}.release|Win32.ActiveCfg = release|Win32
+		{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}.release|Win32.Build.0 = release|Win32
+		{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}.unify debug|Win32.ActiveCfg = debug|Win32
+		{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}.unify debug|Win32.Build.0 = debug|Win32
+		{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}.unify release|Win32.ActiveCfg = release|Win32
+		{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}.unify release|Win32.Build.0 = release|Win32
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}.debug|Win32.ActiveCfg = unify debug|Win32
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}.debug|Win32.Build.0 = unify debug|Win32
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}.release|Win32.ActiveCfg = unify release|Win32
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}.release|Win32.Build.0 = unify release|Win32
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}.unify debug|Win32.ActiveCfg = unify debug|Win32
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}.unify debug|Win32.Build.0 = unify debug|Win32
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}.unify release|Win32.ActiveCfg = unify release|Win32
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}.unify release|Win32.Build.0 = unify release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

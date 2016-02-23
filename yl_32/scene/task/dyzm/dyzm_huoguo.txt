@@ -1,0 +1,3 @@
+PointClass	X	Y	Z	FaceDirection
+huoguo	1840	1491	1048576	75
+huoguo	3049	1643	1048576	75

@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{3c96ed68-a5e0-4cb6-b085-a4bb5fad2ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Runtime">
+      <UniqueIdentifier>{36f2ba5e-e601-4e27-8586-0cda10c5db33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Crypto">
+      <UniqueIdentifier>{83f35d95-b6aa-46cc-9f79-0a039ab8eadd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Misc">
+      <UniqueIdentifier>{24d15cb4-ca5b-4c15-bc96-3c0a5024274c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Misc\xml">
+      <UniqueIdentifier>{340ad2b5-26ca-4bc9-b064-d7d8894b02ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Network">
+      <UniqueIdentifier>{9cd456e7-2e6c-4c3d-b956-edb3c8e8dc3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Lua">
+      <UniqueIdentifier>{18fed337-66a4-4e75-8463-ab7acdb8cf55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\File">
+      <UniqueIdentifier>{c0a65343-b8f6-466c-a0f3-7480548d093c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{d9e88418-28e3-4562-9c94-c7e9e6afb7e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Runtime">
+      <UniqueIdentifier>{14440d0f-0f12-4469-b309-014c3072fdfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Protocol">
+      <UniqueIdentifier>{5b3d8b9c-1f4f-42d4-9781-6f599e3d25ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Core">
+      <UniqueIdentifier>{1c33df5d-dd6d-48b4-8f31-e05434af8df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Misc">
+      <UniqueIdentifier>{2c434073-a327-4b2c-8aa7-e1409c1fab89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Network">
+      <UniqueIdentifier>{c6b76753-e2a9-4e4b-ac1a-791bfc52c626}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\LibQrt\Src\Core\CorePrivate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\Core\resource.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\Core\Crypto\easycrypt.h">
+      <Filter>src\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\Core\Crypto\my_md5.h">
+      <Filter>src\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\Core\Misc\xml\tinystr.h">
+      <Filter>src\Misc\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\Core\Misc\xml\tinyxml.h">
+      <Filter>src\Misc\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\Core\Misc\xml\xmldocument.h">
+      <Filter>src\Misc\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\Core\Network\SocketCryptKey.h">
+      <Filter>src\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\Core\File\AloneFile.h">
+      <Filter>src\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\Core\File\IniFile.h">
+      <Filter>src\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\Core\File\IniFile2.h">
+      <Filter>src\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\Core\File\TabFile.h">
+      <Filter>src\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Src\Core\File\TabFileWritable.h">
+      <Filter>src\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\CommonDefine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\ProtocolBasic.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Runtime\Debug.h">
+      <Filter>include\Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Runtime\QRT.h">
+      <Filter>include\Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Runtime\qstring.h">
+      <Filter>include\Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Runtime\Stddef.h">
+      <Filter>include\Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Runtime\TypeDef.h">
+      <Filter>include\Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Protocol\AccountLoginDef.h">
+      <Filter>include\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Protocol\BishopPaysysProtocol.h">
+      <Filter>include\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Protocol\BishopRelayProtocol.h">
+      <Filter>include\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Protocol\BishopToolProtocol.h">
+      <Filter>include\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Protocol\GatewayAccountProtocol.h">
+      <Filter>include\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Protocol\GoddessProtocol.h">
+      <Filter>include\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Protocol\KG_CSLogServerProtocal.h">
+      <Filter>include\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Protocol\LogServerProtocol.h">
+      <Filter>include\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Protocol\PaysysGamewordProtocal.h">
+      <Filter>include\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\CoreDeclspec.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\EncodeDecode.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\File.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\FileType.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\Interlocked.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\IpMacAddress.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\luna.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\QFile.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\QGUID.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\QIniFile.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\QLinkArray.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\QList.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\QLock.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\QLog.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\QLogFile.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\QLuaScript.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\QLuaScriptGroup.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\QLuaScriptSet.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\QMemory.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\QNode.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\QStrBase.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\QTabFile.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\QTabFileCtrl.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\QThread.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\QTime.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Core\Random.h">
+      <Filter>include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Misc\ComError.h">
+      <Filter>include\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Misc\IDatabase.h">
+      <Filter>include\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Misc\md5.h">
+      <Filter>include\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Misc\Misc.h">
+      <Filter>include\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Misc\MSUnknown.h">
+      <Filter>include\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Misc\namefilter_i.h">
+      <Filter>include\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Misc\objectpool.h">
+      <Filter>include\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Misc\objevent.h">
+      <Filter>include\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Misc\PassGen.h">
+      <Filter>include\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Misc\qconsolereader.h">
+      <Filter>include\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Misc\qidpool.h">
+      <Filter>include\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Misc\qindexlist.h">
+      <Filter>include\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Misc\randomgen.h">
+      <Filter>include\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Misc\traverse_dir.h">
+      <Filter>include\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Misc\utilities.h">
+      <Filter>include\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Misc\xml_i.h">
+      <Filter>include\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Network\QSocket.h">
+      <Filter>include\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LibQrt\Include\Network\QSocketPack.h">
+      <Filter>include\Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\LibQrt\Src\Core\stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Runtime\QMemory.cpp">
+      <Filter>src\Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Runtime\QStrBase.cpp">
+      <Filter>src\Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Runtime\qstring.cpp">
+      <Filter>src\Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Runtime\QThread.cpp">
+      <Filter>src\Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Crypto\CRC32.c">
+      <Filter>src\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Crypto\easycrypt.c">
+      <Filter>src\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Crypto\EncodeDecode.cpp">
+      <Filter>src\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Crypto\my_md5.c">
+      <Filter>src\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\Debug.cpp">
+      <Filter>src\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\IpMacAddress.cpp">
+      <Filter>src\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\MSUnknown.cpp">
+      <Filter>src\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\objevent.cpp">
+      <Filter>src\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\qconsolereader.cpp">
+      <Filter>src\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\QGUID.cpp">
+      <Filter>src\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\qidpool.cpp">
+      <Filter>src\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\qindexlist.cpp">
+      <Filter>src\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\QLog.cpp">
+      <Filter>src\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\qnamefilter.cpp">
+      <Filter>src\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\QTime.cpp">
+      <Filter>src\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\Random.cpp">
+      <Filter>src\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\xml\tinystr.cpp">
+      <Filter>src\Misc\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\xml\tinyxml.cpp">
+      <Filter>src\Misc\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\xml\tinyxmlerror.cpp">
+      <Filter>src\Misc\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\xml\tinyxmlparser.cpp">
+      <Filter>src\Misc\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Misc\xml\xmldocument.cpp">
+      <Filter>src\Misc\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Network\QSocket.cpp">
+      <Filter>src\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Network\QSocketPack.cpp">
+      <Filter>src\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Lua\luna.cpp">
+      <Filter>src\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Lua\QLuaScript.cpp">
+      <Filter>src\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Lua\QLuaScriptGroup.cpp">
+      <Filter>src\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\Lua\QLuaScriptSet.cpp">
+      <Filter>src\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\File\AloneFile.cpp">
+      <Filter>src\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\File\File.cpp">
+      <Filter>src\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\File\FilePath.cpp">
+      <Filter>src\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\File\IniFile.cpp">
+      <Filter>src\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\File\IniFile2.cpp">
+      <Filter>src\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\File\QLogFile.cpp">
+      <Filter>src\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\File\TabFile.cpp">
+      <Filter>src\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibQrt\Src\Core\File\TabFileWritable.cpp">
+      <Filter>src\File</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

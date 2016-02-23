@@ -1,0 +1,5 @@
+TASK_ID_FIRST	TASK_ID_LAST	TASK_TYPE	TASK_NAME	TASK_DESC
+子任务开始ID	结束ID	任务类型	任务名称	描述
+1	218	Task	剧情任务	任务编辑器通用类型
+219	220	Task	副本任务	任务编辑器通用类型
+416	420	Escort	押镖任务	任务编辑器通用类型

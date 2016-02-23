@@ -1,0 +1,6 @@
+TemplateId	Comment	X	Y	Z	FaceDirewmcion	RegenerationTime	PosFile	Count
+750	熔岩刀将						scene/task/wmc/wmc_bing.txt
+751	魔兵刀将						scene/task/wmc/wmc_bing.txt
+752	左魔将军						scene/task/wmc/wmc_jingying.txt
+753	右魔将军						scene/task/wmc/wmc_jingying.txt
+754	魔兵弓将						scene/task/wmc/wmc_bing.txt

@@ -1,0 +1,187 @@
+ID	Desc	Event	Percent	EventOP	JudgeEachFrame	Interval
+i表ID	效果描述	条件	触发概率	触发事件
+1	神仙铁壁	BloodLessThan(30)	100	me_add_bufftoself(30)
+2	神仙铁壁	BloodLessThan(30)	100	me_add_bufftoself(40)
+3	神仙铁壁	BloodLessThan(30)	100	me_add_bufftoself(50)
+4	神仙铁壁	BloodLessThan(30)	100	me_add_bufftoself(60)
+5	神仙铁壁	BloodLessThan(30)	100	me_add_bufftoself(70)
+6	神仙温润	BloodLessThan(30)	100	me_add_bufftoself(30)
+7	神仙温润	BloodLessThan(30)	100	me_add_bufftoself(40)
+8	神仙温润	BloodLessThan(30)	100	me_add_bufftoself(50)
+9	神仙温润	BloodLessThan(30)	100	me_add_bufftoself(60)
+10	神仙温润	BloodLessThan(30)	100	me_add_bufftoself(70)
+11	神仙恩赐	None()	5	me_add_bufftoself(30)
+12	神仙恩赐	None()	6	me_add_bufftoself(40)
+13	神仙恩赐	None()	7	me_add_bufftoself(50)
+14	神仙恩赐	None()	8	me_add_bufftoself(60)
+15	神仙恩赐	None()	10	me_add_bufftoself(70)
+16	神仙残忍	None()	5	me_add_bufftoself(30)
+17	神仙残忍	None()	6	me_add_bufftoself(40)
+18	神仙残忍	None()	7	me_add_bufftoself(50)
+19	神仙残忍	None()	8	me_add_bufftoself(60)
+20	神仙残忍	None()	10	me_add_bufftoself(70)
+21	神仙岛-范围（二郎神）	EnterRange()	100	me_add_bufftoreceiver(7030)		0
+22	神仙岛-范围（二郎神）	LeaveRange()	100	me_clearbuff(7030)		0
+23	跟随神仙-范围（二郎神）	EnterRange()	100	me_add_bufftoreceiver(8006)		0
+24	跟随神仙-范围（二郎神）	LeaveRange()	100	me_clearbuff(8006)		0
+25	跟随神仙-日食持续扣血（日月星君）	BloodLessThan(50)	100	me_add_bufftoself(8007)
+26	跟随神仙-神丹妙药回复生命（童女）	BloodLessThan(50)	100	me_add_bufftoself(8008)
+27	跟随神仙-防御（三公女）	BloodLessThan(95)	100	me_add_bufftoself(9408)
+28	跟宠-三公主(几道光)	EnterRange()	100	me_add_bufftoreceiver(8011)		0
+29	跟宠-三公主(几道光)	LeaveRange()	100	me_clearbuff(8011)		0
+30	跟随神仙-加攻击1（巨灵神）	BloodLessThan(95)	100	me_add_bufftoself(8101)		0
+31	跟随神仙-加攻击2（巨灵神）	BloodLessThan(95)	100	me_add_bufftoself(8103)		0
+32	跟随神仙-加攻击3（巨灵神）	BloodLessThan(95)	100	me_add_bufftoself(8105)		0
+33	跟随神仙-加攻击4（巨灵神）	BloodLessThan(95)	100	me_add_bufftoself(8107)		0
+34	跟随神仙-加攻击5（巨灵神）	BloodLessThan(95)	100	me_add_bufftoself(8109)		0
+35	跟随神仙-加攻击1（南海龙太子）	BloodLessThan(95)	100	me_add_bufftoself(8111)		0
+36	跟随神仙-加攻击2（南海龙太子）	BloodLessThan(95)	100	me_add_bufftoself(8113)		0
+37	跟随神仙-加攻击3（南海龙太子）	BloodLessThan(95)	100	me_add_bufftoself(8115)		0
+38	跟随神仙-加攻击4（南海龙太子）	BloodLessThan(95)	100	me_add_bufftoself(8117)		0
+39	跟随神仙-加攻击5（南海龙太子）	BloodLessThan(95)	100	me_add_bufftoself(8119)		0
+40	跟随神仙-加攻击1（哪吒）	BloodLessThan(95)	100	me_add_bufftoself(8121)		0
+41	跟随神仙-加攻击2（哪吒）	BloodLessThan(95)	100	me_add_bufftoself(8123)		0
+42	跟随神仙-加攻击3（哪吒）	BloodLessThan(95)	100	me_add_bufftoself(8125)		0
+43	跟随神仙-加攻击4（哪吒）	BloodLessThan(95)	100	me_add_bufftoself(8127)		0
+44	跟随神仙-加攻击5（哪吒）	BloodLessThan(95)	100	me_add_bufftoself(8129)		0
+45	跟随神仙-加攻击1（二郎神）	BloodLessThan(95)	100	me_add_bufftoself(8131)		0
+46	跟随神仙-加攻击2（二郎神）	BloodLessThan(95)	100	me_add_bufftoself(8133)		0
+47	跟随神仙-加攻击3（二郎神）	BloodLessThan(95)	100	me_add_bufftoself(8135)		0
+48	跟随神仙-加攻击4（二郎神）	BloodLessThan(95)	100	me_add_bufftoself(8137)		0
+49	跟随神仙-加攻击5（二郎神）	BloodLessThan(95)	100	me_add_bufftoself(8139)		0
+50	跟随神仙-加攻击1（孙悟空）	BloodLessThan(95)	100	me_add_bufftoself(8141)		0
+51	跟随神仙-加攻击2（孙悟空）	BloodLessThan(95)	100	me_add_bufftoself(8143)		0
+52	跟随神仙-加攻击3（孙悟空）	BloodLessThan(95)	100	me_add_bufftoself(8145)		0
+53	跟随神仙-加攻击4（孙悟空）	BloodLessThan(95)	100	me_add_bufftoself(8147)		0
+54	跟随神仙-加攻击5（孙悟空）	BloodLessThan(95)	100	me_add_bufftoself(8149)		0
+55	跟随神仙-加攻击1（盘古）	BloodLessThan(95)	100	me_add_bufftoself(8151)		0
+56	跟随神仙-加攻击2（盘古）	BloodLessThan(95)	100	me_add_bufftoself(8153)		0
+57	跟随神仙-加攻击3（盘古）	BloodLessThan(95)	100	me_add_bufftoself(8155)		0
+58	跟随神仙-加攻击4（盘古）	BloodLessThan(95)	100	me_add_bufftoself(8157)		0
+59	跟随神仙-加攻击5（盘古）	BloodLessThan(95)	100	me_add_bufftoself(8159)		0
+60	跟随神仙-加防御1（龟丞相）	BloodLessThan(95)	100	me_add_bufftoself(8201)		0
+61	跟随神仙-加防御2（龟丞相）	BloodLessThan(95)	100	me_add_bufftoself(8203)		0
+62	跟随神仙-加防御3（龟丞相）	BloodLessThan(95)	100	me_add_bufftoself(8205)		0
+63	跟随神仙-加防御4（龟丞相）	BloodLessThan(95)	100	me_add_bufftoself(8207)		0
+64	跟随神仙-加防御5（龟丞相）	BloodLessThan(95)	100	me_add_bufftoself(8209)		0
+65	跟随神仙-加防御1（三公女）	BloodLessThan(95)	100	me_add_bufftoself(8211)		0
+66	跟随神仙-加防御2（三公女）	BloodLessThan(95)	100	me_add_bufftoself(8213)		0
+67	跟随神仙-加防御3（三公女）	BloodLessThan(95)	100	me_add_bufftoself(8215)		0
+68	跟随神仙-加防御4（三公女）	BloodLessThan(95)	100	me_add_bufftoself(8217)		0
+69	跟随神仙-加防御5（三公女）	BloodLessThan(95)	100	me_add_bufftoself(8219)		0
+70	跟随神仙-加防御1（织女）	BloodLessThan(95)	100	me_add_bufftoself(8221)		0
+71	跟随神仙-加防御2（织女）	BloodLessThan(95)	100	me_add_bufftoself(8223)		0
+72	跟随神仙-加防御3（织女）	BloodLessThan(95)	100	me_add_bufftoself(8225)		0
+73	跟随神仙-加防御4（织女）	BloodLessThan(95)	100	me_add_bufftoself(8227)		0
+74	跟随神仙-加防御5（织女）	BloodLessThan(95)	100	me_add_bufftoself(8229)		0
+75	跟随神仙-加防御1（托塔天王）	BloodLessThan(95)	100	me_add_bufftoself(8231)		0
+76	跟随神仙-加防御2（托塔天王）	BloodLessThan(95)	100	me_add_bufftoself(8233)		0
+77	跟随神仙-加防御3（托塔天王）	BloodLessThan(95)	100	me_add_bufftoself(8235)		0
+78	跟随神仙-加防御4（托塔天王）	BloodLessThan(95)	100	me_add_bufftoself(8237)		0
+79	跟随神仙-加防御5（托塔天王）	BloodLessThan(95)	100	me_add_bufftoself(8239)		0
+80	跟随神仙-加防御1（精卫）	BloodLessThan(95)	100	me_add_bufftoself(8241)		0
+81	跟随神仙-加防御2（精卫）	BloodLessThan(95)	100	me_add_bufftoself(8243)		0
+82	跟随神仙-加防御3（精卫）	BloodLessThan(95)	100	me_add_bufftoself(8245)		0
+83	跟随神仙-加防御4（精卫）	BloodLessThan(95)	100	me_add_bufftoself(8247)		0
+84	跟随神仙-加防御5（精卫）	BloodLessThan(95)	100	me_add_bufftoself(8249)		0
+85	跟随神仙-加防御1（如来佛祖）	BloodLessThan(95)	100	me_add_bufftoself(8251)		0
+86	跟随神仙-加防御2（如来佛祖）	BloodLessThan(95)	100	me_add_bufftoself(8253)		0
+87	跟随神仙-加防御3（如来佛祖）	BloodLessThan(95)	100	me_add_bufftoself(8255)		0
+88	跟随神仙-加防御4（如来佛祖）	BloodLessThan(95)	100	me_add_bufftoself(8257)		0
+89	跟随神仙-加防御5（如来佛祖）	BloodLessThan(95)	100	me_add_bufftoself(8259)		0
+90	跟随神仙-回生命1（护丹童女）	BloodLessThan(95)	100	me_add_bufftoself(8301)		0
+91	跟随神仙-回生命2（护丹童女）	BloodLessThan(95)	100	me_add_bufftoself(8303)		0
+92	跟随神仙-回生命3（护丹童女）	BloodLessThan(95)	100	me_add_bufftoself(8305)		0
+93	跟随神仙-回生命4（护丹童女）	BloodLessThan(95)	100	me_add_bufftoself(8307)		0
+94	跟随神仙-回生命5（护丹童女）	BloodLessThan(95)	100	me_add_bufftoself(8309)		0
+95	跟随神仙-回生命1（紫霞仙子）	BloodLessThan(95)	100	me_add_bufftoself(8311)		0
+96	跟随神仙-回生命2（紫霞仙子）	BloodLessThan(95)	100	me_add_bufftoself(8313)		0
+97	跟随神仙-回生命3（紫霞仙子）	BloodLessThan(95)	100	me_add_bufftoself(8315)		0
+98	跟随神仙-回生命4（紫霞仙子）	BloodLessThan(95)	100	me_add_bufftoself(8317)		0
+99	跟随神仙-回生命5（紫霞仙子）	BloodLessThan(95)	100	me_add_bufftoself(8319)		0
+100	跟随神仙-回生命1（九天玄女）	BloodLessThan(95)	100	me_add_bufftoself(8321)		0
+101	跟随神仙-回生命2（九天玄女）	BloodLessThan(95)	100	me_add_bufftoself(8323)		0
+102	跟随神仙-回生命3（九天玄女）	BloodLessThan(95)	100	me_add_bufftoself(8325)		0
+103	跟随神仙-回生命4（九天玄女）	BloodLessThan(95)	100	me_add_bufftoself(8327)		0
+104	跟随神仙-回生命5（九天玄女）	BloodLessThan(95)	100	me_add_bufftoself(8329)		0
+105	跟随神仙-回生命1（王母娘娘）	BloodLessThan(95)	100	me_add_bufftoself(8331)		0
+106	跟随神仙-回生命2（王母娘娘）	BloodLessThan(96)	101	me_add_bufftoself(8333)		0
+107	跟随神仙-回生命3（王母娘娘）	BloodLessThan(97)	102	me_add_bufftoself(8335)		0
+108	跟随神仙-回生命4（王母娘娘）	BloodLessThan(98)	103	me_add_bufftoself(8337)		0
+109	跟随神仙-回生命5（王母娘娘）	BloodLessThan(99)	104	me_add_bufftoself(8339)		0
+110	跟随神仙-回生命1（南海观音）	BloodLessThan(95)	100	me_add_bufftoself(8341)		0
+111	跟随神仙-回生命2（南海观音）	BloodLessThan(95)	100	me_add_bufftoself(8343)		0
+112	跟随神仙-回生命3（南海观音）	BloodLessThan(95)	100	me_add_bufftoself(8345)		0
+113	跟随神仙-回生命4（南海观音）	BloodLessThan(95)	100	me_add_bufftoself(8347)		0
+114	跟随神仙-回生命5（南海观音）	BloodLessThan(95)	100	me_add_bufftoself(8349)		0
+115	跟随神仙-回生命1（女娲）	BloodLessThan(95)	100	me_add_bufftoself(8351)		0
+116	跟随神仙-回生命2（女娲）	BloodLessThan(95)	100	me_add_bufftoself(8353)		0
+117	跟随神仙-回生命3（女娲）	BloodLessThan(95)	100	me_add_bufftoself(8355)		0
+118	跟随神仙-回生命4（女娲）	BloodLessThan(95)	100	me_add_bufftoself(8357)		0
+119	跟随神仙-回生命5（女娲）	BloodLessThan(95)	100	me_add_bufftoself(8359)		0
+120	跟随神仙-掉血1（日月星君）	BloodLessThan(95)	100	me_add_bufftoself(8401)		0
+121	跟随神仙-掉血2（日月星君）	BloodLessThan(95)	100	me_add_bufftoself(8403)		0
+122	跟随神仙-掉血3（日月星君）	BloodLessThan(95)	100	me_add_bufftoself(8405)		0
+123	跟随神仙-掉血4（日月星君）	BloodLessThan(95)	100	me_add_bufftoself(8407)		0
+124	跟随神仙-掉血5（日月星君）	BloodLessThan(95)	100	me_add_bufftoself(8409)		0
+125	跟随神仙-掉血1（雷震子）	BloodLessThan(95)	100	me_add_bufftoself(8411)		0
+126	跟随神仙-掉血2（雷震子）	BloodLessThan(95)	100	me_add_bufftoself(8413)		0
+127	跟随神仙-掉血3（雷震子）	BloodLessThan(95)	100	me_add_bufftoself(8415)		0
+128	跟随神仙-掉血4（雷震子）	BloodLessThan(95)	100	me_add_bufftoself(8417)		0
+129	跟随神仙-掉血5（雷震子）	BloodLessThan(95)	100	me_add_bufftoself(8419)		0
+130	跟随神仙-掉血1（猪八戒）	BloodLessThan(95)	100	me_add_bufftoself(8421)		0
+131	跟随神仙-掉血2（猪八戒）	BloodLessThan(95)	100	me_add_bufftoself(8423)		0
+132	跟随神仙-掉血3（猪八戒）	BloodLessThan(95)	100	me_add_bufftoself(8425)		0
+133	跟随神仙-掉血4（猪八戒）	BloodLessThan(95)	100	me_add_bufftoself(8427)		0
+134	跟随神仙-掉血5（猪八戒）	BloodLessThan(95)	100	me_add_bufftoself(8429)		0
+135	跟随神仙-掉血1（阎罗王）	BloodLessThan(95)	100	me_add_bufftoself(8431)		0
+136	跟随神仙-掉血2（阎罗王）	BloodLessThan(95)	100	me_add_bufftoself(8433)		0
+137	跟随神仙-掉血3（阎罗王）	BloodLessThan(95)	100	me_add_bufftoself(8435)		0
+138	跟随神仙-掉血4（阎罗王）	BloodLessThan(95)	100	me_add_bufftoself(8437)		0
+139	跟随神仙-掉血5（阎罗王）	BloodLessThan(95)	100	me_add_bufftoself(8439)		0
+140	跟随神仙-掉血1 （太上老君）	BloodLessThan(95)	100	me_add_bufftoself(8441)		0
+141	跟随神仙-掉血2 （太上老君）	BloodLessThan(95)	100	me_add_bufftoself(8443)		0
+142	跟随神仙-掉血3 （太上老君）	BloodLessThan(95)	100	me_add_bufftoself(8445)		0
+143	跟随神仙-掉血4 （太上老君）	BloodLessThan(95)	100	me_add_bufftoself(8447)		0
+144	跟随神仙-掉血5 （太上老君）	BloodLessThan(95)	100	me_add_bufftoself(8449)		0
+145	跟随神仙-掉血1（伏羲）	BloodLessThan(95)	100	me_add_bufftoself(8451)		0
+146	跟随神仙-掉血2（伏羲）	BloodLessThan(95)	100	me_add_bufftoself(8453)		0
+147	跟随神仙-掉血3（伏羲）	BloodLessThan(95)	100	me_add_bufftoself(8455)		0
+148	跟随神仙-掉血4（伏羲）	BloodLessThan(95)	100	me_add_bufftoself(8457)		0
+149	跟随神仙-掉血5（伏羲）	BloodLessThan(95)	100	me_add_bufftoself(8459)		0
+150	大胖子 	EnterRange()	100	me_add_bufftoreceiver(209)		0
+151	大胖子 	LeaveRange()	100	me_clearbuff(209)		0
+152	火焰buff	EnterRange()	100	me_add_bufftoreceiver(1063)		0
+153	火焰buff	LeaveRange()	100	me_clearbuff(1063)		0
+154	寒冰buff	EnterRange()	100	me_add_bufftoreceiver(1067)		0
+155	寒冰buff	LeaveRange()	100	me_clearbuff(1063)		0
+156	神族争霸攻方buff（范围）	EnterRange()	100	me_add_bufftoreceiver(1159)		0
+157	神族争霸攻方buff（范围）	LeaveRange()	100	me_clearbuff(1159)		0
+158	神族争霸守方buff（范围）	EnterRange()	100	me_add_bufftoreceiver(1162)		0
+159	神族争霸守方buff（范围）	LeaveRange()	100	me_clearbuff(1162)		0
+160	主角远控（对地buff）	EnterRange()	100	me_add_bufftoreceiver(8)		0
+161	主角远控（对地buff）	LeaveRange()	100	me_clearbuff(8)		0
+162	加防1-关卡荒野求生	EnterRange()	100	me_add_bufftoreceiver(1501)		0
+163	加防2-关卡荒野求生	LeaveRange()	100	me_clearbuff(1501)		0
+164	加攻击1-关卡荒野求生	EnterRange()	100	me_add_bufftoreceiver(1503)		0
+165	加攻击2-关卡荒野求生	LeaveRange()	100	me_clearbuff(1503)		0
+166	加防御1-关卡荒野求生	EnterRange()	100	me_add_bufftoreceiver(1505)		0
+167	加防御2-关卡荒野求生	LeaveRange()	100	me_clearbuff(1505)		0
+168	加血1-关卡荒野求生	EnterRange()	100	me_add_bufftoreceiver(1507)		0
+169	加血2-关卡荒野求生	LeaveRange()	100	me_clearbuff(1507)		0
+170	冰冻1-关卡荒野求生	EnterRange()	100	me_add_bufftoreceiver(1509)		0
+171	冰冻2-关卡荒野求生	LeaveRange()	100	me_clearbuff(1509)		0
+172	冰boss-关卡荒野求生	EnterRange()	100	me_add_bufftoreceiver(1518)		0
+173	冰boss-关卡荒野求生	LeaveRange()	100	me_clearbuff(1518)		0
+174	火boss-关卡荒野求生	EnterRange()	100	me_add_bufftoreceiver(1520)		0
+175	火boss-关卡荒野求生	LeaveRange()	100	me_clearbuff(1520)		0
+180	火boss-关卡巨手之怒	EnterRange()	100	me_add_bufftoreceiver(1536)		0
+181	火boss-关卡巨手之怒	LeaveRange()	100	me_clearbuff(1536)		0
+182	火boss-关卡巨手之怒	EnterRange()	100	me_add_bufftoreceiver(1541)		0
+183	火boss-关卡巨手之怒	LeaveRange()	100	me_clearbuff(1541)		0
+184	火boss-关卡巨手之怒	EnterRange()	100	me_add_bufftoreceiver(1543)		0
+185	火boss-关卡巨手之怒	LeaveRange()	100	me_clearbuff(1543)		0
+200	火焰buff1-关卡密室	EnterRange()	100	me_add_bufftoreceiver(1203)		0
+201	火焰buff2-关卡密室	LeaveRange()	100	me_clearbuff(1203)		0
+202	恢复buff1-关卡密室	EnterRange()	100	me_add_bufftoreceiver(1209)		0
+203	恢复buff2-关卡密室	LeaveRange()	100	me_clearbuff(1209)		0

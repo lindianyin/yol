@@ -1,0 +1,15 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+250	江湖人士(剧情)						scene/task/jdsy/jdsy_xiake.txt
+251	江湖人士						scene/task/jdsy/jdsy_xiake.txt
+252	透明目标						scene/task/jdsy/jdsy_touming.txt
+253	透明自杀						scene/task/jdsy/jdsy_touming.txt
+254	飞剑						scene/task/jdsy/jdsy_jian.txt
+255	透明击退剑						scene/task/jdsy/jdsy_touming.txt
+256	透明击退侠客						scene/task/jdsy/jdsy_touming.txt
+257	空虚公子						scene/task/jdsy/jdsy_kongxu.txt
+258	空虚公子						scene/task/jdsy/jdsy_kongxu.txt
+259	老太婆						scene/task/jdsy/jdsy_laopopo.txt
+260	老太婆						scene/task/jdsy/jdsy_laopopo.txt
+261	天残脚						scene/task/jdsy/jdsy_tiancan.txt
+262	天残脚						scene/task/jdsy/jdsy_tiancan.txt
+263	空虚公子						scene/task/jdsy/jdsy_kongxu.txt

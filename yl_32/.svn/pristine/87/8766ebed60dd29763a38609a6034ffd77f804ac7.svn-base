@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kenemycondition.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kgamebasescript_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kgamecenterprocess.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kgameservereyes.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kluacharacter_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kluadoodad_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kluanpc_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kluaplayer_table.hpp" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kmodulemanager.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\knetconnectplayer.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\knetconnectplayer_client.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kplayerbaseprocess.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kplayerbaseprocess_client.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kplayerdbmanager.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\KRelayClient.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\ksocketinterface.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\kvarsetting.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\scene\ikscenemovectl.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kcell.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kobjectindex.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kregion.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kscene.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kscenemgr.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kterraindata.h" />
+    <ClInclude Include="..\..\sourcecode\gameworld\onlinegameworld\stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kcharacter.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kcharacterclient.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kcharactermgr.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kcharacterserver.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kcontainer.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kdoodad.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kdoodadmgr.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kdoodadscript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kdoodadserver.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kenemycondition.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kgamebasescript.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kgamecenterprocess.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kgameclient.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kgameserver.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kgameservereyes.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kgameservereyes_script.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kgcmodulebase.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\klogwritter.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kluacharacter.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kluadoodad.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kluanpc.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kluaplayer.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kmodulemanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\knetconnectplayer.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\knetconnectplayer_client.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\knpc.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\knpcclient.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\knpcmgr.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\knpcserver.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\korpgworld.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\koverloadextension.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kplayer.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kplayerbaseprocess.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kplayerbaseprocess_client.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kplayerclient.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kplayerdbmanager.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kplayermanager_client.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kplayermgr.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kplayerprotocolprocess.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kplayerserver.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kprotocolsize.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kregeneration_mgr.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\KRelayClient.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\ksocketclient.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\ksocketserver.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\kvarsetting.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kbaseobject.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kcell.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kmath.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kregion.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kscene.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kscenemgr.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\scene\ksceneobject.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\scene\ksceneobjnode.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\scene\kterraindata.cpp" />
+    <ClCompile Include="..\..\sourcecode\gameworld\onlinegameworld\synchelper.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{118C9239-7C18-4A5C-83CF-35913F006345}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>onlinegameworld</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;STATIC_QRT;GAME_SERVER;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\LibQrt\Include;$(SolutionDir)..\sourcecode\gameworld\onlinegameworld;$(SolutionDir)..\sourcecode\include</AdditionalIncludeDirectories>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;STATIC_QRT;GAME_SERVER;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\LibQrt\Include;$(SolutionDir)..\sourcecode\gameworld\onlinegameworld;$(SolutionDir)..\sourcecode\include</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

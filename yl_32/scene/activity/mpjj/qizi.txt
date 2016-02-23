@@ -1,0 +1,4 @@
+PointClass	X	Y	Z	FaceDirection
+qizi	4135	4326	1048576	0
+trap1	4094	2836	1048576	190
+trap2	4101	3406	1048576	190

@@ -1,0 +1,12 @@
+Name	Desc	Genre	DetailType	ParticularType	Level	Category	Pandent1ID	Pandent2ID	CurrencyType	Price	ReqLevel	MaxDurability	ItemValue	CanTrade	CanDestroy	Quality	BindType	ClassName	SlotMin	SlotMax	BasicPropType	BasicPropValue	ExPandent1	ExPandent2	ExPandent3	ExPandent4
+脚下	脚下	1	12	1	1	1	1070	1070	2	0	1	10		0	1	6	1	equip								
+夜色阑珊	蝙蝠	1	12	2	1	3	1113	1113	2	0	1	50		0	1	6	1	equip								
+浮光掠影	弧光	1	12	3	1	4	1145	1145	2	0	1	50		0	1	6	1	equip								
+墨迹横生	墨滴	1	12	4	1	5	1146	1146	2	0	1	50		0	1	6	1	equip								
+佛光普照	火环	1	12	5	1	6	1147	1147	2	0	1	50		0	1	6	1	equip								
+春花秋月		1	12	6	0	7	4501	4501	2	0	1	50		0	1	6	1	equip			modifydmg_v	100				
+幽蓝倩影		1	12	7	0		4250	4250	2	0	1	50		0	1	6	1	equip			modifydmg_v	250				
+玄明地火		1	12	8	0		4252	4252	2	0	1	50		0	1	6	1	equip			modifydmg_v	600				
+春花秋月（永久）		1	12	9	0	7	4501	4501	2	0	1	50		0	1	6	1	equip			modifydmg_v	100				
+幽蓝倩影（永久）		1	12	10	0		4250	4250	2	0	1	50		0	1	6	1	equip			modifydmg_v	250				
+玄明地火（永久）		1	12	11	0		4252	4252	2	0	1	50		0	1	6	1	equip			modifydmg_v	600				

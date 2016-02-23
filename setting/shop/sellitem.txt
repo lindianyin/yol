@@ -1,0 +1,2 @@
+Name	Genre	DetailType	ParticularType	Level	Bind	SellBindMoney
+测试商品	1	12	1	1		0

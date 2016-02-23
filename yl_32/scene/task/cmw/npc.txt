@@ -1,0 +1,12 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+110	大当家						scene/task/cmw/cmw_dadangjia.txt
+111	二当家						scene/task/cmw/cmw_erdangjia.txt
+112	三当家						scene/task/cmw/cmw_sandangjia.txt
+113	大当家						scene/task/cmw/cmw_dadangjia.txt
+114	二当家						scene/task/cmw/cmw_erdangjia.txt
+115	三当家						scene/task/cmw/cmw_sandangjia.txt
+116	强盗						scene/task/cmw/cmw_qiangdao.txt
+117	强盗						scene/task/cmw/cmw_qiangdao.txt
+118	小白脸						scene/task/cmw/cmw_xiaobailian.txt
+119	强盗						scene/task/cmw/cmw_qiangdao.txt
+120	透明目标						scene/task/cmw/cmw_xiaobailian.txt

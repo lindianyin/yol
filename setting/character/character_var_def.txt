@@ -1,0 +1,2 @@
+VarGroup	VarFirst	VarLast	Comment	SyncSelf	SyncOther	ClientFlag	ResetDate
+10	1	3	测试组	1	1	1	

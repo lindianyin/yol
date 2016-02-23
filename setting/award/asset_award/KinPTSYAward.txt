@@ -1,0 +1,14 @@
+Level	Desc	IsSave	IsSync	OverlayDay	AutoGive	FightingSpirit	Exp	Energy	Silver	Prestige	Item1	Item1AmountMin	Item1AmountMax	Item1Rate	Item1TimeOut	Item2	Item2AmountMin	Item2AmountMax	Item2Rate	Item2TimeOut	Item3	Item3AmountMin	Item3AmountMax	Item3Rate	Item3TimeOut	Item4	Item4AmountMin	Item4AmountMax	Item4Rate	Item4TimeOut	Item5	Item5AmountMin	Item5AmountMax	Item5Rate	Item5TimeOut	Item6	Item6AmountMin	Item6AmountMax	Item6Rate	Item6TimeOut	Item7	Item7AmountMin	Item7AmountMax	Item7Rate	Item7TimeOut	Item8	Item8AmountMin	Item8AmountMax	Item8Rate	Item8TimeOut	Item9	Item9AmountMin	Item9AmountMax	Item9Rate	Item9TimeOut	Item10	Item10AmountMin	Item10AmountMax	Item10Rate	Item10TimeOut
+家族等级	奖励备注，供理解	是否存盘	是否发送客户端	累计天数	是否直接领取	战魂	经验	真气	银两	声望																																																		
+1	一级家族采集蟠桃奖励	1	1	1	1			5000																																																				
+2	二级家族采集蟠桃奖励	1	1	1	1			6000																																																				
+3	三级家族采集蟠桃奖励	1	1	1	1			8000																																																				
+4	四级家族采集蟠桃奖励	1	1	1	1			10000																																																				
+5	五级家族采集蟠桃奖励	1	1	1	1			12000																																																				
+6	六级家族采集蟠桃奖励	1	1	1	1			15000																																																				
+7	七级家族采集蟠桃奖励	1	1	1	1			18000																																																				
+8	八级家族采集蟠桃奖励	1	1	1	1			20000																																																				
+9	蟠桃盛宴活动完成奖励	1	1	1	0			25000																																																				
+																																																												
+																																																												
+									 																																																			

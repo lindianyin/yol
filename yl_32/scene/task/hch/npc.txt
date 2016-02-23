@@ -1,0 +1,10 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+75	猪八戒（剧情1）						scene/task/hch/hch_bajie.txt
+76	河妖						scene/task/hch/hch_heyao.txt
+77	河妖						scene/task/hch/hch_heyao.txt
+78	隐形						scene/task/hch/hch_yinxing.txt
+79	河妖（剧情2）						scene/task/hch/hch_heyao.txt
+80	猪八戒（剧情2）						scene/task/hch/hch_bajie.txt
+81	大公鸡（剧情2）						scene/task/hch/hch_dagongji.txt
+82	小鸡						scene/task/hch/hch_xiaoji.txt
+83	河妖（剧情1）						scene/task/hch/hch_heyao.txt

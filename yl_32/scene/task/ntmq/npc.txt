@@ -1,0 +1,15 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+11	陨石						scene/task/ntmq/ntmq_jingying.txt
+12	孙悟空						scene/task/ntmq/ntmq_wukong.txt
+13	魔兵						scene/task/ntmq/ntmq_mobing.txt
+14	魔兵						scene/task/ntmq/ntmq_mobing.txt
+15	魔兵						scene/task/ntmq/ntmq_mobing.txt
+16	天兵（剧情）						scene/task/ntmq/ntmq_tianbing.txt
+17	魔兵（剧情）						scene/task/ntmq/ntmq_mobing.txt
+18	魔兵（剧情）						scene/task/ntmq/ntmq_mobing.txt
+19	特效（剧情）						scene/task/ntmq/ntmq_texiao.txt
+20	二郎神（剧情）						scene/task/ntmq/ntmq_tianbing.txt
+21	天兵（剧情）						scene/task/ntmq/ntmq_tianbing.txt
+22	天兵（剧情）						scene/task/ntmq/ntmq_tianbing.txt
+23	魔兵（剧情）						scene/task/ntmq/ntmq_mobing.txt
+24	恶魔将军						scene/task/ntmq/ntmq_jingying.txt

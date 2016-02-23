@@ -1,0 +1,23 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+1151	追踪炸弹						scene/new_gk/gk_hyqs/zuobiao.txt
+1152	buff阵						scene/new_gk/gk_hyqs/zuobiao.txt
+1153	采集的东西						scene/new_gk/gk_hyqs/zuobiao.txt
+1154	高攻击怪						scene/new_gk/gk_hyqs/zuobiao.txt
+1155	高防御怪						scene/new_gk/gk_hyqs/zuobiao.txt
+1156	带毒的怪						scene/new_gk/gk_hyqs/zuobiao.txt
+1157	加攻击BUFF怪						scene/new_gk/gk_hyqs/zuobiao.txt
+1158	加防御BUFF怪						scene/new_gk/gk_hyqs/zuobiao.txt
+1159	加生命BUFF怪						scene/new_gk/gk_hyqs/zuobiao.txt
+1160	精英怪						scene/new_gk/gk_hyqs/zuobiao.txt
+1161	眩晕buff						scene/new_gk/gk_hyqs/zuobiao.txt
+1162	冰玉米boss						scene/new_gk/gk_hyqs/zuobiao.txt
+1163	冰冻追踪怪						scene/new_gk/gk_hyqs/zuobiao.txt
+1164	火玉米boss						scene/new_gk/gk_hyqs/zuobiao.txt
+1165	火焰怪						scene/new_gk/gk_hyqs/zuobiao.txt
+1166	左路屏障						scene/new_gk/gk_hyqs/zuobiao.txt
+1167	右路屏障						scene/new_gk/gk_hyqs/zuobiao.txt
+1168	左路trap点						scene/new_gk/gk_hyqs/zuobiao.txt
+1169	右路trap点						scene/new_gk/gk_hyqs/zuobiao.txt
+1170	炮塔						scene/new_gk/gk_hyqs/zuobiao.txt
+1171	加攻击力魔法球						scene/new_gk/gk_hyqs/zuobiao.txt
+1172	路标1						scene/new_gk/gk_hyqs/zuobiao.txt

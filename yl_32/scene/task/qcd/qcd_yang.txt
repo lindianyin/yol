@@ -1,0 +1,2 @@
+PointClass	X	Y	Z	FaceDirection
+yang	2069	1962	1048576	30

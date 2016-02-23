@@ -1,0 +1,11 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+209	毒虫（剧情1）						scene/task/td/td_feichong.txt
+210	蜘蛛（剧情1）						scene/task/td/td_zhizhu.txt
+211	蟾蜍精带毒						scene/task/td/td_chanchu.txt
+212	大毒虫（剧情1）						scene/task/td/td_feichong.txt
+213	蟾蜍精带毒（剧情2）						scene/task/td/td_chanchu.txt
+214	大毒虫（剧情2）						scene/task/td/td_feichong.txt
+215	药草						scene/task/td/td_yaocao.txt
+216	大药草						scene/task/td/td_yaocao.txt
+217	毒虫						scene/task/td/td_feichong.txt
+218	蜘蛛						scene/task/td/td_zhizhu.txt

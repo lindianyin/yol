@@ -1,0 +1,3 @@
+PealExchange	JadeiteExchange	AgateExchange	DiamondExchange	TotalOneDay
+珍珠兑换多少贡献度	翡翠兑换多少贡献度	玛瑙兑换多少贡献度	钻石兑换多少贡献度	参加完一天的家族活动能获得的贡献度
+5	10	15	20	50

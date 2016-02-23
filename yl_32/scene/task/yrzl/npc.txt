@@ -1,0 +1,11 @@
+TemplateId	Comment	X	Y	Z	FaceDireyrzlion	RegenerationTime	PosFile	Count
+700	徐福						scene/task/yrzl/yrzl_xufu.txt
+701	熔岩魔兵						scene/task/yrzl/yrzl_rongyan.txt
+702	熔岩魔兵						scene/task/yrzl/yrzl_rongyan.txt
+703	箭头						scene/task/yrzl/yrzl_touming.txt
+704	加速						scene/task/yrzl/yrzl_touming.txt
+705	自杀						scene/task/yrzl/yrzl_touming.txt
+706	目标						scene/task/yrzl/yrzl_touming.txt
+707	陨石						scene/task/yrzl/yrzl_touming.txt
+708	熔岩将军						scene/task/yrzl/yrzl_rongyan.txt
+709	熔岩魔兵						scene/task/yrzl/yrzl_rongyan.txt

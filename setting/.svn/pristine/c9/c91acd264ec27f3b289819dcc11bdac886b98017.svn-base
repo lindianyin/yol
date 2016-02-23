@@ -1,0 +1,8 @@
+id	awardId	finishCount	autoGive	awardDesc	conditionDesc	iconPath	iconIdx	tips
+条件id	奖励id	完成次数	自动给	奖励说明	说明	图标路径	图标索引	提示
+1	7	1	0	5000银两	任意一个神器收集满1星以上	items/item_petitem001.unity3d		任意一个神器收集满1星以上
+2	8	1	0	6000银两	通关20级御神副本（困难）	items/item_petitem001.unity3d		通关20级御神副本（困难）
+3	9	1	0	7000银两	通关20级炼兽副本（困难）	items/item_scriptitem001.unity3d		通关20级炼兽副本（困难）
+4	10	1	0	8000银两	全身装备升到绿品	items/item_scriptitem001.unity3d		全身装备升到绿品
+5	11	1	0	9000银两	伐魔塔达到30层	items/item_scriptitem001.unity3d		伐魔塔达到30层
+6	12	1	0	10000银两	战斗力达到20000	items/item_scriptitem001.unity3d		战斗力达到20000

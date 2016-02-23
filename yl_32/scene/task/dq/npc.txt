@@ -1,0 +1,14 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+220	巨石（堵路）						scene/task/dq/dq_jushi.txt
+221	巨石						scene/task/dq/dq_jushi.txt
+222	巨石						scene/task/dq/dq_jushi.txt
+223	狂暴熊精（剧情1）						scene/task/dq/dq_xiong.txt
+224	狂暴熊精						scene/task/dq/dq_xiong.txt
+225	西域飞龙（剧情）						scene/task/dq/dq_feilong.txt
+226	西域飞龙						scene/task/dq/dq_feilong.txt
+227	狂暴熊精（剧情）						scene/task/dq/dq_xiong.txt
+228	狂暴熊精（剧情）						scene/task/dq/dq_xiong.txt
+229	狂暴熊精（剧情2）						scene/task/dq/dq_xiong.txt
+230	透明(自杀)						scene/task/dq/dq_touming.txt
+231	狂暴熊精（剧情3）						scene/task/dq/dq_xiong.txt
+232	透明目标(自杀)						scene/task/dq/dq_touming.txt

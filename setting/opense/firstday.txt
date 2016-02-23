@@ -1,0 +1,4 @@
+id	awardId	finishCount	autoGive	awardDesc	conditionDesc	iconPath	iconIdx	tips
+条件id	奖励id	完成次数	自动给	奖励说明	说明	图标路径	图标索引	提示
+1	1	1	0	1000银两	达到30级	items/item_petitem001.unity3d		达到30级
+2	2	1	1	1001银两	达到31级	items/item_petitem001.unity4d		达到31级

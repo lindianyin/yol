@@ -1,0 +1,5 @@
+PointClass	X	Y	Z	FaceDirection
+zhangpeng1	6622	2590	1048576	85
+zhangpeng2	5159	2213	1048576	235
+zhangpeng3	4321	4818	1048576	85
+zhangpeng4	3173	4072	1048576	235

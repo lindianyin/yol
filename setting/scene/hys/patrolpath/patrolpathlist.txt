@@ -1,0 +1,4 @@
+PatrolPathID	PatrolPathWalkSpeed	PatrolPathOrderID	PatrolPathFileName
+1	8	1	setting/scene/hys/patrolpath/patrolpathlist0.txt
+2	8	1	setting/scene/hys/patrolpath/patrolpathlist1.txt
+3	8	1	setting/scene/hys/patrolpath/patrolpathlist2.txt

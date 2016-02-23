@@ -1,0 +1,12 @@
+Level	Desc	IsSave	IsSync	OverlayDay	AutoGive	FightingSpirit	Exp	Energy	Silver	Prestige	Item1	Item1AmountMin	Item1AmountMax	Item1Rate	Item1TimeOut	Item2	Item2AmountMin	Item2AmountMax	Item2Rate	Item2TimeOut	Item3	Item3AmountMin	Item3AmountMax	Item3Rate	Item3TimeOut	Item4	Item4AmountMin	Item4AmountMax	Item4Rate	Item4TimeOut	Item5	Item5AmountMin	Item5AmountMax	Item5Rate	Item5TimeOut	Item6	Item6AmountMin	Item6AmountMax	Item6Rate	Item6TimeOut	Item7	Item7AmountMin	Item7AmountMax	Item7Rate	Item7TimeOut	Item8	Item8AmountMin	Item8AmountMax	Item8Rate	Item8TimeOut	Item9	Item9AmountMin	Item9AmountMax	Item9Rate	Item9TimeOut	Item10	Item10AmountMin	Item10AmountMax	Item10Rate	Item10TimeOut
+等级	奖励备注，供理解	是否存盘	是否发送客户端	累计天数	是否直接领取	战魂	经验	真气	银两	声望																																																		
+1	白云（白）	0	0	0	1		1000	2000																																																				
+2	冰雪云（绿）	0	0	0	1		3000	5000																																																				
+3	黄金云（蓝）	0	0	0	1		5000	9000																																																				
+4	佛光葫芦（紫）	0	0	0	1		8000	15000																																																				
+5	大神莲座（金）	0	0	0	1		10000	30000																																																				
+11	白云（白）	0	0	0	1		1000	2000																																																				
+12	冰雪云（绿）	0	0	0	1		3000	5000																																																				
+13	黄金云（蓝）	0	0	0	1		5000	9000																																																				
+14	佛光葫芦（紫）	0	0	0	1		8000	15000																																																				
+15	大神莲座（金）	0	0	0	1		10000	30000																																																				

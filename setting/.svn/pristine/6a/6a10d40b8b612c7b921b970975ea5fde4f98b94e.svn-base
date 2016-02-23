@@ -1,0 +1,33 @@
+id	moduleName	desc	attributePath
+id	模块次数名字	描述	加成属性路径
+1	AlCoinTimes	炼金购买次数	vip_AlCoinTimes.txt
+2	Instance	单人副本购买次数	vip_Instance.txt
+3	EscortRefresh	修仙刷新购买次数	vip_EscortRefreshTimes.txt
+4	MopTower	伐魔塔扫荡购买次数	vip_MopTower.txt
+7	QuizDoubleFreeTimes	答题双倍积分购买次数	vip_DoubleIssue.txt
+9		单人副本扫荡时间减半	vip_HalfTimeInstance.txt
+10		单人副本扫荡一键完成	vip_InstanceEnd.txt
+11		修仙一键完成	vip_EscortEnd.txt
+12		伐魔塔扫荡时间减半	vip_HalfTimeMopTower.txt
+13		伐魔塔扫荡一键完成	vip_MopTowerEnd.txt
+14		困难关卡扫荡	vip_HardMopStage.txt
+15		关卡扫荡时间减半	vip_HalfTimeMopStage.txt
+16		关卡扫荡一键完成	vip_MopStageEnd.txt
+17		多人副本一键完成	vip_MultiInstanceEnd.txt
+18		答题学霸附身	vip_GodIssue.txt
+19		炼卦cd时间减半	vip_HalfEightTrigram.txt
+20		炼卦cd时间清0	vip_ZeroEightTrigram.txt
+21		南天门声望购买权限	vip_NTMBuyPrestige.txt
+22		宝石打孔功能	vip_GemPunch.txt
+23		开启元宝洗练	vip_WingPurification.txt
+24		开启神仙元宝传承	vip_WingPetNature.txt
+25		修炼经验双倍提取	vip_DoubleExperience.txt
+26		修炼经验三倍提取	vip_TripleExperience.txt
+27		修炼经验六倍提取	vip_SixFoldExperience.txt
+28	Escort	修仙购买次数	vip_EscortReceiveTimes.txt
+29		装备洗炼	vip_EquipRefine.txt
+30		购买商城VIP专区道具	vip_vipshopping.txt
+31	SignInTimes	补签到次数	vip_signintimes.txt
+32		修仙时间减半	vip_EscortHalf.txt
+33	EscortAttack	修仙劫驾购买次数	vip_EscortAttackTimes.txt
+34	EscortHelp	修仙救驾购买次数	vip_EscortHelpTimes.txt

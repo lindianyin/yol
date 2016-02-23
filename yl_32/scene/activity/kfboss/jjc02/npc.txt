@@ -1,0 +1,6 @@
+TemplateId	Comment	X	Y	Z	FaceDirection	RegenerationTime	PosFile	Count
+2500	去东门						scene/activity/kfboss/jjc02/men.txt
+2501	去南门						scene/activity/kfboss/jjc02/men.txt
+2502	去西门						scene/activity/kfboss/jjc02/men.txt
+2503	去北门						scene/activity/kfboss/jjc02/men.txt
+2505	门						scene/activity/kfboss/jjc02/men.txt

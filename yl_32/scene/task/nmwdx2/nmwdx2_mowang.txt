@@ -1,0 +1,3 @@
+PointClass	X	Y	Z	FaceDirection
+mowang	2579	2095	1048576	0
+mowang1	1445	2099	1048576	0

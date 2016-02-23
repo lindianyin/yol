@@ -1,0 +1,2 @@
+PointClass	X	Y	Z	FaceDirection
+dagongji	1828	2783	1048576	75

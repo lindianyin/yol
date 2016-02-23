@@ -1,0 +1,8 @@
+TemplateId	DisplayName	Class	Visible	RepresentId	ActiveTime
+掉落ID			可见模式 1.本人可见 2.队伍可见 3.家族可见 4.同阵营可见 5.全部可见 6.有队伍时队伍可见，无队伍有家族时家族可见，无队伍无家族时个人可见		存在时间（帧）
+1	本人可见	activity	1	17	960
+2	队伍可见	activity	2	17	960
+3	家族可见	activity	3	17	960
+4	同阵营可见	activity	4	17	960
+5	全部可见	activity	5	17	960
+6	自动	activity	6	17	960

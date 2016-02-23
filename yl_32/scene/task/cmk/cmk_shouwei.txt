@@ -1,0 +1,3 @@
+PointClass	X	Y	Z	FaceDirection
+daluo	2299	1366	1048576	200
+xiaoluo	2705	1440	1048576	200

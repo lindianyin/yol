@@ -1,0 +1,8 @@
+Name	Id	Genre	DetailType	ParticularType	Level	Bind	Price	CurrencyType	nTimeFrameStartDay	timeSaleStart	timeSaleClose	stock	purchaseLimit	vip	discount	effectiveTime	hot	hotStartTime	hotCloseTime	limitType	limitTime
+天使之翅	1	1	13	4	1	1	100	1	-1			-1	-1	0	100	604800	1	2014/1/23 0:00	2014/10/25 10:00		
+五菱刃	2	1	13	6	1	1	200	1	-1			-1	-1	0	100	604800	1	2014/1/23 0:00	2014/10/25 10:00		
+光碟之翅	3	1	13	7	1	1	300	1	-1			-1	-1	0	100	604800	1	2014/1/23 0:00	2014/10/25 10:00		
+仙灵之翅	4	1	13	8	1	1	400	1	-1			-1	-1	0	100	604800	1	2014/1/23 0:00	2014/10/25 10:00		
+主仆时装	5	1	11	3	0	1	300	1	-1			-1	-1	0	100	604800	1	2014/1/23 0:00	2014/10/25 10:00		
+战神时装	6	1	11	4	0	1	600	1	-1			-1	-1	0	100	604800	1	2014/1/23 0:00	2014/10/25 10:00		
+春花秋月	7	1	12	6	0	1	300	1	-1			-1	-1	0	100	604800	1	2014/1/23 0:00	2014/10/25 10:00		

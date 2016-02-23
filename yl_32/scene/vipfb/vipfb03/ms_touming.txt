@@ -1,0 +1,2 @@
+PointClass	X	Y	Z	FaceDirection
+beida	2273	2296	1048576	160

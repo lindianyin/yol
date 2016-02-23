@@ -1,0 +1,5 @@
+TemplateId	Comment	X	Y	Z	FaceDireydion	RegenerationTime	PosFile	Count
+720	魔化强盗						scene/task/yd/yd_qiangdao.txt
+721	魔化强盗						scene/task/yd/yd_qiangdao.txt
+722	大魔化强盗						scene/task/yd/yd_jingying.txt
+723	大魔化强盗						scene/task/yd/yd_jingying.txt

@@ -1,0 +1,6 @@
+Name	Id	Genre	DetailType	ParticularType	Level	Bind	Price	CurrencyType	nTimeFrameStartDay	timeSaleStart	timeSaleClose	stock	purchaseLimit	vip	discount	effectiveTime	hot	hotStartTime	hotCloseTime	limitType	limitTime
+坐骑幻化果	1	18	1	30	0	1	5	1	-1	0	0	-1	-1	1	100						
+小宝兔幻化丹	2	18	1	31	0	1	30	1	-1	0	0	-1	-1	0	100						
+神仙经验书	3	24	5	1	0	1	5	1	-1	0	0	-1	-1	0	100						
+神仙升阶丸	4	24	2	8	0	1	40	1	-1	0	0	-1	-1	0	100						
+神仙技能书	5	24	8	1	0	1	5	1	-1	0	0	-1	-1	0	100						

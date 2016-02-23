@@ -1,0 +1,3 @@
+PointClass	X	Y	Z	FaceDirection
+quan1	1102	1639	1048576	75
+quan2	1252	1701	1048576	75

@@ -1,0 +1,110 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{C81109BF-A441-423A-AB22-65D5BB80057D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Game", "Game", "{714990EA-6F1B-438D-B014-6D6775117085}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{3AAEEC20-A734-4C73-8962-BD20EB398014}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "yolext", "gameworld\nsworld\nsworld.vcproj", "{0151220A-6440-4A7F-8CAA-C5645302877D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gameserver", "server\gameserver\gameserver.vcproj", "{CF527935-673A-4475-8BE6-8BF2BD5353A5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0151220A-6440-4A7F-8CAA-C5645302877D} = {0151220A-6440-4A7F-8CAA-C5645302877D}
+		{C043A81A-59FA-460D-9775-72599D402195} = {C043A81A-59FA-460D-9775-72599D402195}
+		{1FE1BD1A-EDD2-4410-B0E6-7B62EFDFE1FE} = {1FE1BD1A-EDD2-4410-B0E6-7B62EFDFE1FE}
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647} = {38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "yol_lib", "gameworld\onlinegamebase\onlinegamebase.vcproj", "{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "yolmodule", "gameworld\onlinegamemodule\onlinegamemodule.vcproj", "{C043A81A-59FA-460D-9775-72599D402195}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "yolworld", "gameworld\onlinegameworld\onlinegameworld.vcproj", "{1FE1BD1A-EDD2-4410-B0E6-7B62EFDFE1FE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coordinator", "server\coordinator2\coordinator.vcproj", "{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647} = {38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gateway", "server\gateway2\gateway.vcproj", "{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		gameserver debug|Win32 = gameserver debug|Win32
+		gameserver release|Win32 = gameserver release|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0151220A-6440-4A7F-8CAA-C5645302877D}.Debug|Win32.ActiveCfg = gameserver debug|Win32
+		{0151220A-6440-4A7F-8CAA-C5645302877D}.Debug|Win32.Build.0 = gameserver debug|Win32
+		{0151220A-6440-4A7F-8CAA-C5645302877D}.gameserver debug|Win32.ActiveCfg = gameserver debug|Win32
+		{0151220A-6440-4A7F-8CAA-C5645302877D}.gameserver debug|Win32.Build.0 = gameserver debug|Win32
+		{0151220A-6440-4A7F-8CAA-C5645302877D}.gameserver release|Win32.ActiveCfg = gameserver release|Win32
+		{0151220A-6440-4A7F-8CAA-C5645302877D}.gameserver release|Win32.Build.0 = gameserver release|Win32
+		{0151220A-6440-4A7F-8CAA-C5645302877D}.Release|Win32.ActiveCfg = gameserver release|Win32
+		{0151220A-6440-4A7F-8CAA-C5645302877D}.Release|Win32.Build.0 = gameserver release|Win32
+		{CF527935-673A-4475-8BE6-8BF2BD5353A5}.Debug|Win32.ActiveCfg = debug|Win32
+		{CF527935-673A-4475-8BE6-8BF2BD5353A5}.Debug|Win32.Build.0 = debug|Win32
+		{CF527935-673A-4475-8BE6-8BF2BD5353A5}.gameserver debug|Win32.ActiveCfg = debug|Win32
+		{CF527935-673A-4475-8BE6-8BF2BD5353A5}.gameserver debug|Win32.Build.0 = debug|Win32
+		{CF527935-673A-4475-8BE6-8BF2BD5353A5}.gameserver release|Win32.ActiveCfg = release|Win32
+		{CF527935-673A-4475-8BE6-8BF2BD5353A5}.gameserver release|Win32.Build.0 = release|Win32
+		{CF527935-673A-4475-8BE6-8BF2BD5353A5}.Release|Win32.ActiveCfg = release|Win32
+		{CF527935-673A-4475-8BE6-8BF2BD5353A5}.Release|Win32.Build.0 = release|Win32
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}.Debug|Win32.ActiveCfg = unify debug|Win32
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}.Debug|Win32.Build.0 = unify debug|Win32
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}.gameserver debug|Win32.ActiveCfg = unify debug|Win32
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}.gameserver debug|Win32.Build.0 = unify debug|Win32
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}.gameserver release|Win32.ActiveCfg = unify release|Win32
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}.gameserver release|Win32.Build.0 = unify release|Win32
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}.Release|Win32.ActiveCfg = unify release|Win32
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647}.Release|Win32.Build.0 = unify release|Win32
+		{C043A81A-59FA-460D-9775-72599D402195}.Debug|Win32.ActiveCfg = gameserver debug|Win32
+		{C043A81A-59FA-460D-9775-72599D402195}.Debug|Win32.Build.0 = gameserver debug|Win32
+		{C043A81A-59FA-460D-9775-72599D402195}.gameserver debug|Win32.ActiveCfg = gameserver debug|Win32
+		{C043A81A-59FA-460D-9775-72599D402195}.gameserver debug|Win32.Build.0 = gameserver debug|Win32
+		{C043A81A-59FA-460D-9775-72599D402195}.gameserver release|Win32.ActiveCfg = gameserver release|Win32
+		{C043A81A-59FA-460D-9775-72599D402195}.gameserver release|Win32.Build.0 = gameserver release|Win32
+		{C043A81A-59FA-460D-9775-72599D402195}.Release|Win32.ActiveCfg = gameserver release|Win32
+		{C043A81A-59FA-460D-9775-72599D402195}.Release|Win32.Build.0 = gameserver release|Win32
+		{1FE1BD1A-EDD2-4410-B0E6-7B62EFDFE1FE}.Debug|Win32.ActiveCfg = gameserver debug|Win32
+		{1FE1BD1A-EDD2-4410-B0E6-7B62EFDFE1FE}.Debug|Win32.Build.0 = gameserver debug|Win32
+		{1FE1BD1A-EDD2-4410-B0E6-7B62EFDFE1FE}.gameserver debug|Win32.ActiveCfg = gameserver debug|Win32
+		{1FE1BD1A-EDD2-4410-B0E6-7B62EFDFE1FE}.gameserver debug|Win32.Build.0 = gameserver debug|Win32
+		{1FE1BD1A-EDD2-4410-B0E6-7B62EFDFE1FE}.gameserver release|Win32.ActiveCfg = gameserver release|Win32
+		{1FE1BD1A-EDD2-4410-B0E6-7B62EFDFE1FE}.gameserver release|Win32.Build.0 = gameserver release|Win32
+		{1FE1BD1A-EDD2-4410-B0E6-7B62EFDFE1FE}.Release|Win32.ActiveCfg = gameserver release|Win32
+		{1FE1BD1A-EDD2-4410-B0E6-7B62EFDFE1FE}.Release|Win32.Build.0 = gameserver release|Win32
+		{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}.Debug|Win32.ActiveCfg = debug|Win32
+		{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}.Debug|Win32.Build.0 = debug|Win32
+		{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}.gameserver debug|Win32.ActiveCfg = debug|Win32
+		{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}.gameserver debug|Win32.Build.0 = debug|Win32
+		{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}.gameserver release|Win32.ActiveCfg = release|Win32
+		{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}.gameserver release|Win32.Build.0 = release|Win32
+		{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}.Release|Win32.ActiveCfg = release|Win32
+		{8C3845FA-CD60-4946-8DBF-EDCD5936F97F}.Release|Win32.Build.0 = release|Win32
+		{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}.Debug|Win32.ActiveCfg = debug|Win32
+		{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}.Debug|Win32.Build.0 = debug|Win32
+		{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}.gameserver debug|Win32.ActiveCfg = debug|Win32
+		{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}.gameserver debug|Win32.Build.0 = debug|Win32
+		{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}.gameserver release|Win32.ActiveCfg = release|Win32
+		{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}.gameserver release|Win32.Build.0 = release|Win32
+		{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}.Release|Win32.ActiveCfg = release|Win32
+		{007DC0B6-2335-4BC3-88D9-CDF9E22376CC}.Release|Win32.Build.0 = release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF527935-673A-4475-8BE6-8BF2BD5353A5} = {C81109BF-A441-423A-AB22-65D5BB80057D}
+		{8C3845FA-CD60-4946-8DBF-EDCD5936F97F} = {C81109BF-A441-423A-AB22-65D5BB80057D}
+		{007DC0B6-2335-4BC3-88D9-CDF9E22376CC} = {C81109BF-A441-423A-AB22-65D5BB80057D}
+		{0151220A-6440-4A7F-8CAA-C5645302877D} = {714990EA-6F1B-438D-B014-6D6775117085}
+		{C043A81A-59FA-460D-9775-72599D402195} = {714990EA-6F1B-438D-B014-6D6775117085}
+		{1FE1BD1A-EDD2-4410-B0E6-7B62EFDFE1FE} = {714990EA-6F1B-438D-B014-6D6775117085}
+		{38C302E0-A984-4EE8-B0CC-F1BC0ECB7647} = {3AAEEC20-A734-4C73-8962-BD20EB398014}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+Name	Id	Genre	DetailType	ParticularType	Level	Bind	Price	CurrencyType	nTimeFrameStartDay	timeSaleStart	timeSaleClose	stock	purchaseLimit	vip	discount	effectiveTime	hot	hotStartTime	hotCloseTime	limitType	limitTime
+初级攻击丹	1	18	1	150	0	1	50	6	-1	0	0	-1	-1		100						
+初级生命丹	2	18	1	153	0	1	50	6	-1	0	0	-1	-1		100						
+初级暴击丹	3	18	1	156	0	1	50	6	-1	0	0	-1	-1		100						
+初级防御丹	4	18	1	159	0	1	50	6	-1	0	0	-1	-1		100						
+初级抗暴丹	5	18	1	162	0	1	50	6	-1	0	0	-1	-1		100						
+初级闪避丹	6	18	1	165	0	1	50	6	-1	0	0	-1	-1		100						
+初级命中丹	7	18	1	168	0	1	50	6	-1	0	0	-1	-1		100						
+天使之翅(时限)	8	18	1	661	0	1	500	6	-1	0	0	-1	-1		100						
+2级家族宝箱	9	18	1	662	0	1	200	6	-1	0	0	-1	-1		100						
+3级家族宝箱	10	18	1	663	0	1	250	6	-1	0	0	-1	-1		100						
+蓝品神仙令	11	18	1	665	0	1	350	6	-1	0	0	-1	-1		100						
+4级家族宝箱	12	18	1	664	0	1	350	6	-1	0	0	-1	-1		100						
+紫品神仙令	13	18	1	666	0	1	1000	6	-1	0	0	-1	-1		100						
+橙品神仙令	14	18	1	667	0	1	2500	6	-1	0	0	-1	-1		100						

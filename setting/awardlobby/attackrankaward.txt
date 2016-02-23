@@ -1,0 +1,7 @@
+id	iconPath	iconIndex	awardId	desc	picName	minValue
+1			1	战力冲榜第1名	zl_1	
+2			2	战力冲榜第2名	zl_2	
+3			3	战力冲榜第3名	zl_3	
+4			4	战力冲榜4-10	zl_4	
+5			5	战力冲榜11-30	zl_11	
+6			6	战力冲榜31-&	zl_31	

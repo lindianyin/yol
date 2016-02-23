@@ -1,0 +1,5 @@
+TemplateId	Comment	X	Y	Z	FaceDirejxqion	RegenerationTime	PosFile	Count
+710	œ≤æ∆”¨						scene/task/jxq/jxq_chong.txt
+711	œ≤æ∆Õ‹						scene/task/jxq/jxq_chong.txt
+712	œ≤æ∆æﬁ”¨						scene/task/jxq/jxq_chong.txt
+713	œ≤æ∆æﬁÕ‹						scene/task/jxq/jxq_chong.txt

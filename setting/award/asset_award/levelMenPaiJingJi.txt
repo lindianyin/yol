@@ -1,0 +1,8 @@
+Level	Desc	IsSave	IsSync	OverlayDay	AutoGive	FightingSpirit	Exp	Energy	Silver	Prestige	Item1	Item1AmountMin	Item1AmountMax	Item1Rate	Item1TimeOut	Item2	Item2AmountMin	Item2AmountMax	Item2Rate	Item2TimeOut	Item3	Item3AmountMin	Item3AmountMax	Item3Rate	Item3TimeOut	Item4	Item4AmountMin	Item4AmountMax	Item4Rate	Item4TimeOut	Item5	Item5AmountMin	Item5AmountMax	Item5Rate	Item5TimeOut	Item6	Item6AmountMin	Item6AmountMax	Item6Rate	Item6TimeOut	Item7	Item7AmountMin	Item7AmountMax	Item7Rate	Item7TimeOut	Item8	Item8AmountMin	Item8AmountMax	Item8Rate	Item8TimeOut	Item9	Item9AmountMin	Item9AmountMax	Item9Rate	Item9TimeOut	Item10	Item10AmountMin	Item10AmountMax	Item10Rate	Item10TimeOut
+等级	奖励备注	是否存盘	是否同步	累计天数	是否直接领取	战魂	经验	真气	银两	声望																																																		
+1	战神无双冠军奖励	1	1	1	0	12000																																																						
+2	战神无双亚军奖励	1	1	1	0	10000																																																						
+4	战神无双四强奖励	1	1	1	0	8000																																																						
+8	战神无双八强奖励	1	1	1	0	7000																																																						
+16	战神无双十六强奖励	1	1	1	0	6000																																																						
+17	战神无双参与奖励	1	1	1	0	5000																																																						

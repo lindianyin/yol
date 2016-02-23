@@ -1,0 +1,8 @@
+TemplateId	Comment	X	Y	Z	FaceDirexyion	RegenerationTime	PosFile	Count
+560	天香羚						scene/task/xy/xy_yang.txt
+561	巨型天香羚						scene/task/xy/xy_yang.txt
+562	巨型天香羚						scene/task/xy/xy_yang.txt
+563	巨型天香羚						scene/task/xy/xy_yang.txt
+564	天香草						scene/task/xy/xy_cao.txt
+565	天香草						scene/task/xy/xy_cao.txt
+566	巨型天香羚						scene/task/xy/xy_yang.txt
